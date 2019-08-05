@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  5 AUG 2019 14:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  5 AUG 2019 16:25
 entering extended mode
 **./KECReport.tex
 (KECReport.tex
@@ -673,68 +673,49 @@ Package pdftex.def Info: images/logo.png  used on input line 75.
 
 
 
-{C:/Users/lapzap/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/l
-ogo.png>]pdfTeX warning (ext4): destination with the same identifier (name{page
-.1}) has been already used, duplicate ignored
+{C:/Users/sovin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/lo
+go.png>]pdfTeX warning (ext4): destination with the same identifier (name{page.
+1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.76 \KECtitlepage
                    % command defined in KECReportFormat [1]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
- [1
-
-]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12.8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
- [2
-
-]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 87.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 91.
-LaTeX Font Info:    Try loading font information for U+msa on input line 91.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 94.
+LaTeX Font Info:    Try loading font information for U+msa on input line 94.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 91.
+LaTeX Font Info:    Try loading font information for U+msb on input line 94.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3
+) [1
 
-] [4
+] [2
 
 ]
 (KECReport.toc)
 \tf@toc=\write4
 \openout4 = `KECReport.toc'.
 
- [5
+ [3
 
 ] (KECReport.lof)
 \tf@lof=\write5
 \openout5 = `KECReport.lof'.
 
- [6
-
-] (KECReport.lot)
-\tf@lot=\write6
-\openout6 = `KECReport.lot'.
-
- [7
-
-]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
- [8
-
-] [9
+ [4
 
 ]
 Chapter 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 139.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -743,86 +724,155 @@ l.146
        [1
 
 ] [2]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 160.
- [3] [4]
-Chapter 2.
-<images/sampleImage1.jpg, id=219, 192.72pt x 144.54pt>
-File: images/sampleImage1.jpg Graphic file (type jpg)
-<use images/sampleImage1.jpg>
-Package pdftex.def Info: images/sampleImage1.jpg  used on input line 178.
-(pdftex.def)             Requested size: 216.81pt x 162.60707pt.
-[5
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 153.
 
- <./images/sampleImage1.jpg>] [6] [7] [8]
-Chapter 3.
-[9
-
-] [10] [11]
-Chapter 4.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 394.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\omsptm.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 394.
- [12
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 153.
 
-] [13] [14]
+[3]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 172.
+ [4] [5]
+Chapter 2.
+<images/mycin.jpg, id=192, 730.73pt x 548.0475pt>
+File: images/mycin.jpg Graphic file (type jpg)
+<use images/mycin.jpg>
+Package pdftex.def Info: images/mycin.jpg  used on input line 211.
+(pdftex.def)             Requested size: 199.16179pt x 199.17015pt.
+[6
+
+]
+Overfull \hbox (9.50449pt too wide) in paragraph at lines 217--217
+|[]\OT1/ptm/b/n/14 Automated Dis-ease Pre-dic-tion Sys-tem (ADPS): A User Input
+-based
+ []
+
+[7 <./images/mycin.jpg>]
+
+! Package inputenc Error: Unicode character ● (U+25CF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.224 ...lgorithms for predicting diseases are:●
+                                                  Genetic algorithm●K-mean...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ● (U+25CF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.224 ...ting diseases are:●Genetic algorithm●
+                                                  K-means algorithm●MAFIA ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ● (U+25CF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.224 ...�Genetic algorithm●K-means algorithm●
+                                                  MAFIA algorithmSeveral    ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[8] [9]
+Chapter 3.
+[10
+
+] [11] [12]
+Chapter 4.
+[13
+
+] [14] [15]
 Chapter 5.
-[15
+[16
 
 ]
 Chapter 6.
 
-LaTeX Warning: Citation `Li2014' on page 16 undefined on input line 464.
+LaTeX Warning: Citation `Li2014' on page 17 undefined on input line 442.
 
 
-LaTeX Warning: Citation `Yasir2014' on page 16 undefined on input line 464.
+LaTeX Warning: Citation `Yasir2014' on page 17 undefined on input line 442.
 
 No file KECReport.bbl.
-[16
+[17
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 491.
- [17
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 469.
+ [18
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 491.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 469.
  (KECReport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 491.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 491.
-Package rerunfilecheck Info: File `KECReport.out' has not changed.
-(rerunfilecheck)             Checksum: 0BDC14C2BB7769701C7F502A0E39529C;1587.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 469.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 469.
 
+
+Package rerunfilecheck Warning: File `KECReport.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `KECReport.out':
+(rerunfilecheck)             Before: 58ED50DAC58D7A821FF840BA29C09EF1;1643
+(rerunfilecheck)             After:  F6B0CD68BF6D5547EA9C31A14B17D866;2252.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 491.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 469.
  ) 
 Here is how much of TeX's memory you used:
- 21679 strings out of 492895
- 409801 string characters out of 3133477
- 478955 words of memory out of 3000000
- 25334 multiletter control sequences out of 15000+200000
- 552593 words of font info for 62 fonts, out of 3000000 for 9000
+ 21674 strings out of 492895
+ 409418 string characters out of 3133480
+ 476148 words of memory out of 3000000
+ 25331 multiletter control sequences out of 15000+200000
+ 550967 words of font info for 60 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,11n,65p,1100b,473s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
-times/utmr8a.pfb>
-Output written on KECReport.pdf (28 pages, 231737 bytes).
+ 45i,11n,65p,2665b,473s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{equation.2.1.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter*.6} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.2} has been referenced but does not exist
+, replaced by a fixed one
+
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
+mes/utmr8a.pfb>
+Output written on KECReport.pdf (24 pages, 249176 bytes).
 PDF statistics:
- 374 PDF objects out of 1000 (max. 8388607)
- 88 named destinations out of 1000 (max. 500000)
+ 352 PDF objects out of 1000 (max. 8388607)
+ 90 named destinations out of 1000 (max. 500000)
  227 words of extra memory for PDF output out of 10000 (max. 10000000)
 

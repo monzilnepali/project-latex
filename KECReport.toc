@@ -1,30 +1,36 @@
-\contentsline {chapter}{Copyright}{i}{chapter*.2}% 
-\contentsline {chapter}{Approval Letter}{ii}{chapter*.3}% 
-\contentsline {chapter}{Abstract}{iii}{chapter*.4}% 
-\contentsline {chapter}{Acknowledgment}{iv}{chapter*.5}% 
-\contentsline {chapter}{List of Abbreviations}{viii}{chapter*.9}% 
-\contentsline {chapter}{List of Symbols}{ix}{chapter*.10}% 
+\contentsline {chapter}{Abstract}{i}{chapter*.2}% 
+\contentsline {chapter}{Acknowledgment}{ii}{chapter*.3}% 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}% 
-\contentsline {subsection}{\numberline {1.1.1}Referring Section}{3}{subsection.1.1.1}% 
-\contentsline {chapter}{\numberline {2}Figures and Tables}{5}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}Section for Sample Figure}{5}{section.2.1}% 
-\contentsline {subsection}{\numberline {2.1.1}Referring Figure}{5}{subsection.2.1.1}% 
-\contentsline {section}{\numberline {2.2}Section for Sample Table}{6}{section.2.2}% 
-\contentsline {subsection}{\numberline {2.2.1}Referring Table}{6}{subsection.2.2.1}% 
-\contentsline {section}{\numberline {2.3}Complex Table from Excel}{7}{section.2.3}% 
-\contentsline {chapter}{\numberline {3}Equations}{9}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Basics of Equations}{9}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Referencing the Equation}{11}{section.3.2}% 
-\contentsline {chapter}{\numberline {4}Listing Examples}{12}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}The Subsections}{13}{section.4.1}% 
-\contentsline {subsubsection}{The subsubsection}{13}{section.4.1}% 
-\contentsline {paragraph}{The paragraph}{13}{section.4.1}% 
-\contentsline {subparagraph}{The subparagraph}{14}{section.4.1}% 
-\contentsline {chapter}{\numberline {5}Example abbr and symbols}{15}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Abbr}{15}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Symbols}{15}{section.5.2}% 
-\contentsline {chapter}{\numberline {6}Citation Example}{16}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}Citation and compiling bib file}{16}{section.6.1}% 
-\contentsline {chapter}{References}{16}{Item.25}% 
-\contentsline {chapter}{Appendix}{17}{chapter*.14}% 
+\contentsline {section}{\numberline {1.2}Problem Statement}{2}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}Objectives}{3}{section.1.3}% 
+\contentsline {section}{\numberline {1.4}Applications}{3}{section.1.4}% 
+\contentsline {section}{\numberline {1.5}Features}{4}{section.1.5}% 
+\contentsline {section}{\numberline {1.6}Feasibility Analysis}{4}{section.1.6}% 
+\contentsline {subsection}{\numberline {1.6.1}Economic Feasibility}{4}{subsection.1.6.1}% 
+\contentsline {subsection}{\numberline {1.6.2}Technical Feasibility}{4}{subsection.1.6.2}% 
+\contentsline {subsection}{\numberline {1.6.3}Operational Feasibility}{4}{subsection.1.6.3}% 
+\contentsline {section}{\numberline {1.7}System Requirements}{5}{section.1.7}% 
+\contentsline {subsection}{\numberline {1.7.1}Software Requirements}{5}{subsection.1.7.1}% 
+\contentsline {subsection}{\numberline {1.7.2}Hardware Requirements}{5}{subsection.1.7.2}% 
+\contentsline {chapter}{\numberline {2}Literature Review}{6}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Previous Work On Medical Expert System}{6}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}MYCIN}{6}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.2}Chronic Kidney Disease Prediction Using Back Propagation Neural Network Algorithm}{7}{subsection.2.1.2}% 
+\contentsline {section}{\numberline {2.2}Automated Disease Prediction System (ADPS): A User Input-based Reliable Architecture for Disease Prediction}{7}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}Neural Network Based Intelligent System for Predicting Heart Disease}{8}{section.2.3}% 
+\contentsline {chapter}{\numberline {3}Equations}{10}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Basics of Equations}{10}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Referencing the Equation}{12}{section.3.2}% 
+\contentsline {chapter}{\numberline {4}Listing Examples}{13}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}The Subsections}{14}{section.4.1}% 
+\contentsline {subsubsection}{The subsubsection}{14}{section.4.1}% 
+\contentsline {paragraph}{The paragraph}{14}{section.4.1}% 
+\contentsline {subparagraph}{The subparagraph}{15}{section.4.1}% 
+\contentsline {chapter}{\numberline {5}Example abbr and symbols}{16}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Abbr}{16}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Symbols}{16}{section.5.2}% 
+\contentsline {chapter}{\numberline {6}Citation Example}{17}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Citation and compiling bib file}{17}{section.6.1}% 
+\contentsline {chapter}{References}{17}{Item.25}% 
+\contentsline {chapter}{Appendix}{18}{chapter*.7}% 

@@ -2,25 +2,25 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Define Macros for Details of your Project
 \newcommand{\project}{Major Project} %Specify "Major Project" or "Minor Project"
-\newcommand{\projectTitle}{Project Title} %specify "Title" of Your Project
-\newcommand{\doc}{Final Report} % specify the document you are preparing eg. "Proposal", "Mid-Term Report" or "Final Report" 
+\newcommand{\projectTitle}{WeCare-Your Personal Health Assistance} %specify "Title" of Your Project
+\newcommand{\doc}{Mid-Term Report} % specify the document you are preparing eg. "Proposal", "Mid-Term Report" or "Final Report" 
 % Note that You have to sibmit "Final Report" for Pre-final defense as well.
 \newcommand{\subCode}{CT755} %specify Subject of Your Project
 \newcommand{\degree}{Bachelor in Computer Engineering} %specify your degree
 \newcommand{\submittedBy}%Specify Names and Roll/Symbol Numbers of the Project Group Members
 {
 %Edit Member Names and Roll/Symbol No. and adjust width (\makebox[width]) if necessary 
-\makebox[7cm]{Member Name 1 \hfill [Roll/Symbol No.]}\\
-\makebox[7cm]{Member Name 2 \hfill [Roll/Symbol No.]}\\
-\makebox[7cm]{Member Name 3 \hfill [Roll/Symbol No.]}\\
-\makebox[7cm]{Member Name 4 \hfill [Roll/Symbol No.]}
+\makebox[7cm]{Abhishek Gurung\hfill [91/BCT/072]}\\
+\makebox[7cm]{Manjil Nepali  \hfill [105/BCT/072]}\\
+\makebox[7cm]{Sagar Maharjan \hfill [118/BCT/072]}\\
+\makebox[7cm]{Sovin Shrestha \hfill [126/BCT/072]}
 %\makebox[9cm]{Member Name \hfill [Roll/Symbol No.]}\\
 } % Note that You must write your "Symbol Numbers"(Exam Roll Numbers) for Final Defenses
 
 \newcommand{\submittedTo}{Department of Computer and Electronics Engineering} %specify your department
 \newcommand{\hod}{Er. Rabindra Khati} %specify Head ot the department
-\newcommand{\defYear}{2017} %Defense Year
-\newcommand{\defMonth}{May} %Defense Month- January, February, ...
+\newcommand{\defYear}{2019} %Defense Year
+\newcommand{\defMonth}{July} %Defense Month- January, February, ...
 \newcommand{\defDay}{15} %specify Defense Day- 1, 2, ...
 
 \newif\ifhassupervisor
@@ -78,28 +78,34 @@
 \pagenumbering{roman} % starts pagenumberins in Roman numerals i, ii, ...
 
 %Copyright Page is required for FINAL REPORT only. Comment this section for other Reports.
-\KECcopyright % defined in KECReportFormat.tex
-
-%Approval Page is required for FINAL(Black Book Binded) REPORT of MAJOR PROJECT only. Comment this section for other Reports. 
-\KECapproval % defined in KECReportFormat.tex
+%\KECcopyright % defined in KECReportFormat.tex	
+ 
+  
+  %Approval Page is required for FINAL(Black Book Binded) REPORT of MAJOR PROJECT only. Comment this section for other Reports. 	
+ %\KECapproval % defined in KECReportFormat.tex
 
 \chapter*{Abstract} % The summary of your report
 \addcontentsline{toc}{chapter}{Abstract}%to include this chapter in TOC 
-Write Abstract Here. Ea nam ridens putent aliquid, id cibo dignissim vulputate mel, ei latine argumentum reprehendunt vis. Etiam legere laboramus est id. Brute dolorem volutpat ne pro, mei in consetetur reprimique. Modus consul impetus et vis. Eripuit officiis vis id, pri ei dolorem fierent conclusionemque. Id ponderum salutatus mea.\par
-Second para of Abstract. Sit ex quodsi pertinax. Ad eam debet admodum, ad tamquam perfecto sed, malis mollis efficiendi sea id. Iusto causae philosophia mei cu, sea aperiam oblique ne. Mei altera aliquam antiopam id. Cum sint evertitur et. Your Abstract ENDS here.
+According to the World Health Organization, health is “a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.” Better health is central to human happiness and well-being. Our project "WeCare" is a prediction system that helps the user to get the information about the disease according to the symptoms they feed to the system. So that it is also called as Health Assistance application because it assists the user about the possible disease but does not give the exact information. 
 \par
-\textbf{\textit{Keywords$-$}} Keyword 1, Keyword 2...
+Traditionally, physicians or doctors use a risk calculator to assess the possibility of disease development. These calculators use fundamental information such as age, medical conditions, and more to calculate the probability of developing a certain disease.
+    Main aim of our project is to develop the prediction system which predict the disease with help of data mining algorithm i.e. Feed Forward Back Propagation Neural Network 
+\par
+\textbf{\textit{Keywords$-$}} Health Assistance,Data Mining, Back Propagation Neural Network
 
 \chapter*{Acknowledgment}
 \addcontentsline{toc}{chapter}{Acknowledgment}%to include this chapter in TOC
-Write Acknowledgment Here. Ea his munere torquatos, quidam essent luptatum cu pro. Ei duo scaevola electram. Vidit percipitur ut vim, ne his solet prodesset inciderint. Cum facilisi sententiae at, vis noster electram contentiones cu. Nec at eius novum diceret.\par
-Second para of Acknowledgment. Sed veri aeque persecuti ut. Ut accusam mediocrem accusamus eos, quis clita probatus ex his. Mea oratio deleniti interesset at. Odio melius antiopam eu his, ut nec tantas maiestatis ullamcorper. Ut numquam reprimique cum. Acknowledgement ENDS here.\par
+This project is the outcome of inspiration and moral support of many people and for this we are grateful to them all. It’s hardly possible to list the names of all but we sincerely acknowledge their incredible contribution during the preparation. We take this opportunity to express our sincere gratitude to all those who have directly or indirectly inspired us for the completion of this project.\par
+We express our gratitude towards the Computer and Electronic Department of Kantipur Engineering College for providing us the learning and working environment which was helpful to work for our team. We are very grateful to our project supervisor Shagar Upadhyay for his support in this project. Special thanks goes to Er. Bishal Thapa and Er. Shiva Gautam for providing us theoretical background, practical advice and valuable suggestions for the development of this design. We would also like to thank the library staff for providing us with the study materials needed for research purposes.
+\par
 %to display members name under Acknowledgement
 \begin{flushright}
 \vskip -20pt
 \setstretch{1.2}
 \submittedBy
 \end{flushright}
+
+
 
 %to adjust spacings for TOC, LOF, LOT
 {
@@ -120,133 +126,105 @@ Second para of Acknowledgment. Sed veri aeque persecuti ut. Ut accusam mediocrem
 
 \tableofcontents % prints table of contents
 \listoffigures % prints list of figures
-\listoftables % prints list of table
+
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%comment this chapter if you don't have List of Abbreviations
-\KECloa % defined in KECReportFormat
 
-%comment this chapter if you don't have List of Symbols
-\KEClos % defined in KECReportFormat
 
 \newpage
 \pagenumbering{arabic} % starts pagenumbering in arabic numerals
 
 \chapter{Introduction}
 \section{Background}\label{sec:bkgrnd}%label your section if you require to refer them somewhere else in your document.
-Background of your Project. Lorem ipsum dolor sit  amet, diam posidonium efficiantur pri ex, qui aliquip convenire an. Vim falli vivendum ei. Ei per congue sanctus pericula. Mei id tollit mentitum corrumpit. Ad paulo quaerendum eam, meis delenit concludaturque ea nec.\par
-Sit id duis explicari, no pro quod nisl, erat nominati in his. Te choro efficiendi per. Vix alia munere an, ea aperiam expetenda ius. Id simul forensibus est, mei tacimates imperdiet incorrupte at, minim hendrerit ne per. Ex meliore verterem efficiendi vis.
+Human health is a relative state in which one is able to function well i.e physically, mentally and live socially well-being within the environment in which one is living. The human body is an incredible machine i.e has the ability to adapt, repair itself and manage challenges throughout life. With the on-going development of world over years, human learns the symptoms of affected human and provide remedy for hazardeous diseases.\par
+The health sector is of critical importance for human development, improving living standards in rural areas and for mainstreaming marginalized groups and communities. Despite significant progress in recent years, service delivery in the health sector remains weak.  Although an extensive network of primary health care centres has been constructed nationwide, it has not been functioning well in many rural areas due to lack of trained staff, drugs and medicines, etc.  The sector's overall performance has suffered due to inadequate funding for essential recurrent  expenditures, misallocation  of  resources  and  limited  capacity  for supervision and for co-ordination of the activities of other agencies providing health care services.\par
 
-Ea his munere torquatos, quidam essent luptatum cu pro. Ei duo scaevola electram. Vidit percipitur ut vim, ne his solet prodesset inciderint. Cum facilisi sententiae at, vis noster electram contentiones cu. Nec at eius novum diceret.Lorem ipsum dolor sit  amet, diam posidonium efficiantur pri ex, qui aliquip convenire an. Vim falli vivendum ei. Ei per congue sanctus pericula. Mei id tollit mentitum corrumpit. Ad paulo quaerendum eam, meis delenit concludaturque ea nec.\par
-Sit id duis explicari, no pro quod nisl, erat nominati in his. Te choro efficiendi per. Vix alia munere an, ea aperiam expetenda ius. Id simul forensibus est, mei tacimates imperdiet incorrupte at, minim hendrerit ne per. Ex meliore verterem efficiendi vis.
 
-Ea his munere torquatos, quidam essent luptatum cu pro. Ei duo scaevola electram. Vidit percipitur ut vim, ne his solet prodesset inciderint. Cum facilisi sententiae at, vis noster electram contentiones cu. Nec at eius novum diceret.Lorem ipsum dolor sit  amet, diam posidonium efficiantur pri ex, qui aliquip convenire an. Vim falli vivendum ei. Ei per congue sanctus pericula. Mei id tollit mentitum corrumpit. Ad paulo quaerendum eam, meis delenit concludaturque ea nec.\par
-Sit id duis explicari, no pro quod nisl, erat nominati in his. Te choro efficiendi per. Vix alia munere an, ea aperiam expetenda ius. Id simul forensibus est, mei tacimates imperdiet incorrupte at, minim hendrerit ne per. Ex meliore verterem efficiendi vis.
+This android application entitled "WeCare-Your Personal Health Assistance" aims to be helpful application by predicting the possible diseases as Tele-medicine center. Our proposed system takes symptoms from the user as input and data mining technique is used to do provisional diagnosis as practiced in telemedicine centers. Similar to that in telemedicine center, output generated doesn't provide fully diagnosed results. The user has to consult doctor for further treatment.\par
+ In  order  to  reduce the risk of disease, prediction should be done. Discovering of disease  is usually based on symptoms, physical examinations and signs of patient body. Normally, doctors are predicting disease by knowledge and experience. Discovering and predicting    diseases  is  a  difficult  task  in  medical  environment. Discovering disease from several factors is a multi-layered problem which may lead to negative presumptions and unpredictable effects. As a result, Health-care  industry  today  creates  large  amounts  of  complex  data  about  patients, hospitals resources, disease diagnosis, electronic patient records, medical devices etc. The huge amount of data is a key resource  to be processed and analyzed for knowledge extraction that enables support for cost-savings and decision making. 
 
-Ea his munere torquatos, quidam essent luptatum cu pro. Ei duo scaevola electram. Vidit percipitur ut vim, ne his solet prodesset inciderint. Cum facilisi sententiae at, vis noster electram contentiones cu. Nec at eius novum diceret.Lorem ipsum dolor sit  amet, diam posidonium efficiantur pri ex, qui aliquip convenire an. Vim falli vivendum ei. Ei per congue sanctus pericula. Mei id tollit mentitum corrumpit. Ad paulo quaerendum eam, meis delenit concludaturque ea nec.\par
-Sit id duis explicari, no pro quod nisl, erat nominati in his. Te choro efficiendi per. Vix alia munere an, ea aperiam expetenda ius. Id simul forensibus est, mei tacimates imperdiet incorrupte at, minim hendrerit ne per. Ex meliore verterem efficiendi vis.
+\section{Problem Statement}\label{sec:ps}%label your section if you require to refer them somewhere else in your document.
+Taking appointment with the doctors is very difficult in both rural an urban areas of Nepal. Like most developing nations, doctors are geographically maldistributed in Nepal. The Kathmandu valley has one doctor for 850 people but in rural areas the number is one doctor for every 150000 people. The doctor-population density in Kathmandu is estimated to be about 40 times that in rural Nepal. \par People often feel reluctant to go to hospital or physician on  minor symptoms.  However, in  many  cases, these  minor symptoms may trigger major health hazards. If they get some information about the disease they might have been suffering from, it will be helpful when they discuss their problems with the doctor later. \par People will not know the possible reasons for the disease and may be mistaken with other disease. It will be helpful to take the preventive measures if people have some idea about the disease they are suffering from. Now a day's people are busy on their daily life works so they forget to take their medicine on time, thus it could be helpful if someone notify them on time to take their medicine. So, Pill Reminder lets you create tasks with a deadline. The reminder simply reminds you when it's time to do it.   
+\pagebreak
+\section{Objectives}\label{sec:obj}%label your section if you require to refer them somewhere else in your document.
+The major objectives are listed:
+\begin{itemize}
+    \item To give environment to the users to diagnose their symptoms. 
+    \item To list out provisional diagnosed diseases.
+    \item To help users take an active role in meaning their health by providing objective healthcare information.
+\end{itemize}
+\section{Applications}\label{sec:app}%label your section if you require to refer them somewhere else in your document.
+This developed application enables users to make sense of symptoms and recognition of disease by decision algorithm. This project has wide use in various fields.\par
+As in rural areas, it might have happened so many times that people may need doctors help immediately, but they are not available due to some reason. This project allows user to get instant guidance on their health related problems. This app is a tool for user to check their symptoms, find trusted information and probable diseases with questionnaire based on the symptoms. This project is not limited to diseases prediction only, it suggests basic preventive measures and overview of the disease. Users can take immediate action. This project has wide area of application use in telemedicine centers. It can be easily access by nursing home staffs, sometimes parents and patient themselves. Users can get quick instant guidance of disease with preventive measures.\par
+This project also provides the functionality of pill reminder, where users can get instant  notifications of time and medicine to be taken according to their prescriptive noted schedule. As taking of medicine pill in time, during of sickness has great affect in health, pill reminder can be very useful to users.
 
-Ea his munere torquatos, quidam essent luptatum cu pro. Ei duo scaevola electram. Vidit percipitur ut vim, ne his solet prodesset inciderint. Cum facilisi sententiae at, vis noster electram contentiones cu. Nec at eius novum diceret.Lorem ipsum dolor sit  amet, diam posidonium efficiantur pri ex, qui aliquip convenire an. Vim falli vivendum ei. Ei per congue sanctus pericula. Mei id tollit mentitum corrumpit. Ad paulo quaerendum eam, meis delenit concludaturque ea nec.\par
-Sit id duis explicari, no pro quod nisl, erat nominati in his. Te choro efficiendi per. Vix alia munere an, ea aperiam expetenda ius. Id simul forensibus est, mei tacimates imperdiet incorrupte at, minim hendrerit ne per. Ex meliore verterem efficiendi vis.
+\pagebreak
+\section{Features}\label{sec:feat}%label your section if you require to refer them somewhere else in your document.
+The features are listed: 
+\begin{itemize}
+    \item Provides suggestions and informs about the possible occurence of disease based on the symptoms ans users information.
+    \item User friendly interface.
+    \item Suggest basic preventive measures and overview of disease.
+    \item Works as pill reminder.
+\end{itemize}
+\section{Feasibility Analysis}\label{sec:fa}%label your section if you require to refer them somewhere else in your document.
+\subsection{Economic Feasibility}
+Economic Feasibility is the cost and logistical outlook for a business project and is carried out to check the economic impact to the organization by the use of this system. The amount of fund that the company can invest for system is limited.
 
-Ea his munere torquatos, quidam essent luptatum cu pro. Ei duo scaevola electram. Vidit percipitur ut vim, ne his solet prodesset inciderint. Cum facilisi sententiae at, vis noster electram contentiones cu. Nec at eius novum diceret.Lorem ipsum dolor sit  amet, diam posidonium efficiantur pri ex, qui aliquip convenire an. Vim falli vivendum ei. Ei per congue sanctus pericula. Mei id tollit mentitum corrumpit. Ad paulo quaerendum eam, meis delenit concludaturque ea nec.\par
-Sit id duis explicari, no pro quod nisl, erat nominati in his. Te choro efficiendi per. Vix alia munere an, ea aperiam expetenda ius. Id simul forensibus est, mei tacimates imperdiet incorrupte at, minim hendrerit ne per. Ex meliore verterem efficiendi vis.
+\subsection{Technical Feasibility}
+This study is carried out to check technical requirements of the system. Any system developed must not have a high demand on the available technical resources as this may lead to high demands being placed on the client. This project doesn't incorporate the use of complex hardware. The technology required for the project is practical and necessary technical resources and expertise are assured.
 
-Ea his munere torquatos, quidam essent luptatum cu pro. Ei duo scaevola electram. Vidit percipitur ut vim, ne his solet prodesset inciderint. Cum facilisi sententiae at, vis noster electram contentiones cu. Nec at eius novum diceret.Lorem ipsum dolor sit  amet, diam posidonium efficiantur pri ex, qui aliquip convenire an. Vim falli vivendum ei. Ei per congue sanctus pericula. Mei id tollit mentitum corrumpit. Ad paulo quaerendum eam, meis delenit concludaturque ea nec.\par
-Sit id duis explicari, no pro quod nisl, erat nominati in his. Te choro efficiendi per. Vix alia munere an, ea aperiam expetenda ius. Id simul forensibus est, mei tacimates imperdiet incorrupte at, minim hendrerit ne per. Ex meliore verterem efficiendi vis.
+\subsection{Operational Feasibility}
+Operational feasibility is the ability to utilize, support and perform the necessary tasks of a system or program. The aspect of study is to check the level of acceptance of the system by the user. This system has been developed with users in mind. With the use of android technology, the system is easy to use and operate. The effective operation of the system can be achieved in required health purpose application. Greater level of user-friendliness and high performance of the proposed system can be achieved.
 
-Ea his munere torquatos, quidam essent luptatum cu pro. Ei duo scaevola electram. Vidit percipitur ut vim, ne his solet prodesset inciderint. Cum facilisi sententiae at, vis noster electram contentiones cu. Nec at eius novum diceret.
-\subsection{Referring Section}
-This is an example of referring Section \ref{sec:bkgrnd} of page \pageref{sec:bkgrnd}. Lorem ipsum dolor sit  amet, diam posidonium efficiantur pri ex, qui aliquip convenire an. Vim falli vivendum ei. Ei per congue sanctus pericula. Mei id tollit mentitum corrumpit. Ad paulo quaerendum eam, meis delenit concludaturque ea nec.\par
-Sit id duis explicari, no pro quod nisl, erat nominati in his. Te choro efficiendi per. Vix alia munere an, ea aperiam expetenda ius. Id simul forensibus est, mei tacimates imperdiet incorrupte at, minim hendrerit ne per. Ex meliore verterem efficiendi vis.
+\section{System Requirements}\label{sec:sr}%label your section if you require to refer them somewhere else in your document.
+\subsection{Software Requirements}
+\begin{itemize}
+    \item Android Studio
+    \item Java
+    \item Python
+    \item Flask
+\end{itemize}
 
-Ea his munere torquatos, quidam essent luptatum cu pro. Ei duo scaevola electram. Vidit percipitur ut vim, ne his solet prodesset inciderint. Cum facilisi sententiae at, vis noster electram contentiones cu. Nec at eius novum diceret.
+\subsection{Hardware Requirements}
+\begin{itemize}
+    \item Android Mobile
+\end{itemize}
 
-Lorem ipsum dolor sit  amet, diam posidonium efficiantur pri ex, qui aliquip convenire an. Vim falli vivendum ei. Ei per congue sanctus pericula. Mei id tollit mentitum corrumpit. Ad paulo quaerendum eam, meis delenit concludaturque ea nec.\par
-Sit id duis explicari, no pro quod nisl, erat nominati in his. Te choro efficiendi per. Vix alia munere an, ea aperiam expetenda ius. Id simul forensibus est, mei tacimates imperdiet incorrupte at, minim hendrerit ne per. Ex meliore verterem efficiendi vis.
+\chapter{Literature Review}
+There are different areas in medicine where an expert system has  been  designed  and  implemented. Numerous works has been done related to disease diagnosis using different data mining techniques. 
 
-Ea his munere torquatos, quidam essent luptatum cu pro. Ei duo scaevola electram. Vidit percipitur ut vim, ne his solet prodesset inciderint. Cum facilisi sententiae at, vis noster electram contentiones cu. Nec at eius novum diceret.
-\chapter{Figures and Tables}
-\section{Section for Sample Figure}
-Partem graece mucius est ei, usu ex facilisis dissentiet, probo prodesset scriptorem ius ea. Ne mei essent splendide, case tritani duo ei. Eam ne stet feugiat albucius. Ne diam dicant viderer eam, at pri minim vivendo periculis, in vix commodo invidunt. In eum omnis vocent aperiam. Sit prima atqui splendide ad, singulis recusabo quaerendum at his, enim eligendi forensibus ea eam.
+\section{Previous Work On Medical Expert System}
+\subsection{MYCIN}
+MYCIN is the name of a decision support system developed by Stanford University in the early-to mid-seventies, built to assist physicians in the diagnosis of infectious diseases. The system (also known as an "expert system") would ask a series of questions designed to emulate the thinking of an expert in the field of infectious disease (hence the "expert-"), and from the responses to these questions give a list of possible diagnoses, with probability, as well as recommend treatment (hence the "decision support-").\par 
+MYCIN is an AI program designed:
+\begin{itemize}
+    \item to provide expert level solutions to complex problems
+    \item to be understandable
+    \item to be flexible enough to accommodate new knowledge easily
+\end{itemize}
+MYCIN was designed to provide advice through a consultative dialogue, which sometimes refer to it as a consultation system.
 
-Sed veri aeque persecuti ut. Ut accusam mediocrem accusamus eos, quis clita probatus ex his. Mea oratio deleniti interesset at. Odio melius antiopam eu his, ut nec tantas maiestatis ullamcorper. Ut numquam reprimique cum.
-
-\begin{figure}[tbh] % tbh means top, bottom or here (priority: left to right)
+\begin{figure}[H]
 \begin{center}
-	\includegraphics[width = 3in]{images/sampleImage1.jpg}
-	\caption{The Sample Image One} %figure name
-	\label{figSample1} % for referencing
+\includegraphics[width=70mm, height = 70mm]{images/mycin.jpg}
+\caption{MYCIN Architecture(Source: slideshare.net)}
 \end{center}
 \end{figure}
+\subsection{Chronic Kidney Disease Prediction Using Back Propagation Neural Network Algorithm}
+This system of neural network accepts disease-symptoms as input and it is trained according to various training algorithms. Levenberg, Bayesian regularization, Scaled Conjugate and Resilient back propagation algorithm are discussed here. After neural network is trained using back propagation algorithms, this trained neural network system is used for detection of kidney disease in the human body. The back propagation algorithms presented here have capacity for distinguishing amongst infected patients or non-infected person.
+\section{Automated Disease Prediction System (ADPS): A User Input-based Reliable Architecture for Disease Prediction}
+Automated  Disease  Prediction System  (ADPS)  that  relies  on guided  (to be  described later)  user input.  The system  takes input from the user and provides a list (topmost diseases have greater  likelihood  of occurrence)  of  probable  diseases.  The accuracy of ADPS has been evaluated extensively. It ensured an average of 14.35\% higher accuracy in comparison with the existing solution. \par
+In  this  paper,  the  contribution  includes  proposing  a  new disease prediction framework (ADPS) that takes into account symptom  names  as  well  as  other  vital  parameters to improve disease prediction accuracy and  proposing  techniques  to allow  greater  linguistic  diversity  so  that  users  do  not  feel uncomfortable while giving input. \par
+It is presumed that the user will give text input in one sentence describing  a  single  symptom  at  a  time  (guideline  for  user input). Subsequent symptoms can be added in new lines. After getting user input, the system will scan through each line and tag  each  word  according  to  their relevant  parameter.  Then after performing certain computations (to be described later) the  system  will  return  a  list  of  possible  diseases  ordered according to the likelihood of their occurrences.
 
-\subsection{Referring Figure}
-This is an example where Figure \ref{figSample1} of page \pageref{figSample1} is referenced. Detracto suavitate id per, no est putent accusata quaestio, purto quaeque oporteat ei sea. Id eam erat affert, ex has summo inimicus partiendo. Option aliquam imperdiet ius ex. Efficiendi omittantur in mea, id usu tacimates rationibus. Ei accusamus dissentias vix, eos aperiam percipit id.
+\section{Neural Network Based Intelligent System for Predicting Heart Disease}
 
-Mea cu vitae noluisse. Tation eirmod iracundia sea no, duo no aliquando elaboraret. Qui ut legere mucius, dolore efficiendi definitionem quo ex. Usu te falli similique posidonium, eum eu dicat aeterno phaedrum, te paulo deleniti ius. Pro te aliquam platonem, eos ea dolore phaedrum. Graece honestatis sit at, nec id ubique legendos.
+This   paper   proposed   an   intelligent   automated   system incorporating  the  techniques  of  data  mining  with  machine learning  in  order  to  make  decisions.  Medical  practitioners are  being  assisted  by  the  automated  systems  for  providing effective  treatment  [18].  Data  mining  techniques  involves  a combination  of  statistical  methods  with  machine  learning algorithms  .Data  mining  techniques  help  the  system  in analyzing the symptoms and machine learning methodshelp in  predicting  the  disease  based  on  the  analysis  performed [13,20].  The  advantage  of  this  automated  system  is  that  it predicts the  disease  in  a  less  amount  of  time as  well  in less cost.  Therefore,  more  research  is  carried  out  in  the  field  of machine   intelligence   to   improvise   the   system   for   an effective   prediction.   This   paper   proposed   an   intelligent system    developed    using    the    concept    of    Multilayer Perceptron    Neural    Network    with    Back    propagation algorithm,  as  a  practitioner  needs  to  make  a  decision  from multiple inputs such as current and previous medical history of  a  patient.  \par Neural  networks  are  proved  to  be  effective  in making decisions by predicting the data. As the inputs used in  predicting  the  disease  are  more  in  number  and  diagnosis has   to   be   performed   at   different   stages,   Multilayer Perceptron  based  neural networks  are  used  in this  proposed system.  Neural  Network  extends  its  predictive  capability  at different  hierarchical  levels  in  a  multi-layered  structure  of networks.  This  multi-layered  structure helps  in  selecting features from the dataset at different scales in order to refine them  into  more  specific  features.  To  facilitate  this,  the concept of Multi-layer Perceptron Neural Network has been introduced through the implementation of Back-propagation algorithm  for  efficient  diagnosis  of  heart  disease.  In  this paper, 14 attributes are used as inputs for training the system of  neural  networks  for  diagnosing  heart  disease  risk  level using multi-layered network.Traditional   diagnosing   approaches   have   no proper automated   tools   use   for   the   purpose   of   heart   disease diagnostic   system.   The   commonly   used   data   mining algorithms for predicting diseases are:●Genetic algorithm●K-means algorithm●MAFIA algorithmSeveral     methods     proposed     the     implementation     of classification  algorithms  in  diagnosis  of  heart  disease  and resulted with an accuracy of 88.33%
 
-\section{Section for Sample Table}
-Prompta albucius ne vel. Has te intellegat definitionem, vim duis animal adipiscing ei. At qui iisque accusata, id his possim nominati. Ne agam dissentias eos, dico vivendo percipit ut mea.
 
-\begin{table}[tbh]
-\centering
-\caption{Table Example}
-\begin{tabular}{|c|r|c|l|c|c|} %c,l,r represent alignment, number of c,l or r represent number of columns, | for Vertical line
-	\hline %horizontal line
-	x &3 &4 &5 &5 &5\\
-	\hline %horizontal line
-	f(x) &111 &22 &30 &40 &500\\
-	\hline %horizontal line
-\end{tabular}
-\label{tblSampleTable}
-\end{table}
 
-\subsection{Referring Table}
-This is an example where Table \ref{tblSampleTable} of page \pageref{tblSampleTable} is referenced. Detracto suavitate id per, no est putent accusata quaestio, purto quaeque oporteat ei sea. Id eam erat affert, ex has summo inimicus partiendo. Option aliquam imperdiet ius ex. Efficiendi omittantur in mea, id usu tacimates rationibus. Ei accusamus dissentias vix, eos aperiam percipit id.
-
-Mea cu vitae noluisse. Tation eirmod iracundia sea no, duo no aliquando elaboraret. Qui ut legere mucius, dolore efficiendi definitionem quo ex. Usu te falli similique posidonium, eum eu dicat aeterno phaedrum, te paulo deleniti ius. Pro te aliquam platonem, eos ea dolore phaedrum. Graece honestatis sit at, nec id ubique legendos.
-Detracto suavitate id per, no est putent accusata quaestio, purto quaeque oporteat ei sea. Id eam erat affert, ex has summo inimicus partiendo. Option aliquam imperdiet ius ex. Efficiendi omittantur in mea, id usu tacimates rationibus. Ei accusamus dissentias vix, eos aperiam percipit id.
-
-Mea cu vitae noluisse. Tation eirmod iracundia sea no, duo no aliquando elaboraret. Qui ut legere mucius, dolore efficiendi definitionem quo ex. Usu te falli similique posidonium, eum eu dicat aeterno phaedrum, te paulo deleniti ius. Pro te aliquam platonem, eos ea dolore phaedrum. Graece honestatis sit at, nec id ubique legendos.
-Detracto suavitate id per, no est putent accusata quaestio, purto quaeque oporteat ei sea. Id eam erat affert, ex has summo inimicus partiendo. Option aliquam imperdiet ius ex. Efficiendi omittantur in mea, id usu tacimates rationibus. Ei accusamus dissentias vix, eos aperiam percipit id.
-
-Mea cu vitae noluisse. Tation eirmod iracundia sea no, duo no aliquando elaboraret. Qui ut legere mucius, dolore efficiendi definitionem quo ex. Usu te falli similique posidonium, eum eu dicat aeterno phaedrum, te paulo deleniti ius. Pro te aliquam platonem, eos ea dolore phaedrum. Graece honestatis sit at, nec id ubique legendos.
-Detracto suavitate id per, no est putent accusata quaestio, purto quaeque oporteat ei sea. Id eam erat affert, ex has summo inimicus partiendo. Option aliquam imperdiet ius ex. Efficiendi omittantur in mea, id usu tacimates rationibus. Ei accusamus dissentias vix, eos aperiam percipit id.
-
-Mea cu vitae noluisse. Tation eirmod iracundia sea no, duo no aliquando elaboraret. Qui ut legere mucius, dolore efficiendi definitionem quo ex. Usu te falli similique posidonium, eum eu dicat aeterno phaedrum, te paulo deleniti ius. Pro te aliquam platonem, eos ea dolore phaedrum. Graece honestatis sit at, nec id ubique legendos.
-
-\section{Complex Table from Excel}
-Complex tables can be created in MS-Excel and latex code for the table can be generated using "excel2latex" add-in.  An example of a complex table is shown in Table \ref{tab:complexTable} in page \pageref{tab:complexTable}\\ you can download excel2latex add-in from\\ 
-https://www.ctan.org/tex-archive/support/excel2latex\\
-Some extra packages are required. like bigstrut, multirow etc.
-% Table generated by Excel2LaTeX from sheet 'Sheet1'
-\begin{table}[htbp]
-  \centering
-  \caption{Complex table converted from Excel using excel2latex}
-    \begin{tabular}{|c|c|c|c|c|c|}
-    \hline
-    SN    & Col 1 & Col 2 & \multicolumn{2}{c|}{Col 3} & Col 4 \bigstrut\\
-    \hline
-    1     & \multicolumn{2}{c|}{\multirow{2}[4]{*}{Merged Cells 1}} & a     & b     & e \bigstrut\\
-\cline{1-1}\cline{4-6}    2     & \multicolumn{2}{c|}{} & c     & d     & \multirow{3}[6]{*}{f} \bigstrut\\
-\cline{1-5}    3     & \multicolumn{4}{c|}{Merged Cells 2} &  \bigstrut\\
-\cline{1-5}    \multirow{3}[6]{*}{4} & \multirow{3}[6]{*}{abc} & \multirow{5}[10]{*}{Merged Cells 3} & a1    & a2    &  \bigstrut\\
-\cline{4-6}          &       &       & a3    & q     & ww \bigstrut\\
-\cline{4-6}          &       &       & \multicolumn{2}{c|}{\multirow{2}[4]{*}{a4}} & as \bigstrut\\
-\cline{1-2}\cline{6-6}    \multirow{2}[4]{*}{5} & a11   &       & \multicolumn{2}{c|}{} & qq \bigstrut\\
-\cline{2-2}\cline{4-6}          &       &       & \multicolumn{3}{c|}{Merged} \bigstrut\\
-    \hline
-    \end{tabular}%
-  \label{tab:complexTable}%
-\end{table}%
-Mea cu vitae noluisse. Tation eirmod iracundia sea no, duo no aliquando elaboraret. Qui ut legere mucius, dolore efficiendi definitionem quo ex. Usu te falli similique posidonium, eum eu dicat aeterno phaedrum, te paulo deleniti ius. Pro te aliquam platonem, eos ea dolore phaedrum. Graece honestatis sit at, nec id ubique legendos.
-Detracto suavitate id per, no est putent accusata quaestio, purto quaeque oporteat ei sea. Id eam erat affert, ex has summo inimicus partiendo. Option aliquam imperdiet ius ex. Efficiendi omittantur in mea, id usu tacimates rationibus. Ei accusamus dissentias vix, eos aperiam percipit id.
-
-Mea cu vitae noluisse. Tation eirmod iracundia sea no, duo no aliquando elaboraret. Qui ut legere mucius, dolore efficiendi definitionem quo ex. Usu te falli similique posidonium, eum eu dicat aeterno phaedrum, te paulo deleniti ius. Pro te aliquam platonem, eos ea dolore phaedrum. Graece honestatis sit at, nec id ubique legendos.
-Detracto suavitate id per, no est putent accusata quaestio, purto quaeque oporteat ei sea. Id eam erat affert, ex has summo inimicus partiendo. Option aliquam imperdiet ius ex. Efficiendi omittantur in mea, id usu tacimates rationibus. Ei accusamus dissentias vix, eos aperiam percipit id.
-
-Mea cu vitae noluisse. Tation eirmod iracundia sea no, duo no aliquando elaboraret. Qui ut legere mucius, dolore efficiendi definitionem quo ex. Usu te falli similique posidonium, eum eu dicat aeterno phaedrum, te paulo deleniti ius. Pro te aliquam platonem, eos ea dolore phaedrum. Graece honestatis sit at, nec id ubique legendos.
  
 \chapter{Equations}
 
