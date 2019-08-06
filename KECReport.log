@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  6 AUG 2019 17:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  6 AUG 2019 17:39
 entering extended mode
 **./KECReport.tex
 (KECReport.tex
@@ -664,7 +664,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
-<images/logo.png, id=279, 102.3825pt x 102.3825pt>
+<images/logo.png, id=271, 102.3825pt x 102.3825pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
 Package pdftex.def Info: images/logo.png  used on input line 75.
@@ -681,15 +681,7 @@ go.png>]pdfTeX warning (ext4): destination with the same identifier (name{page.
 l.76 \KECtitlepage
                    % command defined in KECReportFormat [1]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
- [1
-
-]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12.8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
- [2
-
-]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 87.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
@@ -703,22 +695,22 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 94.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3
+) [1
 
-] [4
+] [2
 
 ]
-(KECReport.toc [5
+(KECReport.toc [3
 
-] [6])
+] [4])
 \tf@toc=\write4
 \openout4 = `KECReport.toc'.
 
- [7] (KECReport.lof)
+ [5] (KECReport.lof)
 \tf@lof=\write5
 \openout5 = `KECReport.lof'.
 
- [8
+ [6
 
 ]
 Chapter 1.
@@ -750,7 +742,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 209--217
 
 [5] [6]
 Chapter 2.
-<images/mycin.jpg, id=464, 730.73pt x 548.0475pt>
+<images/mycin.jpg, id=446, 730.73pt x 548.0475pt>
 File: images/mycin.jpg Graphic file (type jpg)
 <use images/mycin.jpg>
 Package pdftex.def Info: images/mycin.jpg  used on input line 253.
@@ -765,7 +757,7 @@ Overfull \hbox (9.50449pt too wide) in paragraph at lines 259--259
 
 [8 <./images/mycin.jpg>] [9] [10]
 Chapter 3.
-<images/Incremental.png, id=482, 485.815pt x 241.90375pt>
+<images/Incremental.png, id=463, 485.815pt x 241.90375pt>
 File: images/Incremental.png Graphic file (type png)
 <use images/Incremental.png>
 Package pdftex.def Info: images/Incremental.png  used on input line 285.
@@ -773,7 +765,7 @@ Package pdftex.def Info: images/Incremental.png  used on input line 285.
 [11
 
  <./images/Incremental.png>] [12] [13]
-<dataset_summary/diseaseAndSymptoms.jpg, id=496, 974.4405pt x 222.8325pt>
+<dataset_summary/diseaseAndSymptoms.jpg, id=478, 974.4405pt x 222.8325pt>
 File: dataset_summary/diseaseAndSymptoms.jpg Graphic file (type jpg)
 <use dataset_summary/diseaseAndSymptoms.jpg>
 Package pdftex.def Info: dataset_summary/diseaseAndSymptoms.jpg  used on input 
@@ -784,7 +776,7 @@ Overfull \hbox (38.4035pt too wide) in paragraph at lines 328--329
 [][] 
  []
 
-<dataset_summary/top5Disease.jpg, id=497, 572.73975pt x 371.58826pt>
+<dataset_summary/top5Disease.jpg, id=479, 572.73975pt x 371.58826pt>
 File: dataset_summary/top5Disease.jpg Graphic file (type jpg)
 <use dataset_summary/top5Disease.jpg>
 Package pdftex.def Info: dataset_summary/top5Disease.jpg  used on input line 33
@@ -807,13 +799,13 @@ might try typing `S' now just to see what is salvageable.
 
 [14 <./dataset_summary/diseaseAndSymptoms.jpg> <./dataset_summary/top5Disease.j
 pg>] [15]
-<images/bio.jpg, id=507, 345.29pt x 147.55125pt>
+<images/bio.jpg, id=488, 345.29pt x 147.55125pt>
 File: images/bio.jpg Graphic file (type jpg)
 <use images/bio.jpg>
 Package pdftex.def Info: images/bio.jpg  used on input line 359.
 (pdftex.def)             Requested size: 369.89394pt x 227.6281pt.
  [16 <./images/bio.jpg>]
-<neuralNetwork/neuralNetwork.jpg, id=512, 501.875pt x 406.51875pt>
+<neuralNetwork/neuralNetwork.jpg, id=493, 501.875pt x 406.51875pt>
 File: neuralNetwork/neuralNetwork.jpg Graphic file (type jpg)
 <use neuralNetwork/neuralNetwork.jpg>
 Package pdftex.def Info: neuralNetwork/neuralNetwork.jpg  used on input line 37
@@ -840,13 +832,13 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 [20] [21]
-<images/ANNBack.jpg, id=534, 361.35pt x 178.266pt>
+<images/ANNBack.jpg, id=515, 361.35pt x 178.266pt>
 File: images/ANNBack.jpg Graphic file (type jpg)
 <use images/ANNBack.jpg>
 Package pdftex.def Info: images/ANNBack.jpg  used on input line 428.
 (pdftex.def)             Requested size: 341.43344pt x 227.6411pt.
  [22 <./images/ANNBack.jpg>] [23]
-<images/back.png, id=543, 294.09875pt x 223.83624pt>
+<images/back.png, id=525, 294.09875pt x 223.83624pt>
 File: images/back.png Graphic file (type png)
 <use images/back.png>
 Package pdftex.def Info: images/back.png  used on input line 470.
@@ -956,7 +948,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-<images/feed.PNG, id=549, 257.763pt x 256.5585pt>
+<images/feed.PNG, id=531, 257.763pt x 256.5585pt>
 File: images/feed.PNG Graphic file (type png)
 <use images/feed.PNG>
 Package pdftex.def Info: images/feed.PNG  used on input line 527.
@@ -1058,13 +1050,13 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-<images/flow.png, id=565, 1005.7575pt x 1879.02pt>
+<images/flow.png, id=547, 1005.7575pt x 1879.02pt>
 File: images/flow.png Graphic file (type png)
 <use images/flow.png>
 Package pdftex.def Info: images/flow.png  used on input line 580.
 (pdftex.def)             Requested size: 398.33646pt x 483.6882pt.
 [27]
-<images/usecase.png, id=571, 1163.0953pt x 947.03813pt>
+<images/usecase.png, id=552, 1163.0953pt x 947.03813pt>
 File: images/usecase.png Graphic file (type png)
 <use images/usecase.png>
 Package pdftex.def Info: images/usecase.png  used on input line 589.
@@ -1075,7 +1067,7 @@ Overfull \hbox (9.95616pt too wide) in paragraph at lines 589--590
  []
 
 [28 <./images/flow.png>]
-<images/activity.png, id=577, 3059.43pt x 1927.2pt>
+<images/activity.png, id=558, 3059.43pt x 1927.2pt>
 File: images/activity.png Graphic file (type png)
 <use images/activity.png>
 Package pdftex.def Info: images/activity.png  used on input line 598.
@@ -1090,7 +1082,7 @@ Chapter 4.
 [31
 
 ] [32]
-<comparison/summary.jpg, id=596, 1121.99174pt x 227.04825pt>
+<comparison/summary.jpg, id=578, 1121.99174pt x 227.04825pt>
 File: comparison/summary.jpg Graphic file (type jpg)
 <use comparison/summary.jpg>
 Package pdftex.def Info: comparison/summary.jpg  used on input line 639.
@@ -1100,7 +1092,7 @@ Overfull \hbox (9.95642pt too wide) in paragraph at lines 639--640
  [] 
  []
 
-<comparison/accuracy.png, id=597, 3237.09375pt x 1608.0075pt>
+<comparison/accuracy.png, id=579, 3237.09375pt x 1608.0075pt>
 File: comparison/accuracy.png Graphic file (type png)
 <use comparison/accuracy.png>
 Package pdftex.def Info: comparison/accuracy.png  used on input line 646.
@@ -1111,7 +1103,7 @@ Overfull \hbox (9.93137pt too wide) in paragraph at lines 646--647
  []
 
 [33 <./comparison/summary.jpg> <./comparison/accuracy.png>]
-<comparison/sensitivity.png, id=604, 3237.09375pt x 1409.265pt>
+<comparison/sensitivity.png, id=585, 3237.09375pt x 1409.265pt>
 File: comparison/sensitivity.png Graphic file (type png)
 <use comparison/sensitivity.png>
 Package pdftex.def Info: comparison/sensitivity.png  used on input line 655.
@@ -1121,7 +1113,7 @@ Overfull \hbox (9.93137pt too wide) in paragraph at lines 655--656
  [] 
  []
 
-<comparison/precision.png, id=605, 3237.09375pt x 1608.0075pt>
+<comparison/precision.png, id=586, 3237.09375pt x 1608.0075pt>
 File: comparison/precision.png Graphic file (type png)
 <use comparison/precision.png>
 Package pdftex.def Info: comparison/precision.png  used on input line 663.
@@ -1132,7 +1124,7 @@ Overfull \hbox (9.93137pt too wide) in paragraph at lines 663--664
  []
 
 [34 <./comparison/sensitivity.png> <./comparison/precision.png>]
-<backexplain/initializeNetwork.jpg, id=612, 906.9885pt x 193.9245pt>
+<backexplain/initializeNetwork.jpg, id=593, 906.9885pt x 193.9245pt>
 File: backexplain/initializeNetwork.jpg Graphic file (type jpg)
 <use backexplain/initializeNetwork.jpg>
 Package pdftex.def Info: backexplain/initializeNetwork.jpg  used on input line 
@@ -1149,7 +1141,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 685--692
  []
 
 [35 <./backexplain/initializeNetwork.jpg>]
-<backexplain/activate.jpg, id=618, 490.2315pt x 168.63pt>
+<backexplain/activate.jpg, id=600, 490.2315pt x 168.63pt>
 File: backexplain/activate.jpg Graphic file (type jpg)
 <use backexplain/activate.jpg>
 Package pdftex.def Info: backexplain/activate.jpg  used on input line 700.
@@ -1171,13 +1163,13 @@ l.714
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-<backexplain/transfer.jpg, id=619, 458.31226pt x 75.28125pt>
+<backexplain/transfer.jpg, id=601, 458.31226pt x 75.28125pt>
 File: backexplain/transfer.jpg Graphic file (type jpg)
 <use backexplain/transfer.jpg>
 Package pdftex.def Info: backexplain/transfer.jpg  used on input line 719.
 (pdftex.def)             Requested size: 227.62402pt x 56.90762pt.
 [36 <./backexplain/activate.jpg>]
-<backexplain/forward.jpg, id=625, 806.41275pt x 366.168pt>
+<backexplain/forward.jpg, id=607, 806.41275pt x 366.168pt>
 File: backexplain/forward.jpg Graphic file (type jpg)
 <use backexplain/forward.jpg>
 Package pdftex.def Info: backexplain/forward.jpg  used on input line 731.
@@ -1187,14 +1179,14 @@ Overfull \hbox (38.40971pt too wide) in paragraph at lines 731--732
  [] 
  []
 
-<backexplain/transferDerivative.jpg, id=626, 598.6365pt x 111.41624pt>
+<backexplain/transferDerivative.jpg, id=608, 598.6365pt x 111.41624pt>
 File: backexplain/transferDerivative.jpg Graphic file (type jpg)
 <use backexplain/transferDerivative.jpg>
 Package pdftex.def Info: backexplain/transferDerivative.jpg  used on input line
  747.
 (pdftex.def)             Requested size: 312.98265pt x 56.90483pt.
 [37 <./backexplain/transfer.jpg> <./backexplain/forward.jpg>]
-<backexplain/errorback.jpg, id=633, 930.47626pt x 476.982pt>
+<backexplain/errorback.jpg, id=615, 930.47626pt x 476.982pt>
 File: backexplain/errorback.jpg Graphic file (type jpg)
 <use backexplain/errorback.jpg>
 Package pdftex.def Info: backexplain/errorback.jpg  used on input line 766.
@@ -1205,14 +1197,14 @@ Overfull \hbox (38.40877pt too wide) in paragraph at lines 766--767
  []
 
 [38 <./backexplain/transferDerivative.jpg>] [39 <./backexplain/errorback.jpg>]
-<images/restapi.png, id=645, 240.9pt x 240.9pt>
+<images/restapi.png, id=626, 240.9pt x 240.9pt>
 File: images/restapi.png Graphic file (type png)
 <use images/restapi.png>
 Package pdftex.def Info: images/restapi.png  used on input line 793.
 (pdftex.def)             Requested size: 369.92113pt x 369.92113pt.
 
 [40 <./images/restapi.png (PNG copy)>]
-<images/prototype.jpg, id=650, 796.77675pt x 446.26724pt>
+<images/prototype.jpg, id=631, 796.77675pt x 446.26724pt>
 File: images/prototype.jpg Graphic file (type jpg)
 <use images/prototype.jpg>
 Package pdftex.def Info: images/prototype.jpg  used on input line 803.
@@ -1224,7 +1216,7 @@ Overfull \hbox (1.14665pt too wide) in paragraph at lines 810--812
  []
 
 [41 <./images/prototype.jpg>] [42] [43]
-<images/GanttChart.PNG, id=663, 388.45125pt x 231.86626pt>
+<images/GanttChart.PNG, id=645, 388.45125pt x 231.86626pt>
 File: images/GanttChart.PNG Graphic file (type png)
 <use images/GanttChart.PNG>
 Package pdftex.def Info: images/GanttChart.PNG  used on input line 842.
@@ -1297,7 +1289,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 903.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 903.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 903.
 Package rerunfilecheck Info: File `KECReport.out' has not changed.
-(rerunfilecheck)             Checksum: 01831AA3199BA901A99A657917FE122E;5174.
+(rerunfilecheck)             Checksum: F46F034166EA192C0AFC0114A0BB5027;5074.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 903.
  )
 (\end occurred inside a group at level 1)
@@ -1305,11 +1297,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 903.
 ### simple group (level 1) entered at line 713 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 21893 strings out of 492895
- 413835 string characters out of 3133480
+ 21884 strings out of 492895
+ 413733 string characters out of 3133480
  477761 words of memory out of 3000000
- 25456 multiletter control sequences out of 15000+200000
- 554178 words of font info for 64 fonts, out of 3000000 for 9000
+ 25452 multiletter control sequences out of 15000+200000
+ 552552 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,6n,65p,2577b,528s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Pr
@@ -1322,9 +1314,9 @@ sfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on KECReport.pdf (57 pages, 2033531 bytes).
+Output written on KECReport.pdf (55 pages, 2029709 bytes).
 PDF statistics:
- 752 PDF objects out of 1000 (max. 8388607)
- 154 named destinations out of 1000 (max. 500000)
- 683 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 733 PDF objects out of 1000 (max. 8388607)
+ 150 named destinations out of 1000 (max. 500000)
+ 667 words of extra memory for PDF output out of 10000 (max. 10000000)
 
