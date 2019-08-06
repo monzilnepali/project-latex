@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  6 AUG 2019 21:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  6 AUG 2019 22:19
 entering extended mode
 **./KECReport.tex
 (KECReport.tex
@@ -1228,7 +1228,7 @@ Overfull \hbox (9.9669pt too wide) in paragraph at lines 842--843
 
 [44 <./images/GanttChart.PNG>] [45]
 ! Misplaced alignment tab character &.
-l.881 [1] Taufik, Wan &
+l.882 [2] Taufik, Wan &
                         Ab Ghani, Nur Laila & Mohd Drus, Sulfeeza. (2019). D...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1238,7 +1238,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.881 [1] Taufik, Wan & Ab Ghani, Nur Laila &
+l.882 [2] Taufik, Wan & Ab Ghani, Nur Laila &
                                               Mohd Drus, Sulfeeza. (2019). D...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1250,7 +1250,7 @@ might try typing `S' now just to see what is salvageable.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.881 ... (IRICT 2018). 10.1007/978-3-319-99007-1_
+l.882 ... (IRICT 2018). 10.1007/978-3-319-99007-1_
                                                   4. \par
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1258,7 +1258,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.881 ... 2018). 10.1007/978-3-319-99007-1_4. \par
+l.882 ... 2018). 10.1007/978-3-319-99007-1_4. \par
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1272,35 +1272,25 @@ s-pi-tals. J Hosp Med. 2016;11(1):S18{S24.
 [46
 
 ]
-! Misplaced alignment tab character &.
-l.896 ...ference on Recent Trends in Engineering &
-                                                   Technology, May 2011.\par
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 903.
-[47]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 903.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 898.
+ [47]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 898.
  (KECReport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 903.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 903.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 898.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 898.
 Package rerunfilecheck Info: File `KECReport.out' has not changed.
 (rerunfilecheck)             Checksum: F46F034166EA192C0AFC0114A0BB5027;5074.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 903.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 898.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 713 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 21884 strings out of 492895
- 413733 string characters out of 3133480
+ 21883 strings out of 492895
+ 413725 string characters out of 3133480
  477761 words of memory out of 3000000
- 25452 multiletter control sequences out of 15000+200000
+ 25451 multiletter control sequences out of 15000+200000
  552552 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,6n,65p,2577b,528s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1314,7 +1304,7 @@ sfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on KECReport.pdf (55 pages, 2029600 bytes).
+Output written on KECReport.pdf (55 pages, 2028652 bytes).
 PDF statistics:
  733 PDF objects out of 1000 (max. 8388607)
  150 named destinations out of 1000 (max. 500000)
