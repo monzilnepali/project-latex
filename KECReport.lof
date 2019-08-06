@@ -1,8 +1,24 @@
 \noaddvspace 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces MYCIN Architecture(Source: slideshare.net)\relax }}{7}{figure.caption.6}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces MYCIN Architecture(Source: slideshare.net)\relax }}{8}{figure.caption.6}% 
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Incremental Development Model(Source: researchgate.net)\relax }}{11}{figure.caption.7}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Sample of dataset\relax }}{14}{figure.caption.8}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Top five most common symptoms\relax }}{14}{figure.caption.9}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Biological Neural Network\relax }}{16}{figure.caption.10}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Neural Network (Source: researchgate.net)\relax }}{17}{figure.caption.11}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces ANN architecture with back-propagation algorithm.(Source: researchgate.com)\relax }}{22}{figure.caption.12}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Neuron Model Feedforward Network(Source: edureka.co)\relax }}{24}{figure.caption.13}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Feedforward Network Model(Source: edureka.co)\relax }}{26}{figure.caption.14}% 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Flowchart diagram of Proposed system\relax }}{28}{figure.caption.15}% 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces UseCase Diagram\relax }}{29}{figure.caption.16}% 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Activity Diagram\relax }}{30}{figure.caption.17}% 
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Performance analysis of different algorithm\relax }}{33}{figure.caption.18}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Graphical representation of accuracy\relax }}{33}{figure.caption.19}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Graphical representation of sensitivity\relax }}{34}{figure.caption.20}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Graphical representation of precision\relax }}{34}{figure.caption.21}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Restful API\relax }}{40}{figure.caption.28}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Prototype\relax }}{41}{figure.caption.29}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Gantt Chart\relax }}{44}{figure.caption.30}% 
