@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  6 AUG 2019 17:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  6 AUG 2019 21:24
 entering extended mode
 **./KECReport.tex
 (KECReport.tex
@@ -735,12 +735,12 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 [3]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 185.
- [4]
-Underfull \hbox (badness 10000) in paragraph at lines 209--217
+ [4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 211--217
 
  []
 
-[5] [6]
+[6]
 Chapter 2.
 <images/mycin.jpg, id=446, 730.73pt x 548.0475pt>
 File: images/mycin.jpg Graphic file (type jpg)
@@ -1314,7 +1314,7 @@ sfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on KECReport.pdf (55 pages, 2029709 bytes).
+Output written on KECReport.pdf (55 pages, 2029600 bytes).
 PDF statistics:
  733 PDF objects out of 1000 (max. 8388607)
  150 named destinations out of 1000 (max. 500000)
