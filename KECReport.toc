@@ -56,13 +56,14 @@
 \contentsline {subsection}{\numberline {4.1.1}Data Collection}{31}{subsection.4.1.1}% 
 \contentsline {subsection}{\numberline {4.1.2}Designing UI prototype}{31}{subsection.4.1.2}% 
 \contentsline {subsection}{\numberline {4.1.3}Selection of optimal Machine learning Algorithm}{31}{subsection.4.1.3}% 
-\contentsline {subsection}{\numberline {4.1.4}Selection of optimal hyperparameter value for Modeling}{35}{subsection.4.1.4}% 
-\contentsline {subsection}{\numberline {4.1.5}Back Propagation Algorithm implementation using Python}{37}{subsection.4.1.5}% 
-\contentsline {subsection}{\numberline {4.1.6}RESTFul API using Flask}{42}{subsection.4.1.6}% 
-\contentsline {subsection}{\numberline {4.1.7}Prototype}{43}{subsection.4.1.7}% 
+\contentsline {subsection}{\numberline {4.1.4}Reason of Using Back Propagation ANN algorithm}{35}{subsection.4.1.4}% 
+\contentsline {subsection}{\numberline {4.1.5}Selection of optimal hyperparameter value for Modeling}{35}{subsection.4.1.5}% 
+\contentsline {subsection}{\numberline {4.1.6}Back Propagation Algorithm implementation using Python}{37}{subsection.4.1.6}% 
+\contentsline {subsection}{\numberline {4.1.7}RESTFul API using Flask}{41}{subsection.4.1.7}% 
+\contentsline {subsection}{\numberline {4.1.8}Prototype}{43}{subsection.4.1.8}% 
 \contentsline {section}{\numberline {4.2}Work Remaining}{43}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Limitations}{44}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Challenges}{45}{section.4.4}% 
+\contentsline {section}{\numberline {4.3}Limitations}{43}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Challenges}{44}{section.4.4}% 
 \contentsline {section}{\numberline {4.5}Work Schedule}{46}{section.4.5}% 
 \contentsline {section}{\numberline {4.6}Conclusion}{46}{section.4.6}% 
-\contentsline {section}{\numberline {4.7}Future Enhancements}{47}{section.4.7}% 
+\contentsline {section}{\numberline {4.7}Future Enhancements}{46}{section.4.7}% 

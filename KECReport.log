@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  7 AUG 2019 08:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  7 AUG 2019 08:56
 entering extended mode
 **./KECReport.tex
 (KECReport.tex
@@ -664,7 +664,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
-<images/logo.png, id=275, 102.3825pt x 102.3825pt>
+<images/logo.png, id=279, 102.3825pt x 102.3825pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
 Package pdftex.def Info: images/logo.png  used on input line 75.
@@ -742,7 +742,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 211--217
 
 [6]
 Chapter 2.
-<images/mycin.jpg, id=453, 730.73pt x 548.0475pt>
+<images/mycin.jpg, id=460, 730.73pt x 548.0475pt>
 File: images/mycin.jpg Graphic file (type jpg)
 <use images/mycin.jpg>
 Package pdftex.def Info: images/mycin.jpg  used on input line 253.
@@ -757,7 +757,7 @@ Overfull \hbox (9.50449pt too wide) in paragraph at lines 259--259
 
 [8 <./images/mycin.jpg>] [9] [10]
 Chapter 3.
-<images/Incremental.png, id=470, 485.815pt x 241.90375pt>
+<images/Incremental.png, id=477, 485.815pt x 241.90375pt>
 File: images/Incremental.png Graphic file (type png)
 <use images/Incremental.png>
 Package pdftex.def Info: images/Incremental.png  used on input line 285.
@@ -765,7 +765,7 @@ Package pdftex.def Info: images/Incremental.png  used on input line 285.
 [11
 
  <./images/Incremental.png>] [12] [13]
-<dataset_summary/diseaseAndSymptoms.jpg, id=485, 974.4405pt x 222.8325pt>
+<dataset_summary/diseaseAndSymptoms.jpg, id=492, 974.4405pt x 222.8325pt>
 File: dataset_summary/diseaseAndSymptoms.jpg Graphic file (type jpg)
 <use dataset_summary/diseaseAndSymptoms.jpg>
 Package pdftex.def Info: dataset_summary/diseaseAndSymptoms.jpg  used on input 
@@ -776,7 +776,7 @@ Overfull \hbox (38.4035pt too wide) in paragraph at lines 328--329
 [][] 
  []
 
-<dataset_summary/top5Disease.jpg, id=486, 572.73975pt x 371.58826pt>
+<dataset_summary/top5Disease.jpg, id=493, 572.73975pt x 371.58826pt>
 File: dataset_summary/top5Disease.jpg Graphic file (type jpg)
 <use dataset_summary/top5Disease.jpg>
 Package pdftex.def Info: dataset_summary/top5Disease.jpg  used on input line 33
@@ -799,13 +799,13 @@ might try typing `S' now just to see what is salvageable.
 
 [14 <./dataset_summary/diseaseAndSymptoms.jpg> <./dataset_summary/top5Disease.j
 pg>] [15]
-<images/bio.jpg, id=495, 345.29pt x 147.55125pt>
+<images/bio.jpg, id=502, 345.29pt x 147.55125pt>
 File: images/bio.jpg Graphic file (type jpg)
 <use images/bio.jpg>
 Package pdftex.def Info: images/bio.jpg  used on input line 359.
 (pdftex.def)             Requested size: 369.89394pt x 227.6281pt.
  [16 <./images/bio.jpg>]
-<neuralNetwork/neuralNetwork.jpg, id=500, 501.875pt x 406.51875pt>
+<neuralNetwork/neuralNetwork.jpg, id=507, 501.875pt x 406.51875pt>
 File: neuralNetwork/neuralNetwork.jpg Graphic file (type jpg)
 <use neuralNetwork/neuralNetwork.jpg>
 Package pdftex.def Info: neuralNetwork/neuralNetwork.jpg  used on input line 37
@@ -832,13 +832,13 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 [20] [21]
-<images/ANNBack.jpg, id=522, 361.35pt x 178.266pt>
+<images/ANNBack.jpg, id=529, 361.35pt x 178.266pt>
 File: images/ANNBack.jpg Graphic file (type jpg)
 <use images/ANNBack.jpg>
 Package pdftex.def Info: images/ANNBack.jpg  used on input line 428.
 (pdftex.def)             Requested size: 341.43344pt x 227.6411pt.
  [22 <./images/ANNBack.jpg>] [23]
-<images/back.png, id=532, 294.09875pt x 223.83624pt>
+<images/back.png, id=539, 294.09875pt x 223.83624pt>
 File: images/back.png Graphic file (type png)
 <use images/back.png>
 Package pdftex.def Info: images/back.png  used on input line 470.
@@ -948,7 +948,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-<images/feed.PNG, id=538, 257.763pt x 256.5585pt>
+<images/feed.PNG, id=545, 257.763pt x 256.5585pt>
 File: images/feed.PNG Graphic file (type png)
 <use images/feed.PNG>
 Package pdftex.def Info: images/feed.PNG  used on input line 527.
@@ -1050,13 +1050,13 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-<images/flow.png, id=554, 1005.7575pt x 1879.02pt>
+<images/flow.png, id=561, 1005.7575pt x 1879.02pt>
 File: images/flow.png Graphic file (type png)
 <use images/flow.png>
 Package pdftex.def Info: images/flow.png  used on input line 580.
 (pdftex.def)             Requested size: 398.33646pt x 483.6882pt.
 [27]
-<images/usecase.png, id=559, 1163.0953pt x 947.03813pt>
+<images/usecase.png, id=566, 1163.0953pt x 947.03813pt>
 File: images/usecase.png Graphic file (type png)
 <use images/usecase.png>
 Package pdftex.def Info: images/usecase.png  used on input line 589.
@@ -1067,7 +1067,7 @@ Overfull \hbox (9.95616pt too wide) in paragraph at lines 589--590
  []
 
 [28 <./images/flow.png>]
-<images/activity.png, id=565, 3059.43pt x 1927.2pt>
+<images/activity.png, id=572, 3059.43pt x 1927.2pt>
 File: images/activity.png Graphic file (type png)
 <use images/activity.png>
 Package pdftex.def Info: images/activity.png  used on input line 598.
@@ -1082,7 +1082,7 @@ Chapter 4.
 [31
 
 ] [32]
-<comparison/summary.jpg, id=585, 1121.99174pt x 227.04825pt>
+<comparison/summary.jpg, id=592, 1121.99174pt x 227.04825pt>
 File: comparison/summary.jpg Graphic file (type jpg)
 <use comparison/summary.jpg>
 Package pdftex.def Info: comparison/summary.jpg  used on input line 639.
@@ -1092,87 +1092,90 @@ Overfull \hbox (9.95642pt too wide) in paragraph at lines 639--640
  [] 
  []
 
-<comparison/accuracy.png, id=586, 3237.09375pt x 1608.0075pt>
-File: comparison/accuracy.png Graphic file (type png)
-<use comparison/accuracy.png>
-Package pdftex.def Info: comparison/accuracy.png  used on input line 646.
+<comparisonnew/accuracy.png, id=593, 3237.09375pt x 1608.0075pt>
+File: comparisonnew/accuracy.png Graphic file (type png)
+<use comparisonnew/accuracy.png>
+Package pdftex.def Info: comparisonnew/accuracy.png  used on input line 646.
 (pdftex.def)             Requested size: 426.76425pt x 256.05965pt.
 
 Overfull \hbox (9.93137pt too wide) in paragraph at lines 646--647
  [] 
  []
 
-[33 <./comparison/summary.jpg> <./comparison/accuracy.png>]
-<comparison/sensitivity.png, id=592, 3237.09375pt x 1409.265pt>
-File: comparison/sensitivity.png Graphic file (type png)
-<use comparison/sensitivity.png>
-Package pdftex.def Info: comparison/sensitivity.png  used on input line 655.
-(pdftex.def)             Requested size: 426.76425pt x 256.06516pt.
+[33 <./comparison/summary.jpg> <./comparisonnew/accuracy.png>]
+<comparisonnew/sensitivity.png, id=599, 3237.09375pt x 1574.88374pt>
+File: comparisonnew/sensitivity.png Graphic file (type png)
+<use comparisonnew/sensitivity.png>
+Package pdftex.def Info: comparisonnew/sensitivity.png  used on input line 655.
+
+(pdftex.def)             Requested size: 426.76425pt x 256.07178pt.
 
 Overfull \hbox (9.93137pt too wide) in paragraph at lines 655--656
  [] 
  []
 
-<comparison/precision.png, id=593, 3237.09375pt x 1608.0075pt>
-File: comparison/precision.png Graphic file (type png)
-<use comparison/precision.png>
-Package pdftex.def Info: comparison/precision.png  used on input line 663.
-(pdftex.def)             Requested size: 426.76425pt x 256.05965pt.
+<comparisonnew/precision.png, id=600, 3237.09375pt x 1574.88374pt>
+File: comparisonnew/precision.png Graphic file (type png)
+<use comparisonnew/precision.png>
+Package pdftex.def Info: comparisonnew/precision.png  used on input line 663.
+(pdftex.def)             Requested size: 426.76425pt x 256.07178pt.
 
 Overfull \hbox (9.93137pt too wide) in paragraph at lines 663--664
  [] 
  []
 
-[34 <./comparison/sensitivity.png> <./comparison/precision.png>]
-<dataset_summary/selectionHyperparameter.png, id=600, 3237.09375pt x 2228.325pt
+
+Underfull \hbox (badness 10000) in paragraph at lines 668--669
+
+ []
+
+[34 <./comparisonnew/sensitivity.png> <./comparisonnew/precision.png>]
+<dataset_summary/selectionHyperparameter.png, id=607, 3237.09375pt x 2228.325pt
 >
 File: dataset_summary/selectionHyperparameter.png Graphic file (type png)
 <use dataset_summary/selectionHyperparameter.png>
 Package pdftex.def Info: dataset_summary/selectionHyperparameter.png  used on i
-nput line 682.
+nput line 685.
 (pdftex.def)             Requested size: 426.76425pt x 341.40863pt.
 
-Overfull \hbox (9.93137pt too wide) in paragraph at lines 682--683
+Overfull \hbox (9.93137pt too wide) in paragraph at lines 685--686
  [] 
  []
 
 [35]
-File: dataset_summary/selectionHyperparameter.png Graphic file (type png)
-<use dataset_summary/selectionHyperparameter.png>
-Package pdftex.def Info: dataset_summary/selectionHyperparameter.png  used on i
-nput line 690.
-(pdftex.def)             Requested size: 426.76425pt x 341.40863pt.
-
-Overfull \hbox (9.93137pt too wide) in paragraph at lines 690--691
- [] 
- []
-
-[36 <./dataset_summary/selectionHyperparameter.png>]
-<backexplain/initializeNetwork.jpg, id=611, 906.9885pt x 193.9245pt>
+<comparison/hiddenlayer.jpg, id=613, 600.44325pt x 227.04825pt>
+File: comparison/hiddenlayer.jpg Graphic file (type jpg)
+<use comparison/hiddenlayer.jpg>
+Package pdftex.def Info: comparison/hiddenlayer.jpg  used on input line 693.
+(pdftex.def)             Requested size: 341.43163pt x 256.09035pt.
+ [36 <./dataset_summary/selectionHyperparameter.png> <./comparison/hiddenlayer.
+jpg>]
+<backexplain/initializeNetwork.jpg, id=619, 906.9885pt x 193.9245pt>
 File: backexplain/initializeNetwork.jpg Graphic file (type jpg)
 <use backexplain/initializeNetwork.jpg>
 Package pdftex.def Info: backexplain/initializeNetwork.jpg  used on input line 
-708.
+711.
 (pdftex.def)             Requested size: 455.25075pt x 99.58371pt.
 
-Overfull \hbox (38.41786pt too wide) in paragraph at lines 708--709
+Overfull \hbox (38.41786pt too wide) in paragraph at lines 711--712
  [] 
  []
 
-[37]
-Underfull \hbox (badness 10000) in paragraph at lines 712--719
+
+Underfull \hbox (badness 10000) in paragraph at lines 715--722
 
  []
 
-<backexplain/activate.jpg, id=617, 490.2315pt x 168.63pt>
+<backexplain/activate.jpg, id=620, 490.2315pt x 168.63pt>
 File: backexplain/activate.jpg Graphic file (type jpg)
 <use backexplain/activate.jpg>
-Package pdftex.def Info: backexplain/activate.jpg  used on input line 727.
+Package pdftex.def Info: backexplain/activate.jpg  used on input line 730.
 (pdftex.def)             Requested size: 341.43924pt x 85.35945pt.
+[37 <./backexplain/initializeNetwork.jpg>]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.740 {output=1/(1+ exp^
+l.743 {output=1/(1+ exp^
                         {-activation})
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1180,77 +1183,79 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.741 
+l.744 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[38 <./backexplain/initializeNetwork.jpg> <./backexplain/activate.jpg>]
-<backexplain/transfer.jpg, id=624, 458.31226pt x 75.28125pt>
+<backexplain/transfer.jpg, id=626, 458.31226pt x 75.28125pt>
 File: backexplain/transfer.jpg Graphic file (type jpg)
 <use backexplain/transfer.jpg>
-Package pdftex.def Info: backexplain/transfer.jpg  used on input line 746.
+Package pdftex.def Info: backexplain/transfer.jpg  used on input line 749.
 (pdftex.def)             Requested size: 227.62402pt x 56.90762pt.
-<backexplain/forward.jpg, id=625, 806.41275pt x 366.168pt>
+<backexplain/forward.jpg, id=627, 806.41275pt x 366.168pt>
 File: backexplain/forward.jpg Graphic file (type jpg)
 <use backexplain/forward.jpg>
-Package pdftex.def Info: backexplain/forward.jpg  used on input line 758.
+Package pdftex.def Info: backexplain/forward.jpg  used on input line 761.
 (pdftex.def)             Requested size: 455.2426pt x 213.40005pt.
 
-Overfull \hbox (38.40971pt too wide) in paragraph at lines 758--759
+Overfull \hbox (38.40971pt too wide) in paragraph at lines 761--762
  [] 
  []
 
-[39 <./backexplain/transfer.jpg> <./backexplain/forward.jpg>]
-<backexplain/transferDerivative.jpg, id=632, 598.6365pt x 111.41624pt>
+[38 <./backexplain/activate.jpg> <./backexplain/transfer.jpg>]
+<backexplain/transferDerivative.jpg, id=634, 598.6365pt x 111.41624pt>
 File: backexplain/transferDerivative.jpg Graphic file (type jpg)
 <use backexplain/transferDerivative.jpg>
 Package pdftex.def Info: backexplain/transferDerivative.jpg  used on input line
- 774.
+ 777.
 (pdftex.def)             Requested size: 312.98265pt x 56.90483pt.
- [40 <./backexplain/transferDerivative.jpg>]
-<backexplain/errorback.jpg, id=638, 930.47626pt x 476.982pt>
+ [39 <./backexplain/forward.jpg> <./backexplain/transferDerivative.jpg>]
+<backexplain/errorback.jpg, id=641, 930.47626pt x 476.982pt>
 File: backexplain/errorback.jpg Graphic file (type jpg)
 <use backexplain/errorback.jpg>
-Package pdftex.def Info: backexplain/errorback.jpg  used on input line 793.
+Package pdftex.def Info: backexplain/errorback.jpg  used on input line 796.
 (pdftex.def)             Requested size: 455.24165pt x 241.8529pt.
 
-Overfull \hbox (38.40877pt too wide) in paragraph at lines 793--794
+Overfull \hbox (38.40877pt too wide) in paragraph at lines 796--797
  [] 
  []
 
-[41 <./backexplain/errorback.jpg>]
-<images/restapi.png, id=644, 240.9pt x 240.9pt>
+[40 <./backexplain/errorback.jpg>]
+<images/restapi.png, id=647, 240.9pt x 240.9pt>
 File: images/restapi.png Graphic file (type png)
 <use images/restapi.png>
-Package pdftex.def Info: images/restapi.png  used on input line 820.
+Package pdftex.def Info: images/restapi.png  used on input line 823.
 (pdftex.def)             Requested size: 369.92113pt x 369.92113pt.
- [42 <./images/restapi.png (PNG copy)>]
-<images/prototype.jpg, id=649, 796.77675pt x 446.26724pt>
+ [41]
+<images/prototype.jpg, id=653, 796.77675pt x 446.26724pt>
 File: images/prototype.jpg Graphic file (type jpg)
 <use images/prototype.jpg>
-Package pdftex.def Info: images/prototype.jpg  used on input line 830.
+Package pdftex.def Info: images/prototype.jpg  used on input line 833.
 (pdftex.def)             Requested size: 369.88947pt x 227.62051pt.
-
-Overfull \hbox (1.14665pt too wide) in paragraph at lines 837--839
+ [42 <./images/restapi.png (PNG copy)>]
+Overfull \hbox (1.14665pt too wide) in paragraph at lines 840--842
 \OT1/ptm/m/n/12 Till now we have com-pleted col-lect-ing ap-pro-pri-ate dataset
  con-tain-ing disease-symptoms
  []
 
-[43 <./images/prototype.jpg>] [44] [45]
-<images/GanttChart.PNG, id=662, 388.45125pt x 231.86626pt>
+[43 <./images/prototype.jpg>] [44]
+<images/GanttChart.PNG, id=666, 388.45125pt x 231.86626pt>
 File: images/GanttChart.PNG Graphic file (type png)
 <use images/GanttChart.PNG>
-Package pdftex.def Info: images/GanttChart.PNG  used on input line 869.
+Package pdftex.def Info: images/GanttChart.PNG  used on input line 872.
 (pdftex.def)             Requested size: 426.79979pt x 244.69795pt.
 
-Overfull \hbox (9.9669pt too wide) in paragraph at lines 869--870
+Overfull \hbox (9.9669pt too wide) in paragraph at lines 872--873
  [] 
  []
 
-[46 <./images/GanttChart.PNG>] [47]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[45] [46 <./images/GanttChart.PNG>] [47]
 ! Misplaced alignment tab character &.
-l.909 [2] Taufik, Wan &
+l.912 [2] Taufik, Wan &
                         Ab Ghani, Nur Laila & Mohd Drus, Sulfeeza. (2019). D...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1260,7 +1265,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.909 [2] Taufik, Wan & Ab Ghani, Nur Laila &
+l.912 [2] Taufik, Wan & Ab Ghani, Nur Laila &
                                               Mohd Drus, Sulfeeza. (2019). D...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1272,7 +1277,7 @@ might try typing `S' now just to see what is salvageable.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.909 ... (IRICT 2018). 10.1007/978-3-319-99007-1_
+l.912 ... (IRICT 2018). 10.1007/978-3-319-99007-1_
                                                   4. \par
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1280,13 +1285,13 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.909 ... 2018). 10.1007/978-3-319-99007-1_4. \par
+l.912 ... 2018). 10.1007/978-3-319-99007-1_4. \par
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (33.35416pt too wide) in paragraph at lines 913--913
+Overfull \hbox (33.35416pt too wide) in paragraph at lines 916--916
 \OT1/ptm/m/n/12 de-tec-tion of in-pa-tient de-te-ri-o-ra-tion in com-mu-nity ho
 s-pi-tals. J Hosp Med. 2016;11(1):S18{S24. 
  []
@@ -1294,28 +1299,28 @@ s-pi-tals. J Hosp Med. 2016;11(1):S18{S24.
 [48
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 925.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 928.
  [49]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 925.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 928.
  (KECReport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 925.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 925.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 928.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 928.
 Package rerunfilecheck Info: File `KECReport.out' has not changed.
-(rerunfilecheck)             Checksum: 13D6ADCB6D4A412581F4C8280980E2A5;5183.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 925.
+(rerunfilecheck)             Checksum: 237E3FA152A2E7BF5E9CB3C3EF081B72;5284.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 928.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 740 ({)
+### simple group (level 1) entered at line 743 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 21894 strings out of 492895
- 414025 string characters out of 3133480
+ 21902 strings out of 492895
+ 414247 string characters out of 3133480
  477761 words of memory out of 3000000
- 25456 multiletter control sequences out of 15000+200000
+ 25461 multiletter control sequences out of 15000+200000
  552552 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,6n,65p,2577b,528s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,6n,65p,2577b,524s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKT
@@ -1326,9 +1331,9 @@ sfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on KECReport.pdf (57 pages, 2249963 bytes).
+Output written on KECReport.pdf (57 pages, 2423710 bytes).
 PDF statistics:
- 752 PDF objects out of 1000 (max. 8388607)
- 155 named destinations out of 1000 (max. 500000)
- 680 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 759 PDF objects out of 1000 (max. 8388607)
+ 156 named destinations out of 1000 (max. 500000)
+ 693 words of extra memory for PDF output out of 10000 (max. 10000000)
 
