@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  6 AUG 2019 22:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  7 AUG 2019 08:09
 entering extended mode
 **./KECReport.tex
 (KECReport.tex
@@ -673,9 +673,9 @@ Package pdftex.def Info: images/logo.png  used on input line 75.
 
 
 
-{C:/Users/sovin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/lo
-go.png>]pdfTeX warning (ext4): destination with the same identifier (name{page.
-1}) has been already used, duplicate ignored
+{C:/Users/lapzap/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/l
+ogo.png>]pdfTeX warning (ext4): destination with the same identifier (name{page
+.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.76 \KECtitlepage
@@ -1092,38 +1092,39 @@ Overfull \hbox (9.95642pt too wide) in paragraph at lines 639--640
  [] 
  []
 
-<comparison/accuracy.png, id=579, 3237.09375pt x 1608.0075pt>
-File: comparison/accuracy.png Graphic file (type png)
-<use comparison/accuracy.png>
-Package pdftex.def Info: comparison/accuracy.png  used on input line 646.
+<comparisonnew/accuracy.png, id=579, 3237.09375pt x 1608.0075pt>
+File: comparisonnew/accuracy.png Graphic file (type png)
+<use comparisonnew/accuracy.png>
+Package pdftex.def Info: comparisonnew/accuracy.png  used on input line 646.
 (pdftex.def)             Requested size: 426.76425pt x 256.05965pt.
 
 Overfull \hbox (9.93137pt too wide) in paragraph at lines 646--647
  [] 
  []
 
-[33 <./comparison/summary.jpg> <./comparison/accuracy.png>]
-<comparison/sensitivity.png, id=585, 3237.09375pt x 1409.265pt>
-File: comparison/sensitivity.png Graphic file (type png)
-<use comparison/sensitivity.png>
-Package pdftex.def Info: comparison/sensitivity.png  used on input line 655.
-(pdftex.def)             Requested size: 426.76425pt x 256.06516pt.
+[33 <./comparison/summary.jpg> <./comparisonnew/accuracy.png>]
+<comparisonnew/sensitivity.png, id=585, 3237.09375pt x 1574.88374pt>
+File: comparisonnew/sensitivity.png Graphic file (type png)
+<use comparisonnew/sensitivity.png>
+Package pdftex.def Info: comparisonnew/sensitivity.png  used on input line 655.
+
+(pdftex.def)             Requested size: 426.76425pt x 256.07178pt.
 
 Overfull \hbox (9.93137pt too wide) in paragraph at lines 655--656
  [] 
  []
 
-<comparison/precision.png, id=586, 3237.09375pt x 1608.0075pt>
-File: comparison/precision.png Graphic file (type png)
-<use comparison/precision.png>
-Package pdftex.def Info: comparison/precision.png  used on input line 663.
-(pdftex.def)             Requested size: 426.76425pt x 256.05965pt.
+<comparisonnew/precision.png, id=586, 3237.09375pt x 1574.88374pt>
+File: comparisonnew/precision.png Graphic file (type png)
+<use comparisonnew/precision.png>
+Package pdftex.def Info: comparisonnew/precision.png  used on input line 663.
+(pdftex.def)             Requested size: 426.76425pt x 256.07178pt.
 
 Overfull \hbox (9.93137pt too wide) in paragraph at lines 663--664
  [] 
  []
 
-[34 <./comparison/sensitivity.png> <./comparison/precision.png>]
+[34 <./comparisonnew/sensitivity.png> <./comparisonnew/precision.png>]
 <backexplain/initializeNetwork.jpg, id=593, 906.9885pt x 193.9245pt>
 File: backexplain/initializeNetwork.jpg Graphic file (type jpg)
 <use backexplain/initializeNetwork.jpg>
@@ -1287,8 +1288,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 898.
 ### simple group (level 1) entered at line 713 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 21883 strings out of 492895
- 413725 string characters out of 3133480
+ 21884 strings out of 492895
+ 413849 string characters out of 3133477
  477761 words of memory out of 3000000
  25451 multiletter control sequences out of 15000+200000
  552552 words of font info for 62 fonts, out of 3000000 for 9000
@@ -1304,7 +1305,7 @@ sfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on KECReport.pdf (55 pages, 2028652 bytes).
+Output written on KECReport.pdf (55 pages, 2105443 bytes).
 PDF statistics:
  733 PDF objects out of 1000 (max. 8388607)
  150 named destinations out of 1000 (max. 500000)
