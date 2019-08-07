@@ -668,6 +668,33 @@ The   above   graph, Figure 4.3 depicts  that    back Propagation ANN  models  h
 The  above  graph, Figure 4.4 depicts that back Propagation ANN  models  have the highest sensitivity.\newline
 The proposed system of diseases prediction with appropriate diagnosis has been framed up using Multilayer Perceptron Neural Network. For effective prediction, back propagation algorithm was applied to train the data and compare the parameters iteratively. The propagation algorithm has been repeated until minimum error rate was observed. It is proven from the results that the proposed method effectively predicates the diseases when compared to the other approaches. So our proposed system is able predict the diseases with 84\% accuracy using 5 hidden layer. Our predication system gave improved result with high accuracy by using a higher number of hidden layers, but training model with higher hidden layer require a lot of computational power, so due to technical difficulty we are not able to train our model with a higher number of hidden layers.
 
+\subsection{Selection of optimal  hyperparameter value for Modeling}
+
+Since we are using Back Propagation Algorithm which is a supervised learning method. Before training this model we need to pass certain hyperparameter such as learning rate, epoch. Right hyper-parameters are crucial to training success.
+
+There is no universal learning rate value which will work for all types of project. So learning rate value is highly dependent on problem at hand and in order to find suitable learning rate value for our project we explore how learning rate affect the model performance.
+
+For this we trained our neural Network with stochastic gradient descent for different value of learning rate and Activation function such as sigmoid, relu, tanh. We used cross validation test method to determine the performance of model on different parameters and  we conclude that sigmoid activation function and learning rate=0.6 is optimal for our neural Network model as we got around 88\%  accuracy while increasing or decreasing learning rate values reduce the accuracy of model.
+
+\begin{figure}[H]
+\begin{center}
+    
+\includegraphics[width=150mm,height=120mm]{dataset_summary/selectionHyperparameter.png}
+ \caption{Selection of optimal learning rate and activation function}
+ \end{center}                
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+    
+\includegraphics[width=150mm,height=120mm]{dataset_summary/selectionHyperparameter.png}
+ \caption{Selection of optimal learning rate and activation function}
+ \end{center}                
+\end{figure}
+
+
+
+
 \subsection{Back Propagation Algorithm implementation using Python}
 
 1. \textbf{Initialize Network:}
