@@ -286,6 +286,12 @@ The system is put into production when the first increment is delivered. The fir
 \caption{Incremental Development Model(Source: researchgate.net)}
 \end{center}
 \end{figure}
+
+\subsection{Why Incremental Development Model?}
+In computer science, incremental learning is a method of machine learning in which input data is continuously used to extend the existing model's knowledge i.e. to further train the model. Many traditional machine learning algorithms inherently support incremental learning.\par
+ In our project, when we work incrementally we are adding piece by piece but expect that each piece is fully finished. Thus keep on adding the pieces until it’s complete. 
+Then we started building our application and in the first iteration the first module of the application is totally ready and can be demoed to the user.\par
+Likewise in the second iteration the other module is ready and integrated with the first module. Similarly, in the third iteration the whole project is ready and integrated. Hence, the project got ready step by step.
 \section{Reason of using  Python ?}
 We found out that python was great choice machine learning implementation in our project because of two simple reasons
 \begin{itemize}
@@ -827,6 +833,9 @@ After training our neural network model we saved our neural network, which is th
 
 In order to create RESTFul API we used flask in server side which is micro framework because it does not require particular tools or libraries. After that we have created route which will listen to certain HTTP request. This allowed user to send their symptoms information via HTTP request and route function will parse the data (symptoms information) from the HTTP request. Then we call predication function which neural network model, symptoms as parameters and return predicated disease information back to user.
 
+\subsection{Pill Reminder}
+Pill Reminder is an native android application meant to aid the forgetful and busy with remembering to take their daily medications. It is designed for users who need a little help keeping track of their medication schedule and who are dedicated to keeping the schedule. The application allows the user to store pill objects and multiple alarms for those pills. Alarms have one time of day and can occur on multiple days of the week.
+
 \subsection{Prototype}
 \begin{figure}[H]
 \begin{center}
@@ -836,15 +845,6 @@ In order to create RESTFul API we used flask in server side which is micro frame
 \end{figure}
 
 
-\section{Work Remaining}
-Till now we have completed collecting appropriate dataset containing disease-symptoms data, Designing prototype, implementation of back propagation of our application and simple android application. Still some task is need to be accomplish in order to develop fully functional Application.
-\begin{itemize}
-    
-\item Improving the Accuracy of our back propagation Model
-\item Creation of interactive UI 
-\item Pill Reminder
-
-\end{itemize}
 \section{Limitations}
 In spite of all hardwork, our project consist some limitation. Our project has lack of reliable information. Users cannot describe the detailed information such as if someone is having fever he/she could not describe the temperature and also if someone having pain in any part of the body, how much it is paining. There is only limited number of disease which our project can predict. Users cannot enter their symptoms on their own.\par 
 A machine learning model can provide more accurate outcome if the number of hidden layer is increased. But the increase in number of hidden layers leads to computational complexities which cannot be operate by our normal computer. So, we had to use only 5 number of hidden layer. We can use more hidden layer but the complexities and consumption of time will also increases. There is no design guidelines and accuracy depends on training and learning which is not always available. It is hard to maintain degree of meaningfulness and also hard to combine cases together. Predictions are limited to the cases that have been observed. They require accurate details on many past projects. They have large data requirement to learn about various topics which may be time taking and cause various resources.\par 
