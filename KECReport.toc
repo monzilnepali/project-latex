@@ -56,16 +56,16 @@
 \contentsline {chapter}{\numberline {4}Epilogue}{33}{chapter.4}% 
 \contentsline {subsection}{\numberline {4.0.1}Prototype}{33}{subsection.4.0.1}% 
 \contentsline {subsection}{\numberline {4.0.2}Output}{34}{subsection.4.0.2}% 
-\contentsline {subsection}{\numberline {4.0.3}Data Collection}{36}{subsection.4.0.3}% 
-\contentsline {subsection}{\numberline {4.0.4}Designing UI prototype}{36}{subsection.4.0.4}% 
-\contentsline {subsection}{\numberline {4.0.5}Selection of optimal Machine learning Algorithm}{36}{subsection.4.0.5}% 
-\contentsline {subsection}{\numberline {4.0.6}Reason of Using Back Propagation ANN algorithm}{40}{subsection.4.0.6}% 
-\contentsline {subsection}{\numberline {4.0.7}Selection of optimal hyperparameter value for Modeling}{40}{subsection.4.0.7}% 
-\contentsline {subsection}{\numberline {4.0.8}Back Propagation Algorithm implementation using Python}{41}{subsection.4.0.8}% 
-\contentsline {subsection}{\numberline {4.0.9}RESTFul API using Flask}{46}{subsection.4.0.9}% 
-\contentsline {subsection}{\numberline {4.0.10}Pill Reminder}{47}{subsection.4.0.10}% 
-\contentsline {section}{\numberline {4.1}Limitations}{48}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Challenges}{49}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Work Schedule}{50}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Future Enhancements}{50}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}Conclusion}{51}{section.4.5}% 
+\contentsline {subsection}{\numberline {4.0.3}Data Collection}{37}{subsection.4.0.3}% 
+\contentsline {subsection}{\numberline {4.0.4}Designing UI prototype}{38}{subsection.4.0.4}% 
+\contentsline {subsection}{\numberline {4.0.5}Selection of optimal Machine learning Algorithm}{38}{subsection.4.0.5}% 
+\contentsline {subsection}{\numberline {4.0.6}Reason of Using Back Propagation ANN algorithm}{42}{subsection.4.0.6}% 
+\contentsline {subsection}{\numberline {4.0.7}Selection of optimal hyperparameter value for Modeling}{42}{subsection.4.0.7}% 
+\contentsline {subsection}{\numberline {4.0.8}Back Propagation Algorithm implementation using Python}{43}{subsection.4.0.8}% 
+\contentsline {subsection}{\numberline {4.0.9}RESTFul API using Flask}{48}{subsection.4.0.9}% 
+\contentsline {subsection}{\numberline {4.0.10}Pill Reminder}{49}{subsection.4.0.10}% 
+\contentsline {section}{\numberline {4.1}Limitations}{50}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Challenges}{51}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Work Schedule}{52}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Future Enhancements}{52}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Conclusion}{53}{section.4.5}% 
