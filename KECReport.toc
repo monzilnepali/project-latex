@@ -39,32 +39,32 @@
 \contentsline {subsection}{\numberline {3.9.1}Architecture of Back propagation}{25}{subsection.3.9.1}% 
 \contentsline {subsection}{\numberline {3.9.2}A Pseudo-Code Algorithm}{26}{subsection.3.9.2}% 
 \contentsline {subsection}{\numberline {3.9.3}Training/learning Model}{26}{subsection.3.9.3}% 
-\contentsline {subsection}{\numberline {3.9.4}Basic Neuron Model In A Feedforward Network}{27}{subsection.3.9.4}% 
-\contentsline {subsection}{\numberline {3.9.5}Inputs To Neurons}{27}{subsection.3.9.5}% 
-\contentsline {subsection}{\numberline {3.9.6}Weights}{27}{subsection.3.9.6}% 
-\contentsline {subsection}{\numberline {3.9.7}Outputs}{28}{subsection.3.9.7}% 
-\contentsline {subsection}{\numberline {3.9.8}Network Error}{28}{subsection.3.9.8}% 
-\contentsline {subsection}{\numberline {3.9.9}Calculate Outputs For Each Neuron Based On The Pattern}{28}{subsection.3.9.9}% 
-\contentsline {subsection}{\numberline {3.9.10}Calculate The Error Signal For Each Output Neuron}{29}{subsection.3.9.10}% 
-\contentsline {subsection}{\numberline {3.9.11}Calculate The Error Signal For Each Hidden Neuron}{29}{subsection.3.9.11}% 
-\contentsline {subsection}{\numberline {3.9.12}Calculate And Apply Weight Adjustments}{30}{subsection.3.9.12}% 
-\contentsline {subsection}{\numberline {3.9.13}Summarization of Steps}{30}{subsection.3.9.13}% 
-\contentsline {section}{\numberline {3.10}System Analysis}{31}{section.3.10}% 
-\contentsline {subsection}{\numberline {3.10.1}System Flow Diagram}{31}{subsection.3.10.1}% 
-\contentsline {subsection}{\numberline {3.10.2}Usecase Diagram}{32}{subsection.3.10.2}% 
-\contentsline {subsection}{\numberline {3.10.3}Activity diagram}{33}{subsection.3.10.3}% 
-\contentsline {chapter}{\numberline {4}Epilogue}{34}{chapter.4}% 
-\contentsline {subsection}{\numberline {4.0.1}Designing UI prototype}{34}{subsection.4.0.1}% 
-\contentsline {subsection}{\numberline {4.0.2}Prototype}{34}{subsection.4.0.2}% 
-\contentsline {subsection}{\numberline {4.0.3}Data Collection}{34}{subsection.4.0.3}% 
-\contentsline {subsection}{\numberline {4.0.4}Selection of optimal Machine learning Algorithm}{35}{subsection.4.0.4}% 
-\contentsline {subsection}{\numberline {4.0.5}Reason of Using Back Propagation ANN algorithm}{38}{subsection.4.0.5}% 
-\contentsline {subsection}{\numberline {4.0.6}Selection of optimal hyperparameter value for Modeling}{38}{subsection.4.0.6}% 
-\contentsline {subsection}{\numberline {4.0.7}Back Propagation Algorithm implementation using Python}{40}{subsection.4.0.7}% 
-\contentsline {subsection}{\numberline {4.0.8}RESTFul API using Flask}{45}{subsection.4.0.8}% 
-\contentsline {subsection}{\numberline {4.0.9}Output}{47}{subsection.4.0.9}% 
-\contentsline {section}{\numberline {4.1}Limitations}{51}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Challenges}{52}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Work Schedule}{54}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Future Enhancements}{54}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}Conclusion}{55}{section.4.5}% 
+\contentsline {subsection}{\numberline {3.9.4}Basic Neuron Model In A Feedforward Network}{28}{subsection.3.9.4}% 
+\contentsline {subsection}{\numberline {3.9.5}Inputs To Neurons}{28}{subsection.3.9.5}% 
+\contentsline {subsection}{\numberline {3.9.6}Weights}{28}{subsection.3.9.6}% 
+\contentsline {subsection}{\numberline {3.9.7}Outputs}{29}{subsection.3.9.7}% 
+\contentsline {subsection}{\numberline {3.9.8}Network Error}{29}{subsection.3.9.8}% 
+\contentsline {subsection}{\numberline {3.9.9}Calculate Outputs For Each Neuron Based On The Pattern}{29}{subsection.3.9.9}% 
+\contentsline {subsection}{\numberline {3.9.10}Calculate The Error Signal For Each Output Neuron}{30}{subsection.3.9.10}% 
+\contentsline {subsection}{\numberline {3.9.11}Calculate The Error Signal For Each Hidden Neuron}{30}{subsection.3.9.11}% 
+\contentsline {subsection}{\numberline {3.9.12}Calculate And Apply Weight Adjustments}{31}{subsection.3.9.12}% 
+\contentsline {subsection}{\numberline {3.9.13}Summarization of Steps}{31}{subsection.3.9.13}% 
+\contentsline {section}{\numberline {3.10}System Analysis}{32}{section.3.10}% 
+\contentsline {subsection}{\numberline {3.10.1}System Flow Diagram}{32}{subsection.3.10.1}% 
+\contentsline {subsection}{\numberline {3.10.2}Usecase Diagram}{33}{subsection.3.10.2}% 
+\contentsline {subsection}{\numberline {3.10.3}Activity diagram}{34}{subsection.3.10.3}% 
+\contentsline {chapter}{\numberline {4}Epilogue}{35}{chapter.4}% 
+\contentsline {subsection}{\numberline {4.0.1}Designing UI prototype}{35}{subsection.4.0.1}% 
+\contentsline {subsection}{\numberline {4.0.2}Prototype}{35}{subsection.4.0.2}% 
+\contentsline {subsection}{\numberline {4.0.3}Data Collection}{35}{subsection.4.0.3}% 
+\contentsline {subsection}{\numberline {4.0.4}Selection of optimal Machine learning Algorithm}{36}{subsection.4.0.4}% 
+\contentsline {subsection}{\numberline {4.0.5}Reason of Using Back Propagation ANN algorithm}{40}{subsection.4.0.5}% 
+\contentsline {subsection}{\numberline {4.0.6}Selection of optimal hyperparameter value for Modeling}{41}{subsection.4.0.6}% 
+\contentsline {subsection}{\numberline {4.0.7}Back Propagation Algorithm implementation using Python}{43}{subsection.4.0.7}% 
+\contentsline {subsection}{\numberline {4.0.8}RESTFul API using Flask}{48}{subsection.4.0.8}% 
+\contentsline {subsection}{\numberline {4.0.9}Output}{50}{subsection.4.0.9}% 
+\contentsline {section}{\numberline {4.1}Limitations}{54}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Challenges}{55}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Work Schedule}{57}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Future Enhancements}{57}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Conclusion}{58}{section.4.5}% 
