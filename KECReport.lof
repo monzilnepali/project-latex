@@ -11,7 +11,7 @@
 \contentsline {figure}{\numberline {3.6}{\ignorespaces ANN architecture with back-propagation algorithm.(Source: researchgate.com)\relax }}{24}{figure.caption.12}% 
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Neuron Model Feedforward Network(Source: edureka.co)\relax }}{26}{figure.caption.13}% 
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Feedforward Network Model(Source: edureka.co)\relax }}{28}{figure.caption.14}% 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Flowchart diagram of Proposed system\relax }}{30}{figure.caption.15}% 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces System Flow Diagram of Proposed system\relax }}{30}{figure.caption.15}% 
 \contentsline {figure}{\numberline {3.10}{\ignorespaces UseCase Diagram\relax }}{31}{figure.caption.16}% 
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Activity Diagram\relax }}{32}{figure.caption.17}% 
 \addvspace {10\p@ }
@@ -22,9 +22,9 @@
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Medicine Reminder Entry and Home Screen\relax }}{37}{figure.caption.22}% 
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Emergency Contact Screen\relax }}{38}{figure.caption.23}% 
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Graphical representation of accuracy\relax }}{40}{figure.caption.24}% 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Graphical representation of sensitivity\relax }}{41}{figure.caption.25}% 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Graphical representation of precision\relax }}{41}{figure.caption.26}% 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Selection of optimal learning rate and activation function\relax }}{43}{figure.caption.27}% 
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Selection of optimal Number of Hidden Layer\relax }}{43}{figure.caption.28}% 
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Restful API\relax }}{49}{figure.caption.35}% 
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Gantt Chart\relax }}{52}{figure.caption.36}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Graphical representation of sensitivity\relax }}{42}{figure.caption.25}% 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Graphical representation of precision\relax }}{42}{figure.caption.26}% 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Selection of optimal learning rate and activation function\relax }}{44}{figure.caption.27}% 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Selection of optimal Number of Hidden Layer\relax }}{44}{figure.caption.28}% 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Restful API\relax }}{50}{figure.caption.35}% 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Gantt Chart\relax }}{53}{figure.caption.36}% 

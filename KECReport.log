@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  7 AUG 2019 15:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  7 AUG 2019 22:52
 entering extended mode
 **./KECReport.tex
 (KECReport.tex
@@ -673,9 +673,9 @@ Package pdftex.def Info: images/logo.png  used on input line 76.
 
 
 
-{C:/Users/sovin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/lo
-go.png>]pdfTeX warning (ext4): destination with the same identifier (name{page.
-1}) has been already used, duplicate ignored
+{C:/Users/lapzap/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/l
+ogo.png>]pdfTeX warning (ext4): destination with the same identifier (name{page
+.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.77 \KECtitlepage
@@ -772,14 +772,14 @@ Overfull \hbox (38.4035pt too wide) in paragraph at lines 360--361
 [][] 
  []
 
-<dataset_summary/top5Disease.jpg, id=510, 572.73975pt x 371.58826pt>
+<dataset_summary/top5Disease.jpg, id=510, 3237.09375pt x 1608.0075pt>
 File: dataset_summary/top5Disease.jpg Graphic file (type jpg)
 <use dataset_summary/top5Disease.jpg>
 Package pdftex.def Info: dataset_summary/top5Disease.jpg  used on input line 36
 5.
-(pdftex.def)             Requested size: 426.80087pt x 199.16913pt.
+(pdftex.def)             Requested size: 426.76425pt x 199.16023pt.
 
-Overfull \hbox (9.96799pt too wide) in paragraph at lines 365--366
+Overfull \hbox (9.93137pt too wide) in paragraph at lines 365--366
 [][] 
  []
 
@@ -795,7 +795,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 [16 <./dataset_summary/top5Disease.jpg>]
-<images/bio.jpg, id=519, 345.29pt x 147.55125pt>
+<images/bio.jpg, id=520, 345.29pt x 147.55125pt>
 File: images/bio.jpg Graphic file (type jpg)
 <use images/bio.jpg>
 Package pdftex.def Info: images/bio.jpg  used on input line 391.
@@ -805,12 +805,12 @@ Package pdftex.def Info: images/bio.jpg  used on input line 391.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [17]
-<neuralNetwork/neuralNetwork.jpg, id=525, 501.875pt x 406.51875pt>
+<neuralNetwork/neuralNetwork.jpg, id=526, 505.89pt x 361.35pt>
 File: neuralNetwork/neuralNetwork.jpg Graphic file (type jpg)
 <use neuralNetwork/neuralNetwork.jpg>
 Package pdftex.def Info: neuralNetwork/neuralNetwork.jpg  used on input line 41
 1.
-(pdftex.def)             Requested size: 341.44661pt x 199.1649pt.
+(pdftex.def)             Requested size: 341.43785pt x 199.16766pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -836,18 +836,18 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 [22] [23]
-<images/ANNBack.jpg, id=551, 361.35pt x 178.266pt>
+<images/ANNBack.jpg, id=552, 361.35pt x 178.266pt>
 File: images/ANNBack.jpg Graphic file (type jpg)
 <use images/ANNBack.jpg>
 Package pdftex.def Info: images/ANNBack.jpg  used on input line 460.
 (pdftex.def)             Requested size: 341.43344pt x 227.6411pt.
  [24 <./images/ANNBack.jpg>] [25]
-<images/back.png, id=560, 294.09875pt x 223.83624pt>
-File: images/back.png Graphic file (type png)
-<use images/back.png>
-Package pdftex.def Info: images/back.png  used on input line 502.
-(pdftex.def)             Requested size: 284.5305pt x 199.17264pt.
- [26 <./images/back.png>]
+<images/feedforward.jpg, id=561, 505.89pt x 361.35pt>
+File: images/feedforward.jpg Graphic file (type jpg)
+<use images/feedforward.jpg>
+Package pdftex.def Info: images/feedforward.jpg  used on input line 502.
+(pdftex.def)             Requested size: 284.53154pt x 199.16766pt.
+ [26 <./images/feedforward.jpg>]
 ! Misplaced alignment tab character &.
 l.526         $$f(x) &
                       = 1/1+exp^{-\sigma x}$$
@@ -1058,9 +1058,13 @@ might try typing `S' now just to see what is salvageable.
 File: images/flow.png Graphic file (type png)
 <use images/flow.png>
 Package pdftex.def Info: images/flow.png  used on input line 612.
-(pdftex.def)             Requested size: 398.33646pt x 483.6882pt.
+(pdftex.def)             Requested size: 398.33646pt x 583.26433pt.
 [29]
-<images/usecase.png, id=588, 1163.0953pt x 947.03813pt>
+Overfull \vbox (1.25745pt too high) has occurred while \output is active []
+
+
+[30 <./images/flow.png>]
+<images/usecase.png, id=593, 1163.0953pt x 947.03813pt>
 File: images/usecase.png Graphic file (type png)
 <use images/usecase.png>
 Package pdftex.def Info: images/usecase.png  used on input line 621.
@@ -1070,7 +1074,6 @@ Overfull \hbox (9.95616pt too wide) in paragraph at lines 621--622
  [] 
  []
 
-[30 <./images/flow.png>]
 <images/activity.png, id=594, 3059.43pt x 1927.2pt>
 File: images/activity.png Graphic file (type png)
 <use images/activity.png>
@@ -1097,63 +1100,63 @@ Overfull \hbox (9.96733pt too wide) in paragraph at lines 641--642
  [] 
  []
 
-<Outputnew/1.png, id=606, 505.89pt x 361.35pt>
+<Outputnew/1.png, id=606, 383.5128pt x 324.4923pt>
 File: Outputnew/1.png Graphic file (type png)
 <use Outputnew/1.png>
 Package pdftex.def Info: Outputnew/1.png  used on input line 653.
-(pdftex.def)             Requested size: 412.57072pt x 284.53156pt.
+(pdftex.def)             Requested size: 441.03044pt x 398.3656pt.
+
+Overfull \hbox (24.19756pt too wide) in paragraph at lines 653--654
+ [] 
+ []
+
 [33
 
  <./images/prototype.jpg>]
-<Outputnew/2.png, id=611, 505.89pt x 361.35pt>
+<Outputnew/2.png, id=611, 383.5128pt x 328.8285pt>
 File: Outputnew/2.png Graphic file (type png)
 <use Outputnew/2.png>
 Package pdftex.def Info: Outputnew/2.png  used on input line 662.
-(pdftex.def)             Requested size: 412.57072pt x 284.53156pt.
- [34 <./Outputnew/1.png
+(pdftex.def)             Requested size: 441.03044pt x 398.35536pt.
 
-pdfTeX warning: pdflatex (file ./Outputnew/1.png): large interlaced PNG might c
-ause out of memory (use non-interlaced PNG to fix this)
->]
-<Outputnew/3.png, id=617, 505.89pt x 361.35pt>
+Overfull \hbox (24.19756pt too wide) in paragraph at lines 662--663
+ [] 
+ []
+
+[34 <./Outputnew/1.png>]
+<Outputnew/3.png, id=617, 202.1151pt x 317.988pt>
 File: Outputnew/3.png Graphic file (type png)
 <use Outputnew/3.png>
 Package pdftex.def Info: Outputnew/3.png  used on input line 671.
-(pdftex.def)             Requested size: 412.57072pt x 284.53156pt.
- [35 <./Outputnew/2.png
-
-pdfTeX warning: pdflatex (file ./Outputnew/2.png): large interlaced PNG might c
-ause out of memory (use non-interlaced PNG to fix this)
->]
-<Outputnew/4.png, id=624, 505.89pt x 361.35pt>
+(pdftex.def)             Requested size: 270.32703pt x 426.81496pt.
+ [35 <./Outputnew/2.png>]
+<Outputnew/4.png, id=624, 383.5128pt x 324.4923pt>
 File: Outputnew/4.png Graphic file (type png)
 <use Outputnew/4.png>
 Package pdftex.def Info: Outputnew/4.png  used on input line 680.
-(pdftex.def)             Requested size: 412.57072pt x 284.53156pt.
- [36 <./Outputnew/3.png
+(pdftex.def)             Requested size: 441.03044pt x 398.3656pt.
 
-pdfTeX warning: pdflatex (file ./Outputnew/3.png): large interlaced PNG might c
-ause out of memory (use non-interlaced PNG to fix this)
->]
+Overfull \hbox (24.19756pt too wide) in paragraph at lines 680--681
+ [] 
+ []
+
+[36 <./Outputnew/3.png>]
 Overfull \hbox (8.10657pt too wide) in paragraph at lines 685--686
 []\OT1/ptm/m/n/12 Medicine Re-minder En-try point where add medicine de-tails l
 ike Medicine name,medicine
  []
 
-<Outputnew/5.png, id=630, 505.89pt x 361.35pt>
+<Outputnew/5.png, id=630, 383.5128pt x 324.4923pt>
 File: Outputnew/5.png Graphic file (type png)
 <use Outputnew/5.png>
 Package pdftex.def Info: Outputnew/5.png  used on input line 690.
-(pdftex.def)             Requested size: 412.57072pt x 284.53156pt.
-[37 <./Outputnew/4.png
+(pdftex.def)             Requested size: 441.03044pt x 398.3656pt.
 
-pdfTeX warning: pdflatex (file ./Outputnew/4.png): large interlaced PNG might c
-ause out of memory (use non-interlaced PNG to fix this)
->] [38 <./Outputnew/5.png
+Overfull \hbox (24.19756pt too wide) in paragraph at lines 690--691
+ [] 
+ []
 
-pdfTeX warning: pdflatex (file ./Outputnew/5.png): large interlaced PNG might c
-ause out of memory (use non-interlaced PNG to fix this)
->] [39]
+[37 <./Outputnew/4.png>] [38 <./Outputnew/5.png>] [39]
 <comparisonnew/accuracy.png, id=645, 3237.09375pt x 1608.0075pt>
 File: comparisonnew/accuracy.png Graphic file (type png)
 <use comparisonnew/accuracy.png>
@@ -1164,8 +1167,8 @@ Overfull \hbox (9.93137pt too wide) in paragraph at lines 731--732
  [] 
  []
 
-[40 <./comparisonnew/accuracy.png>]
-<comparisonnew/sensitivity.png, id=651, 3237.09375pt x 1574.88374pt>
+[40 <./comparisonnew/accuracy.png>] [41]
+<comparisonnew/sensitivity.png, id=656, 3237.09375pt x 1574.88374pt>
 File: comparisonnew/sensitivity.png Graphic file (type png)
 <use comparisonnew/sensitivity.png>
 Package pdftex.def Info: comparisonnew/sensitivity.png  used on input line 740.
@@ -1176,7 +1179,7 @@ Overfull \hbox (9.93137pt too wide) in paragraph at lines 740--741
  [] 
  []
 
-<comparisonnew/precision.png, id=652, 3237.09375pt x 1574.88374pt>
+<comparisonnew/precision.png, id=657, 3237.09375pt x 1574.88374pt>
 File: comparisonnew/precision.png Graphic file (type png)
 <use comparisonnew/precision.png>
 Package pdftex.def Info: comparisonnew/precision.png  used on input line 748.
@@ -1191,8 +1194,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 753--754
 
  []
 
-[41 <./comparisonnew/sensitivity.png> <./comparisonnew/precision.png>]
-<dataset_summary/selectionHyperparameter.png, id=660, 3237.09375pt x 2228.325pt
+[42 <./comparisonnew/sensitivity.png> <./comparisonnew/precision.png>]
+<dataset_summary/selectionHyperparameter.png, id=664, 3237.09375pt x 2228.325pt
 >
 File: dataset_summary/selectionHyperparameter.png Graphic file (type png)
 <use dataset_summary/selectionHyperparameter.png>
@@ -1204,15 +1207,15 @@ Overfull \hbox (66.83327pt too wide) in paragraph at lines 770--771
  [] 
  []
 
-[42]
-<comparison/hiddenlayer.jpg, id=665, 600.44325pt x 227.04825pt>
+[43]
+<comparison/hiddenlayer.jpg, id=669, 600.44325pt x 227.04825pt>
 File: comparison/hiddenlayer.jpg Graphic file (type jpg)
 <use comparison/hiddenlayer.jpg>
 Package pdftex.def Info: comparison/hiddenlayer.jpg  used on input line 778.
 (pdftex.def)             Requested size: 284.52635pt x 142.26164pt.
- [43 <./dataset_summary/selectionHyperparameter.png> <./comparison/hiddenlayer.
+ [44 <./dataset_summary/selectionHyperparameter.png> <./comparison/hiddenlayer.
 jpg>]
-<backexplain/initializeNetwork.jpg, id=671, 906.9885pt x 193.9245pt>
+<backexplain/initializeNetwork.jpg, id=675, 906.9885pt x 193.9245pt>
 File: backexplain/initializeNetwork.jpg Graphic file (type jpg)
 <use backexplain/initializeNetwork.jpg>
 Package pdftex.def Info: backexplain/initializeNetwork.jpg  used on input line 
@@ -1228,12 +1231,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 800--807
 
  []
 
-<backexplain/activate.jpg, id=672, 490.2315pt x 168.63pt>
+<backexplain/activate.jpg, id=676, 490.2315pt x 168.63pt>
 File: backexplain/activate.jpg Graphic file (type jpg)
 <use backexplain/activate.jpg>
 Package pdftex.def Info: backexplain/activate.jpg  used on input line 815.
 (pdftex.def)             Requested size: 341.43924pt x 113.8126pt.
-[44 <./backexplain/initializeNetwork.jpg>]
+[45 <./backexplain/initializeNetwork.jpg>]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1250,12 +1253,12 @@ l.829
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-<backexplain/transfer.jpg, id=678, 458.31226pt x 75.28125pt>
+<backexplain/transfer.jpg, id=682, 458.31226pt x 75.28125pt>
 File: backexplain/transfer.jpg Graphic file (type jpg)
 <use backexplain/transfer.jpg>
 Package pdftex.def Info: backexplain/transfer.jpg  used on input line 834.
 (pdftex.def)             Requested size: 312.99791pt x 56.90762pt.
-<backexplain/forward.jpg, id=679, 806.41275pt x 366.168pt>
+<backexplain/forward.jpg, id=683, 806.41275pt x 366.168pt>
 File: backexplain/forward.jpg Graphic file (type jpg)
 <use backexplain/forward.jpg>
 Package pdftex.def Info: backexplain/forward.jpg  used on input line 846.
@@ -1265,15 +1268,15 @@ Overfull \hbox (38.40971pt too wide) in paragraph at lines 846--847
  [] 
  []
 
-[45 <./backexplain/activate.jpg> <./backexplain/transfer.jpg>]
-<backexplain/transferDerivative.jpg, id=686, 598.6365pt x 111.41624pt>
+[46 <./backexplain/activate.jpg> <./backexplain/transfer.jpg>]
+<backexplain/transferDerivative.jpg, id=690, 598.6365pt x 111.41624pt>
 File: backexplain/transferDerivative.jpg Graphic file (type jpg)
 <use backexplain/transferDerivative.jpg>
 Package pdftex.def Info: backexplain/transferDerivative.jpg  used on input line
  862.
 (pdftex.def)             Requested size: 312.98265pt x 56.90483pt.
- [46 <./backexplain/forward.jpg> <./backexplain/transferDerivative.jpg>]
-<backexplain/errorback.jpg, id=693, 930.47626pt x 476.982pt>
+ [47 <./backexplain/forward.jpg> <./backexplain/transferDerivative.jpg>]
+<backexplain/errorback.jpg, id=698, 930.47626pt x 476.982pt>
 File: backexplain/errorback.jpg Graphic file (type jpg)
 <use backexplain/errorback.jpg>
 Package pdftex.def Info: backexplain/errorback.jpg  used on input line 882.
@@ -1283,15 +1286,15 @@ Overfull \hbox (38.40877pt too wide) in paragraph at lines 882--883
  [] 
  []
 
-[47 <./backexplain/errorback.jpg>]
-<images/restapi.png, id=700, 240.9pt x 240.9pt>
+[48 <./backexplain/errorback.jpg>]
+<images/restapi.png, id=704, 240.9pt x 240.9pt>
 File: images/restapi.png Graphic file (type png)
 <use images/restapi.png>
 Package pdftex.def Info: images/restapi.png  used on input line 909.
 (pdftex.def)             Requested size: 369.92113pt x 369.92113pt.
- [48] [49 <./images/restapi.png (PNG copy)>]
-[50] [51]
-<images/ganttchartnew.jpg, id=717, 3254.1575pt x 1589.94pt>
+ [49] [50 <./images/restapi.png (PNG copy)>]
+[51] [52]
+<images/ganttchartnew.jpg, id=721, 3254.1575pt x 1589.94pt>
 File: images/ganttchartnew.jpg Graphic file (type jpg)
 <use images/ganttchartnew.jpg>
 Package pdftex.def Info: images/ganttchartnew.jpg  used on input line 946.
@@ -1301,7 +1304,7 @@ Overfull \hbox (9.94652pt too wide) in paragraph at lines 946--947
 [][] 
  []
 
-[52 <./images/ganttchartnew.jpg>] [53]
+[53 <./images/ganttchartnew.jpg>] [54]
 ! Misplaced alignment tab character &.
 l.986 [2] Taufik, Wan &
                         Ab Ghani, Nur Laila & Mohd Drus, Sulfeeza. (2019). D...
@@ -1344,18 +1347,18 @@ Overfull \hbox (33.35416pt too wide) in paragraph at lines 990--990
 s-pi-tals. J Hosp Med. 2016;11(1):S18{S24. 
  []
 
-[54
+[55
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1002.
- [55]
+ [56]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 1002.
  (KECReport.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1002.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1002.
 
 Package rerunfilecheck Info: File `KECReport.out' has not changed.
-(rerunfilecheck)             Checksum: DD4CC88A264112C728B26BC3EB8D00CA;5424.
+(rerunfilecheck)             Checksum: 0CF36B4A99ACA4C9FBE8EC66DC3BA692;5426.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1002.
  )
 (\end occurred inside a group at level 1)
@@ -1363,8 +1366,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1002.
 ### simple group (level 1) entered at line 828 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 21935 strings out of 492895
- 414740 string characters out of 3133480
+ 21936 strings out of 492895
+ 414856 string characters out of 3133477
  477761 words of memory out of 3000000
  25478 multiletter control sequences out of 15000+200000
  552552 words of font info for 62 fonts, out of 3000000 for 9000
@@ -1380,9 +1383,9 @@ sfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on KECReport.pdf (63 pages, 3703025 bytes).
+Output written on KECReport.pdf (64 pages, 4367791 bytes).
 PDF statistics:
- 808 PDF objects out of 1000 (max. 8388607)
- 167 named destinations out of 1000 (max. 500000)
+ 812 PDF objects out of 1000 (max. 8388607)
+ 168 named destinations out of 1000 (max. 500000)
  721 words of extra memory for PDF output out of 10000 (max. 10000000)
 
