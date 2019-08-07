@@ -679,6 +679,7 @@ Data collection is most crucial phase of any machine learning project because pe
 \subsection{Selection of optimal Machine learning Algorithm}
 Since our project is based on Classification problem, we end up with multiple good models to choose from. Each model will have different performance characteristics. The key to a fair comparison of machine learning algorithms is ensuring that each algorithm is evaluated in the same way on the same data.
 Different performance metrics are used to evaluate different Machine Learning Algorithms.\newline For our project we used Confusion matrix which is  one of the most intuitive and easiest metrics used for finding the correctness and accuracy of the model. It is used for Classification problem where the output can be of two or more types of classes. The Confusion matrix in itself is not a performance measure as such, but almost all of the performance metrics are based on Confusion Matrix and the numbers inside it.\newline
+
 \textbf{Terms associated with Confusion matrix:}
 \begin{itemize}
     \item True Positives (TP): True positives are the cases when the actual class of the data point was 1(True) and the predicted is also 1(True)
@@ -696,6 +697,31 @@ For  each  algorithm  the  accuracy, precision, sensitivity are observed which a
  
 3.\textbf{Sensitivity:} Sensitivity  is  the  true  positive  rate  and  is  defined  as  the number of positive tuples which are correctly classified.
  \[ Sensitivity=  \frac{(TP)}{(TP+FN)} \]
+ 
+
+
+The  below  tables, depicts  the  various  performance metrics   of   the   classification   Decision Tree,Random Forest,Back Propagation model  on  the dataset.
+
+ \begin{figure}[H]
+\begin{center}
+\includegraphics[width=160mm,height=45mm]{comparisonnew/analysisaccuracy.png}
+ \caption{Performance analysis based on accuracy}
+ \end{center}                
+\end{figure}
+
+ \begin{figure}[H]
+\begin{center}
+\includegraphics[width=160mm,height=45mm]{comparisonnew/analysissensitivity.png}
+ \caption{Performance analysis based on sensitivity}
+ \end{center}                
+\end{figure}
+ 
+ \begin{figure}[H]
+\begin{center}
+\includegraphics[width=160mm,height=45mm]{comparisonnew/analysisprecision.png}
+ \caption{Performance analysis based on precision}
+ \end{center}                
+\end{figure}
  
 
  
