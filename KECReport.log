@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  7 AUG 2019 23:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  8 AUG 2019 00:20
 entering extended mode
 **./KECReport.tex
 (KECReport.tex
@@ -1173,28 +1173,29 @@ jpg>]
 File: backexplain/initializeNetwork.jpg Graphic file (type jpg)
 <use backexplain/initializeNetwork.jpg>
 Package pdftex.def Info: backexplain/initializeNetwork.jpg  used on input line 
-769.
+776.
 (pdftex.def)             Requested size: 455.25075pt x 128.03789pt.
 
-Overfull \hbox (38.41786pt too wide) in paragraph at lines 769--770
+Overfull \hbox (38.41786pt too wide) in paragraph at lines 776--777
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 773--780
+Underfull \hbox (badness 10000) in paragraph at lines 780--787
 
  []
 
-<backexplain/activate.jpg, id=645, 490.2315pt x 168.63pt>
+[40 <./backexplain/initializeNetwork.jpg>]
+<backexplain/activate.jpg, id=650, 490.2315pt x 168.63pt>
 File: backexplain/activate.jpg Graphic file (type jpg)
 <use backexplain/activate.jpg>
-Package pdftex.def Info: backexplain/activate.jpg  used on input line 788.
+Package pdftex.def Info: backexplain/activate.jpg  used on input line 795.
 (pdftex.def)             Requested size: 341.43924pt x 113.8126pt.
-[40 <./backexplain/initializeNetwork.jpg>]
+
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.801 {output=1/(1+ exp^
+l.808 {output=1/(1+ exp^
                         {-activation})
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1202,7 +1203,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.802 
+l.809 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1210,111 +1211,112 @@ you left one out. Proceed, with fingers crossed.
 <backexplain/transfer.jpg, id=651, 458.31226pt x 75.28125pt>
 File: backexplain/transfer.jpg Graphic file (type jpg)
 <use backexplain/transfer.jpg>
-Package pdftex.def Info: backexplain/transfer.jpg  used on input line 807.
+Package pdftex.def Info: backexplain/transfer.jpg  used on input line 814.
 (pdftex.def)             Requested size: 312.99791pt x 56.90762pt.
-<backexplain/forward.jpg, id=652, 806.41275pt x 366.168pt>
+[41 <./backexplain/activate.jpg>]
+<backexplain/forward.jpg, id=658, 806.41275pt x 366.168pt>
 File: backexplain/forward.jpg Graphic file (type jpg)
 <use backexplain/forward.jpg>
-Package pdftex.def Info: backexplain/forward.jpg  used on input line 819.
+Package pdftex.def Info: backexplain/forward.jpg  used on input line 826.
 (pdftex.def)             Requested size: 455.2426pt x 213.40005pt.
 
-Overfull \hbox (38.40971pt too wide) in paragraph at lines 819--820
+Overfull \hbox (38.40971pt too wide) in paragraph at lines 826--827
  [] 
  []
 
-[41 <./backexplain/activate.jpg> <./backexplain/transfer.jpg>]
-<backexplain/transferDerivative.jpg, id=660, 598.6365pt x 111.41624pt>
+<backexplain/transferDerivative.jpg, id=659, 598.6365pt x 111.41624pt>
 File: backexplain/transferDerivative.jpg Graphic file (type jpg)
 <use backexplain/transferDerivative.jpg>
 Package pdftex.def Info: backexplain/transferDerivative.jpg  used on input line
- 835.
+ 842.
 (pdftex.def)             Requested size: 312.98265pt x 56.90483pt.
- [42 <./backexplain/forward.jpg> <./backexplain/transferDerivative.jpg>]
-<backexplain/errorback.jpg, id=667, 930.47626pt x 476.982pt>
+[42 <./backexplain/transfer.jpg> <./backexplain/forward.jpg>] [43 <./backexplai
+n/transferDerivative.jpg>]
+<backexplain/errorback.jpg, id=671, 930.47626pt x 476.982pt>
 File: backexplain/errorback.jpg Graphic file (type jpg)
 <use backexplain/errorback.jpg>
-Package pdftex.def Info: backexplain/errorback.jpg  used on input line 855.
+Package pdftex.def Info: backexplain/errorback.jpg  used on input line 862.
 (pdftex.def)             Requested size: 455.24165pt x 284.53198pt.
 
-Overfull \hbox (38.40877pt too wide) in paragraph at lines 855--856
+Overfull \hbox (38.40877pt too wide) in paragraph at lines 862--863
  [] 
  []
 
-[43 <./backexplain/errorback.jpg>]
-<images/restapi.png, id=673, 240.9pt x 240.9pt>
+[44 <./backexplain/errorback.jpg>]
+<images/restapi.png, id=677, 240.9pt x 240.9pt>
 File: images/restapi.png Graphic file (type png)
 <use images/restapi.png>
-Package pdftex.def Info: images/restapi.png  used on input line 882.
+Package pdftex.def Info: images/restapi.png  used on input line 889.
 (pdftex.def)             Requested size: 369.92113pt x 369.92113pt.
- [44]
-<Outputnew/1.png, id=678, 383.5128pt x 324.4923pt>
+ [45]
+<Outputnew/1.png, id=682, 383.5128pt x 324.4923pt>
 File: Outputnew/1.png Graphic file (type png)
 <use Outputnew/1.png>
-Package pdftex.def Info: Outputnew/1.png  used on input line 894.
+Package pdftex.def Info: Outputnew/1.png  used on input line 901.
 (pdftex.def)             Requested size: 441.03044pt x 398.3656pt.
 
-Overfull \hbox (24.19756pt too wide) in paragraph at lines 894--895
+Overfull \hbox (24.19756pt too wide) in paragraph at lines 901--902
  [] 
  []
 
-[45 <./images/restapi.png (PNG copy)>]
-<Outputnew/2.png, id=683, 383.5128pt x 328.8285pt>
+[46 <./images/restapi.png (PNG copy)>]
+<Outputnew/2.png, id=687, 383.5128pt x 328.8285pt>
 File: Outputnew/2.png Graphic file (type png)
 <use Outputnew/2.png>
-Package pdftex.def Info: Outputnew/2.png  used on input line 903.
+Package pdftex.def Info: Outputnew/2.png  used on input line 910.
 (pdftex.def)             Requested size: 441.03044pt x 398.35536pt.
 
-Overfull \hbox (24.19756pt too wide) in paragraph at lines 903--904
+Overfull \hbox (24.19756pt too wide) in paragraph at lines 910--911
  [] 
  []
 
-[46 <./Outputnew/1.png>]
-<Outputnew/3.png, id=689, 202.1151pt x 317.988pt>
+[47 <./Outputnew/1.png>]
+<Outputnew/3.png, id=694, 202.1151pt x 317.988pt>
 File: Outputnew/3.png Graphic file (type png)
 <use Outputnew/3.png>
-Package pdftex.def Info: Outputnew/3.png  used on input line 912.
+Package pdftex.def Info: Outputnew/3.png  used on input line 919.
 (pdftex.def)             Requested size: 270.32703pt x 426.81496pt.
- [47 <./Outputnew/2.png>]
-<Outputnew/4.png, id=696, 383.5128pt x 324.4923pt>
+ [48 <./Outputnew/2.png>]
+<Outputnew/4.png, id=700, 383.5128pt x 324.4923pt>
 File: Outputnew/4.png Graphic file (type png)
 <use Outputnew/4.png>
-Package pdftex.def Info: Outputnew/4.png  used on input line 921.
+Package pdftex.def Info: Outputnew/4.png  used on input line 928.
 (pdftex.def)             Requested size: 441.03044pt x 398.3656pt.
 
-Overfull \hbox (24.19756pt too wide) in paragraph at lines 921--922
+Overfull \hbox (24.19756pt too wide) in paragraph at lines 928--929
  [] 
  []
 
-[48 <./Outputnew/3.png>]
-Overfull \hbox (8.10657pt too wide) in paragraph at lines 926--927
+[49 <./Outputnew/3.png>]
+Overfull \hbox (8.10657pt too wide) in paragraph at lines 933--934
 []\OT1/ptm/m/n/12 Medicine Re-minder En-try point where add medicine de-tails l
 ike Medicine name,medicine
  []
 
-<Outputnew/5.png, id=702, 383.5128pt x 324.4923pt>
+<Outputnew/5.png, id=706, 383.5128pt x 324.4923pt>
 File: Outputnew/5.png Graphic file (type png)
 <use Outputnew/5.png>
-Package pdftex.def Info: Outputnew/5.png  used on input line 931.
+Package pdftex.def Info: Outputnew/5.png  used on input line 938.
 (pdftex.def)             Requested size: 441.03044pt x 398.3656pt.
 
-Overfull \hbox (24.19756pt too wide) in paragraph at lines 931--932
+Overfull \hbox (24.19756pt too wide) in paragraph at lines 938--939
  [] 
  []
 
-[49 <./Outputnew/4.png>] [50 <./Outputnew/5.png>] [51]
-<images/ganttchartnew.jpg, id=717, 3254.1575pt x 1589.94pt>
+[50 <./Outputnew/4.png>] [51 <./Outputnew/5.png>] [52]
+<images/ganttchartnew.jpg, id=721, 3254.1575pt x 1589.94pt>
 File: images/ganttchartnew.jpg Graphic file (type jpg)
 <use images/ganttchartnew.jpg>
-Package pdftex.def Info: images/ganttchartnew.jpg  used on input line 962.
+Package pdftex.def Info: images/ganttchartnew.jpg  used on input line 969.
 (pdftex.def)             Requested size: 426.7794pt x 256.06956pt.
 
-Overfull \hbox (9.94652pt too wide) in paragraph at lines 962--963
+Overfull \hbox (9.94652pt too wide) in paragraph at lines 969--970
 [][] 
  []
 
-[52] [53 <./images/ganttchartnew.jpg>] [54]
+[53] [54 <./images/ganttchartnew.jpg>] [55]
 ! Misplaced alignment tab character &.
-l.1012 [2] Taufik, Wan &
+l.1019 [2] Taufik, Wan &
                          Ab Ghani, Nur Laila & Mohd Drus, Sulfeeza. (2019). ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1324,7 +1326,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.1012 [2] Taufik, Wan & Ab Ghani, Nur Laila &
+l.1019 [2] Taufik, Wan & Ab Ghani, Nur Laila &
                                                Mohd Drus, Sulfeeza. (2019). ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1336,7 +1338,7 @@ might try typing `S' now just to see what is salvageable.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1012 ...(IRICT 2018). 10.1007/978-3-319-99007-1_
+l.1019 ...(IRICT 2018). 10.1007/978-3-319-99007-1_
                                                   4. \par
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1344,38 +1346,38 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1012 ...2018). 10.1007/978-3-319-99007-1_4. \par
+l.1019 ...2018). 10.1007/978-3-319-99007-1_4. \par
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (33.35416pt too wide) in paragraph at lines 1016--1016
+Overfull \hbox (33.35416pt too wide) in paragraph at lines 1023--1023
 \OT1/ptm/m/n/12 de-tec-tion of in-pa-tient de-te-ri-o-ra-tion in com-mu-nity ho
 s-pi-tals. J Hosp Med. 2016;11(1):S18{S24. 
  []
 
-[55
+[56
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1028.
- [56]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1028.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1035.
+ [57]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1035.
  (KECReport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1028.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1028.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1035.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1035.
 
 Package rerunfilecheck Info: File `KECReport.out' has not changed.
 (rerunfilecheck)             Checksum: 7EAE51B58C6DE831FD96FD7772030F28;5430.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1028.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1035.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 801 ({)
+### simple group (level 1) entered at line 808 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 21936 strings out of 492895
- 414778 string characters out of 3133480
+ 21937 strings out of 492895
+ 414785 string characters out of 3133480
  477762 words of memory out of 3000000
  25478 multiletter control sequences out of 15000+200000
  552552 words of font info for 62 fonts, out of 3000000 for 9000
@@ -1391,9 +1393,9 @@ sfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on KECReport.pdf (64 pages, 4370153 bytes).
+Output written on KECReport.pdf (65 pages, 4371795 bytes).
 PDF statistics:
- 812 PDF objects out of 1000 (max. 8388607)
- 168 named destinations out of 1000 (max. 500000)
+ 817 PDF objects out of 1000 (max. 8388607)
+ 169 named destinations out of 1000 (max. 500000)
  721 words of extra memory for PDF output out of 10000 (max. 10000000)
 
