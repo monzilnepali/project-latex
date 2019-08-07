@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  7 AUG 2019 12:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  7 AUG 2019 12:53
 entering extended mode
 **./KECReport.tex
 (KECReport.tex
@@ -673,9 +673,9 @@ Package pdftex.def Info: images/logo.png  used on input line 76.
 
 
 
-{C:/Users/lapzap/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/l
-ogo.png>]pdfTeX warning (ext4): destination with the same identifier (name{page
-.1}) has been already used, duplicate ignored
+{C:/Users/sovin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/lo
+go.png>]pdfTeX warning (ext4): destination with the same identifier (name{page.
+1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.77 \KECtitlepage
@@ -1163,7 +1163,7 @@ File: backexplain/initializeNetwork.jpg Graphic file (type jpg)
 <use backexplain/initializeNetwork.jpg>
 Package pdftex.def Info: backexplain/initializeNetwork.jpg  used on input line 
 718.
-(pdftex.def)             Requested size: 455.25075pt x 99.58371pt.
+(pdftex.def)             Requested size: 455.25075pt x 128.03789pt.
 
 Overfull \hbox (38.41786pt too wide) in paragraph at lines 718--719
  [] 
@@ -1178,7 +1178,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 722--729
 File: backexplain/activate.jpg Graphic file (type jpg)
 <use backexplain/activate.jpg>
 Package pdftex.def Info: backexplain/activate.jpg  used on input line 737.
-(pdftex.def)             Requested size: 341.43924pt x 85.35945pt.
+(pdftex.def)             Requested size: 341.43924pt x 113.8126pt.
 [38 <./backexplain/initializeNetwork.jpg>]
 ! Missing $ inserted.
 <inserted text> 
@@ -1200,7 +1200,7 @@ you left one out. Proceed, with fingers crossed.
 File: backexplain/transfer.jpg Graphic file (type jpg)
 <use backexplain/transfer.jpg>
 Package pdftex.def Info: backexplain/transfer.jpg  used on input line 756.
-(pdftex.def)             Requested size: 227.62402pt x 56.90762pt.
+(pdftex.def)             Requested size: 312.99791pt x 56.90762pt.
 <backexplain/forward.jpg, id=641, 806.41275pt x 366.168pt>
 File: backexplain/forward.jpg Graphic file (type jpg)
 <use backexplain/forward.jpg>
@@ -1223,7 +1223,7 @@ Package pdftex.def Info: backexplain/transferDerivative.jpg  used on input line
 File: backexplain/errorback.jpg Graphic file (type jpg)
 <use backexplain/errorback.jpg>
 Package pdftex.def Info: backexplain/errorback.jpg  used on input line 803.
-(pdftex.def)             Requested size: 455.24165pt x 241.8529pt.
+(pdftex.def)             Requested size: 455.24165pt x 284.53198pt.
 
 Overfull \hbox (38.40877pt too wide) in paragraph at lines 803--804
  [] 
@@ -1315,7 +1315,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 927.
 ### bottom level 
 Here is how much of TeX's memory you used:
  21907 strings out of 492895
- 414423 string characters out of 3133477
+ 414349 string characters out of 3133480
  477762 words of memory out of 3000000
  25463 multiletter control sequences out of 15000+200000
  552552 words of font info for 62 fonts, out of 3000000 for 9000
@@ -1331,7 +1331,7 @@ sfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on KECReport.pdf (58 pages, 2536321 bytes).
+Output written on KECReport.pdf (58 pages, 2536313 bytes).
 PDF statistics:
  774 PDF objects out of 1000 (max. 8388607)
  159 named destinations out of 1000 (max. 500000)
