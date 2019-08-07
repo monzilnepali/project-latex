@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  7 AUG 2019 09:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  7 AUG 2019 09:18
 entering extended mode
 **./KECReport.tex
 (KECReport.tex
@@ -1147,7 +1147,7 @@ Overfull \hbox (9.93137pt too wide) in paragraph at lines 685--686
 File: comparison/hiddenlayer.jpg Graphic file (type jpg)
 <use comparison/hiddenlayer.jpg>
 Package pdftex.def Info: comparison/hiddenlayer.jpg  used on input line 693.
-(pdftex.def)             Requested size: 341.43163pt x 256.09035pt.
+(pdftex.def)             Requested size: 284.52635pt x 199.16907pt.
  [36 <./dataset_summary/selectionHyperparameter.png> <./comparison/hiddenlayer.
 jpg>]
 <backexplain/initializeNetwork.jpg, id=619, 906.9885pt x 193.9245pt>
@@ -1328,7 +1328,7 @@ sfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on KECReport.pdf (57 pages, 2533658 bytes).
+Output written on KECReport.pdf (57 pages, 2533656 bytes).
 PDF statistics:
  759 PDF objects out of 1000 (max. 8388607)
  156 named destinations out of 1000 (max. 500000)
