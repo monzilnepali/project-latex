@@ -660,6 +660,9 @@ W\textsubscript{ji}(t+1) = W\textsubscript{ji}(t) + $\Delta$ W\textsubscript{ji}
 
 \chapter{Epilogue}
 
+\subsection{Designing UI prototype}
+Designing UI prototype is essential steps in any project development. Designing UI prototype will gave us mockup of project we wish to build. For our UI prototyping we use Adobe XD software. We designed basic UI where user can enter their symptoms and get their result display.
+
 \subsection{Prototype}
 \begin{figure}[H]
 \begin{center}
@@ -667,66 +670,11 @@ W\textsubscript{ji}(t+1) = W\textsubscript{ji}(t) + $\Delta$ W\textsubscript{ji}
 \caption{Prototype}
 \end{center}
 \end{figure}
-We used paper prototyping "Adobe xd" which is extremely helpful during the early stage conceptualizing. So, we explore a variety of different concepts and choose the one that will be used. This paper prototype allows quickly visualize and test various ideas.
-
-
-\subsection{Output}
-
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=155mm, height = 140mm]{Outputnew/1.png}
-\caption{Home Screen and User Profile Screen}
-\end{center}
-\end{figure}
-
-Home Screen is entry point of our application. User Profile is where user inputs their name,age and gender.
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=155mm, height = 140mm]{Outputnew/2.png}
-\caption{Symptom Input and Diagnosis Report Screen}
-\end{center}
-\end{figure}
-
-User provide symptoms by selecting from the drop down menu as shown in Selection of Symptoms.Symptoms list is fetch from restful API and after clicking the examine button user symptom is send to the server and got response back from server in Diagnosis Report showing the top 4 probable diseases.Disease information like symptoms,causes and treament are display here.
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=95mm, height = 150mm]{Outputnew/3.png}
-\caption{Disease Information}
-\end{center}
-\end{figure}
-Shows Disease Information like symptoms, cause and treatments. 
-
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=155mm, height = 140mm]{Outputnew/4.png}
-\caption{Medicine Reminder Entry and Home Screen}
-\end{center}
-\end{figure}
-
-Medicine Reminder Entry point where add medicine details like Medicine name,medicine dosage,medicine time. Home screen of pill reminder which shows all entry in pill reminder
-
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=155mm, height = 140mm]{Outputnew/5.png}
-\caption{Emergency Contact Screen}
-\end{center}
-\end{figure}
-
-Medicine reminder alert screen is shown in Medicine Reminder Entry where it shows detail about the medicine name,medicine dosage, and medicine time. Medicine Reminder Home shows the emergency contacts.
-
-
-
 
 \subsection{Data Collection}
 Data collection is most crucial phase of any machine learning project because performance of trained model depend upon the quality of collected data sets. Finding the datasets that can be used to trained our model for solving our problem is difficult. Since our proposed system predicate the disease based on the symptoms so, we required dataset that symptoms as features and disease name as predicated class. For our project we got dataset from UCI machine learning repository and since dataset is not in format that we want so we need to format dataset as per our requirement.
 
-\subsection{Designing UI prototype}
-Designing UI prototype is essential steps in any project development. Designing UI prototype will gave us mockup of project we wish to build. For our UI prototyping we use Adobe XD software. We designed basic UI where user can enter their symptoms and get their result display.
+
 
 \subsection{Selection of optimal Machine learning Algorithm}
 Since our project is based on Classification problem, we end up with multiple good models to choose from. Each model will have different performance characteristics. The key to a fair comparison of machine learning algorithms is ensuring that each algorithm is evaluated in the same way on the same data.
@@ -758,7 +706,7 @@ For  each  algorithm  the  accuracy, precision, sensitivity are observed which a
  \end{center}                
 \end{figure}
 The above graph, Figure 4.2 depicts that the back Propagation ANN  have  the  highest  accuracy  when  compared  to  the other algorithms.
-\pagebreak
+
 
 \begin{figure}[H]
 \begin{center}
@@ -938,11 +886,54 @@ After training our neural network model we saved our neural network, which is th
 
 In order to create RESTFul API we used flask in server side which is micro framework because it does not require particular tools or libraries. After that we have created route which will listen to certain HTTP request. This allowed user to send their symptoms information via HTTP request and route function will parse the data (symptoms information) from the HTTP request. Then we call predication function which neural network model, symptoms as parameters and return predicated disease information back to user.
 
-\subsection{Pill Reminder}
-Pill Reminder is one of the features of our project which is meant to aid the forgetful and busy with remembering to take their daily medications. It is designed for users who need a little help keeping track of their medication schedule and who are dedicated to keeping the schedule. The application allows the user to store pill objects and multiple alarms for those pills. Alarms have one time of day and can occur on multiple days of the week.
+\subsection{Output}
 
 
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=155mm, height = 140mm]{Outputnew/1.png}
+\caption{Home Screen and User Profile Screen}
+\end{center}
+\end{figure}
 
+Home Screen is entry point of our application. User Profile is where user inputs their name,age and gender.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=155mm, height = 140mm]{Outputnew/2.png}
+\caption{Symptom Input and Diagnosis Report Screen}
+\end{center}
+\end{figure}
+
+User provide symptoms by selecting from the drop down menu as shown in Selection of Symptoms.Symptoms list is fetch from restful API and after clicking the examine button user symptom is send to the server and got response back from server in Diagnosis Report showing the top 4 probable diseases.Disease information like symptoms,causes and treament are display here.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=95mm, height = 150mm]{Outputnew/3.png}
+\caption{Disease Information}
+\end{center}
+\end{figure}
+Shows Disease Information like symptoms, cause and treatments. 
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=155mm, height = 140mm]{Outputnew/4.png}
+\caption{Medicine Reminder Entry and Home Screen}
+\end{center}
+\end{figure}
+
+Medicine Reminder Entry point where add medicine details like Medicine name,medicine dosage,medicine time. Home screen of pill reminder which shows all entry in pill reminder
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=155mm, height = 140mm]{Outputnew/5.png}
+\caption{Emergency Contact Screen}
+\end{center}
+\end{figure}
+
+Medicine reminder alert screen is shown in Medicine Reminder Entry where it shows detail about the medicine name,medicine dosage, and medicine time. Medicine Reminder Home shows the emergency contacts.
 
 
 \section{Limitations}
@@ -992,14 +983,25 @@ In future additional extra features can be added such as;-
 
 \section{Conclusion}
  
-Our proposed system of disease prediction with appropriate diagnosis has 
-been framed up using Artificial Neural Network. For effective prediction, 
-back propagation algorithm was applied to train the data and compare the 
-parameters iteratively. The back propagation algorithm has been repeated until 
-minimum error rate was obseved. It is proven from the results that the proposed 
-method, back propagation artificial neural network effectively predicts accuracy 
-around 85.02\%. Tuning the hyperparameters like learning rate, epoch etc for 
-increasing the performance model for our project is still in process. 
+Our project system is on disease prediction and we have created an android app 
+which can be access by anyone, through with the use of internet. Our system take 
+symptoms as input, processes them and provide provisional diagnosed diseases as 
+results to users. It is a two click output method; which makes it simple and ease to use. 
+Our system also provides feature of pill reminder which can work as an important function 
+regarding the people where age is also a factor.\par
+
+Our proposed system of disease prediction with appropriate diagnosis has been framed
+up using Artificial Neural Network. For effective prediction, we trained various models;
+back propagation ANN, decision tree, random forest and compare the parameters iteratively. 
+The various models algorithm has been repeated until minimun error rates were observed 
+on them. It is proven from the results that the proposed method, back propagation artificial 
+neural network effectively predicts accuracy around 95.42% and hence. choosen as an optimal 
+algorthim for our project.\par
+
+Also in neural network its various parameter were adjusted from time to time to give 
+the better results. The number of hidden layers and tuning the hyperparameters like
+learning rate, epoch etc for increasing the performance model for our project is still in 
+working stage.
 
 
 
