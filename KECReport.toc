@@ -64,9 +64,9 @@
 \contentsline {subsection}{\numberline {4.1.7}RESTFul API using Flask}{43}{subsection.4.1.7}% 
 \contentsline {subsection}{\numberline {4.1.8}Pill Reminder}{44}{subsection.4.1.8}% 
 \contentsline {subsection}{\numberline {4.1.9}Prototype}{45}{subsection.4.1.9}% 
-\contentsline {subsection}{\numberline {4.1.10}Output}{45}{subsection.4.1.10}% 
-\contentsline {section}{\numberline {4.2}Limitations}{45}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Challenges}{46}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Work Schedule}{48}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}Conclusion}{48}{section.4.5}% 
-\contentsline {section}{\numberline {4.6}Future Enhancements}{48}{section.4.6}% 
+\contentsline {subsection}{\numberline {4.1.10}Output}{46}{subsection.4.1.10}% 
+\contentsline {section}{\numberline {4.2}Limitations}{48}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Challenges}{49}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Work Schedule}{50}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Conclusion}{50}{section.4.5}% 
+\contentsline {section}{\numberline {4.6}Future Enhancements}{51}{section.4.6}% 
