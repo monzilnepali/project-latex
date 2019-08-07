@@ -56,12 +56,13 @@
 \BOOKMARK [2][-]{subsection.4.1.1}{Data Collection}{section.4.1}% 56
 \BOOKMARK [2][-]{subsection.4.1.2}{Designing UI prototype}{section.4.1}% 57
 \BOOKMARK [2][-]{subsection.4.1.3}{Selection of optimal Machine learning Algorithm}{section.4.1}% 58
-\BOOKMARK [2][-]{subsection.4.1.4}{Back Propagation Algorithm implementation using Python}{section.4.1}% 59
-\BOOKMARK [2][-]{subsection.4.1.5}{RESTFul API using Flask}{section.4.1}% 60
-\BOOKMARK [2][-]{subsection.4.1.6}{Prototype}{section.4.1}% 61
-\BOOKMARK [1][-]{section.4.2}{Work Remaining}{chapter.4}% 62
-\BOOKMARK [1][-]{section.4.3}{Limitations}{chapter.4}% 63
-\BOOKMARK [1][-]{section.4.4}{Challenges}{chapter.4}% 64
-\BOOKMARK [1][-]{section.4.5}{Work Schedule}{chapter.4}% 65
-\BOOKMARK [1][-]{section.4.6}{Conclusion}{chapter.4}% 66
-\BOOKMARK [1][-]{section.4.7}{Future Enhancements}{chapter.4}% 67
+\BOOKMARK [2][-]{subsection.4.1.4}{Reason of Using Back Propagation ANN algorithm}{section.4.1}% 59
+\BOOKMARK [2][-]{subsection.4.1.5}{Back Propagation Algorithm implementation using Python}{section.4.1}% 60
+\BOOKMARK [2][-]{subsection.4.1.6}{RESTFul API using Flask}{section.4.1}% 61
+\BOOKMARK [2][-]{subsection.4.1.7}{Prototype}{section.4.1}% 62
+\BOOKMARK [1][-]{section.4.2}{Work Remaining}{chapter.4}% 63
+\BOOKMARK [1][-]{section.4.3}{Limitations}{chapter.4}% 64
+\BOOKMARK [1][-]{section.4.4}{Challenges}{chapter.4}% 65
+\BOOKMARK [1][-]{section.4.5}{Work Schedule}{chapter.4}% 66
+\BOOKMARK [1][-]{section.4.6}{Conclusion}{chapter.4}% 67
+\BOOKMARK [1][-]{section.4.7}{Future Enhancements}{chapter.4}% 68
