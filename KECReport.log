@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  7 AUG 2019 08:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  7 AUG 2019 09:09
 entering extended mode
 **./KECReport.tex
 (KECReport.tex
@@ -1240,22 +1240,19 @@ Overfull \hbox (1.14665pt too wide) in paragraph at lines 840--842
  []
 
 [43 <./images/prototype.jpg>] [44]
-<images/GanttChart.PNG, id=666, 388.45125pt x 231.86626pt>
-File: images/GanttChart.PNG Graphic file (type png)
-<use images/GanttChart.PNG>
-Package pdftex.def Info: images/GanttChart.PNG  used on input line 872.
-(pdftex.def)             Requested size: 426.79979pt x 244.69795pt.
+<images/ganttchartnew.jpg, id=666, 3254.1575pt x 1589.94pt>
+File: images/ganttchartnew.jpg Graphic file (type jpg)
+<use images/ganttchartnew.jpg>
+Package pdftex.def Info: images/ganttchartnew.jpg  used on input line 871.
+(pdftex.def)             Requested size: 426.7794pt x 256.06956pt.
 
-Overfull \hbox (9.9669pt too wide) in paragraph at lines 872--873
- [] 
+Overfull \hbox (9.94652pt too wide) in paragraph at lines 871--872
+[][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[45] [46 <./images/GanttChart.PNG>] [47]
+[45] [46 <./images/ganttchartnew.jpg>] [47]
 ! Misplaced alignment tab character &.
-l.912 [2] Taufik, Wan &
+l.910 [2] Taufik, Wan &
                         Ab Ghani, Nur Laila & Mohd Drus, Sulfeeza. (2019). D...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1265,7 +1262,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.912 [2] Taufik, Wan & Ab Ghani, Nur Laila &
+l.910 [2] Taufik, Wan & Ab Ghani, Nur Laila &
                                               Mohd Drus, Sulfeeza. (2019). D...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1277,7 +1274,7 @@ might try typing `S' now just to see what is salvageable.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.912 ... (IRICT 2018). 10.1007/978-3-319-99007-1_
+l.910 ... (IRICT 2018). 10.1007/978-3-319-99007-1_
                                                   4. \par
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1285,13 +1282,13 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.912 ... 2018). 10.1007/978-3-319-99007-1_4. \par
+l.910 ... 2018). 10.1007/978-3-319-99007-1_4. \par
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (33.35416pt too wide) in paragraph at lines 916--916
+Overfull \hbox (33.35416pt too wide) in paragraph at lines 914--914
 \OT1/ptm/m/n/12 de-tec-tion of in-pa-tient de-te-ri-o-ra-tion in com-mu-nity ho
 s-pi-tals. J Hosp Med. 2016;11(1):S18{S24. 
  []
@@ -1299,15 +1296,15 @@ s-pi-tals. J Hosp Med. 2016;11(1):S18{S24.
 [48
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 928.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 926.
  [49]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 928.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 926.
  (KECReport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 928.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 928.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 926.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 926.
 Package rerunfilecheck Info: File `KECReport.out' has not changed.
 (rerunfilecheck)             Checksum: 237E3FA152A2E7BF5E9CB3C3EF081B72;5284.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 928.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 926.
  )
 (\end occurred inside a group at level 1)
 
@@ -1315,7 +1312,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 928.
 ### bottom level 
 Here is how much of TeX's memory you used:
  21902 strings out of 492895
- 414247 string characters out of 3133480
+ 414262 string characters out of 3133480
  477761 words of memory out of 3000000
  25461 multiletter control sequences out of 15000+200000
  552552 words of font info for 62 fonts, out of 3000000 for 9000
@@ -1331,7 +1328,7 @@ sfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on KECReport.pdf (57 pages, 2423710 bytes).
+Output written on KECReport.pdf (57 pages, 2533658 bytes).
 PDF statistics:
  759 PDF objects out of 1000 (max. 8388607)
  156 named destinations out of 1000 (max. 500000)
