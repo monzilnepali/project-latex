@@ -688,7 +688,7 @@ For this we trained our neural Network with stochastic gradient descent for diff
 \begin{figure}[H]
 \begin{center}
     
-\includegraphics[width=150mm,height=120mm]{dataset_summary/selectionHyperparameter.png}
+\includegraphics[width=170mm,height=120mm]{dataset_summary/selectionHyperparameter.png}
  \caption{Selection of optimal learning rate and activation function}
  \end{center}                
 \end{figure}
@@ -696,8 +696,8 @@ For this we trained our neural Network with stochastic gradient descent for diff
 \begin{figure}[H]
 \begin{center}
     
-\includegraphics[width=100mm,height=70mm]{comparison/hiddenlayer.jpg}
- \caption{Hidden Layer Accuracy}
+\includegraphics[width=100mm,height=50mm]{comparison/hiddenlayer.jpg}
+ \caption{Selection of optimal Number of Hidden Layer}
  \end{center}                
 \end{figure}
 
@@ -834,7 +834,7 @@ After training our neural network model we saved our neural network, which is th
 In order to create RESTFul API we used flask in server side which is micro framework because it does not require particular tools or libraries. After that we have created route which will listen to certain HTTP request. This allowed user to send their symptoms information via HTTP request and route function will parse the data (symptoms information) from the HTTP request. Then we call predication function which neural network model, symptoms as parameters and return predicated disease information back to user.
 
 \subsection{Pill Reminder}
-Pill Reminder is an native android application meant to aid the forgetful and busy with remembering to take their daily medications. It is designed for users who need a little help keeping track of their medication schedule and who are dedicated to keeping the schedule. The application allows the user to store pill objects and multiple alarms for those pills. Alarms have one time of day and can occur on multiple days of the week.
+Pill Reminder is one of the features of our project which is meant to aid the forgetful and busy with remembering to take their daily medications. It is designed for users who need a little help keeping track of their medication schedule and who are dedicated to keeping the schedule. The application allows the user to store pill objects and multiple alarms for those pills. Alarms have one time of day and can occur on multiple days of the week.
 
 \subsection{Prototype}
 \begin{figure}[H]
