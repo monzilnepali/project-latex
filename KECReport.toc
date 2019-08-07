@@ -26,19 +26,19 @@
 \contentsline {subsection}{\numberline {3.1.1}Incremental Software Development Model}{12}{subsection.3.1.1}% 
 \contentsline {subsection}{\numberline {3.1.2}Why Incremental Development Model?}{13}{subsection.3.1.2}% 
 \contentsline {section}{\numberline {3.2}Reason of using Python ?}{13}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}Why this project?}{14}{section.3.3}% 
+\contentsline {section}{\numberline {3.3}Why this project?}{13}{section.3.3}% 
 \contentsline {section}{\numberline {3.4}Procedure for Medical Diagnosis}{15}{section.3.4}% 
 \contentsline {subsection}{\numberline {3.4.1}Data Collection}{15}{subsection.3.4.1}% 
 \contentsline {subsection}{\numberline {3.4.2}Data Preparation}{16}{subsection.3.4.2}% 
 \contentsline {subsection}{\numberline {3.4.3}Choosing a Machine Learning Algorithms}{16}{subsection.3.4.3}% 
-\contentsline {section}{\numberline {3.5}Introduction to Biological neural network}{17}{section.3.5}% 
+\contentsline {section}{\numberline {3.5}Introduction to Biological neural network}{16}{section.3.5}% 
 \contentsline {section}{\numberline {3.6}Artificial Neural Network}{18}{section.3.6}% 
 \contentsline {subsection}{\numberline {3.6.1}Elements of a Neural Network }{19}{subsection.3.6.1}% 
 \contentsline {section}{\numberline {3.7}Biological vs Artificial Neural Network}{20}{section.3.7}% 
 \contentsline {section}{\numberline {3.8}Back Propagation Neural Network Algorithm}{23}{section.3.8}% 
-\contentsline {subsection}{\numberline {3.8.1}Architecture of Back propagation}{24}{subsection.3.8.1}% 
-\contentsline {subsection}{\numberline {3.8.2}A Pseudo-Code Algorithm}{25}{subsection.3.8.2}% 
-\contentsline {subsection}{\numberline {3.8.3}Training/learning Model}{25}{subsection.3.8.3}% 
+\contentsline {subsection}{\numberline {3.8.1}Architecture of Back propagation}{23}{subsection.3.8.1}% 
+\contentsline {subsection}{\numberline {3.8.2}A Pseudo-Code Algorithm}{24}{subsection.3.8.2}% 
+\contentsline {subsection}{\numberline {3.8.3}Training/learning Model}{24}{subsection.3.8.3}% 
 \contentsline {subsection}{\numberline {3.8.4}Basic Neuron Model In A Feedforward Network}{26}{subsection.3.8.4}% 
 \contentsline {subsection}{\numberline {3.8.5}Inputs To Neurons}{26}{subsection.3.8.5}% 
 \contentsline {subsection}{\numberline {3.8.6}Weights}{26}{subsection.3.8.6}% 
