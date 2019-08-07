@@ -4,27 +4,27 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces MYCIN Architecture(Source: slideshare.net)\relax }}{9}{figure.caption.6}% 
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Incremental Development Model(Source: researchgate.net)\relax }}{12}{figure.caption.7}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Sample of dataset\relax }}{15}{figure.caption.8}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Top five most common symptoms\relax }}{16}{figure.caption.9}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Biological Neural Network\relax }}{18}{figure.caption.10}% 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Neural Network (Source: researchgate.net)\relax }}{19}{figure.caption.11}% 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces ANN architecture with back-propagation algorithm.(Source: researchgate.com)\relax }}{24}{figure.caption.12}% 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Neuron Model Feedforward Network(Source: edureka.co)\relax }}{26}{figure.caption.13}% 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Feedforward Network Model(Source: edureka.co)\relax }}{28}{figure.caption.14}% 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces System Flow Diagram of Proposed system\relax }}{30}{figure.caption.15}% 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces UseCase Diagram\relax }}{31}{figure.caption.16}% 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Activity Diagram\relax }}{32}{figure.caption.17}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Sample of dataset\relax }}{17}{figure.caption.8}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Top five most common symptoms\relax }}{17}{figure.caption.9}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Biological Neural Network\relax }}{19}{figure.caption.10}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Neural Network (Source: researchgate.net)\relax }}{20}{figure.caption.11}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces ANN architecture with back-propagation algorithm.(Source: researchgate.com)\relax }}{25}{figure.caption.12}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Neuron Model Feedforward Network(Source: edureka.co)\relax }}{27}{figure.caption.13}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Feedforward Network Model(Source: edureka.co)\relax }}{29}{figure.caption.14}% 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces System Flow Diagram of Proposed system\relax }}{31}{figure.caption.15}% 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces UseCase Diagram\relax }}{32}{figure.caption.16}% 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Activity Diagram\relax }}{33}{figure.caption.17}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Prototype\relax }}{33}{figure.caption.18}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Home Screen and User Profile Screen\relax }}{34}{figure.caption.19}% 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Symptom Input and Diagnosis Report Screen\relax }}{35}{figure.caption.20}% 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Disease Information\relax }}{36}{figure.caption.21}% 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Medicine Reminder Entry and Home Screen\relax }}{37}{figure.caption.22}% 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Emergency Contact Screen\relax }}{38}{figure.caption.23}% 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Graphical representation of accuracy\relax }}{40}{figure.caption.24}% 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Graphical representation of sensitivity\relax }}{42}{figure.caption.25}% 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Graphical representation of precision\relax }}{42}{figure.caption.26}% 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Selection of optimal learning rate and activation function\relax }}{44}{figure.caption.27}% 
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Selection of optimal Number of Hidden Layer\relax }}{44}{figure.caption.28}% 
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Restful API\relax }}{50}{figure.caption.35}% 
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Gantt Chart\relax }}{53}{figure.caption.36}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Prototype\relax }}{34}{figure.caption.18}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Home Screen and User Profile Screen\relax }}{35}{figure.caption.19}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Symptom Input and Diagnosis Report Screen\relax }}{36}{figure.caption.20}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Disease Information\relax }}{37}{figure.caption.21}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Medicine Reminder Entry and Home Screen\relax }}{38}{figure.caption.22}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Emergency Contact Screen\relax }}{39}{figure.caption.23}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Graphical representation of accuracy\relax }}{41}{figure.caption.24}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Graphical representation of sensitivity\relax }}{43}{figure.caption.25}% 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Graphical representation of precision\relax }}{43}{figure.caption.26}% 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Selection of optimal learning rate and activation function\relax }}{45}{figure.caption.27}% 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Selection of optimal Number of Hidden Layer\relax }}{45}{figure.caption.28}% 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Restful API\relax }}{51}{figure.caption.35}% 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Gantt Chart\relax }}{54}{figure.caption.36}% 

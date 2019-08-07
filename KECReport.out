@@ -26,45 +26,46 @@
 \BOOKMARK [2][-]{subsection.3.1.1}{Incremental Software Development Model}{section.3.1}% 26
 \BOOKMARK [1][-]{section.3.2}{Reason of using Python ?}{chapter.3}% 27
 \BOOKMARK [1][-]{section.3.3}{Why this project?}{chapter.3}% 28
-\BOOKMARK [1][-]{section.3.4}{Procedure for Medical Diagnosis}{chapter.3}% 29
-\BOOKMARK [2][-]{subsection.3.4.1}{Data Collection}{section.3.4}% 30
-\BOOKMARK [2][-]{subsection.3.4.2}{Data Preparation}{section.3.4}% 31
-\BOOKMARK [2][-]{subsection.3.4.3}{Choosing a Machine Learning Algorithms}{section.3.4}% 32
-\BOOKMARK [1][-]{section.3.5}{Introduction to Biological neural network}{chapter.3}% 33
-\BOOKMARK [1][-]{section.3.6}{Artificial Neural Network}{chapter.3}% 34
-\BOOKMARK [2][-]{subsection.3.6.1}{Elements of a Neural Network }{section.3.6}% 35
-\BOOKMARK [1][-]{section.3.7}{Biological vs Artificial Neural Network}{chapter.3}% 36
-\BOOKMARK [1][-]{section.3.8}{Back Propagation Neural Network Algorithm}{chapter.3}% 37
-\BOOKMARK [2][-]{subsection.3.8.1}{Architecture of Back propagation}{section.3.8}% 38
-\BOOKMARK [2][-]{subsection.3.8.2}{A Pseudo-Code Algorithm}{section.3.8}% 39
-\BOOKMARK [2][-]{subsection.3.8.3}{Training/learning Model}{section.3.8}% 40
-\BOOKMARK [2][-]{subsection.3.8.4}{Basic Neuron Model In A Feedforward Network}{section.3.8}% 41
-\BOOKMARK [2][-]{subsection.3.8.5}{Inputs To Neurons}{section.3.8}% 42
-\BOOKMARK [2][-]{subsection.3.8.6}{Weights}{section.3.8}% 43
-\BOOKMARK [2][-]{subsection.3.8.7}{Outputs}{section.3.8}% 44
-\BOOKMARK [2][-]{subsection.3.8.8}{Network Error}{section.3.8}% 45
-\BOOKMARK [2][-]{subsection.3.8.9}{Calculate Outputs For Each Neuron Based On The Pattern}{section.3.8}% 46
-\BOOKMARK [2][-]{subsection.3.8.10}{Calculate The Error Signal For Each Output Neuron}{section.3.8}% 47
-\BOOKMARK [2][-]{subsection.3.8.11}{Calculate The Error Signal For Each Hidden Neuron}{section.3.8}% 48
-\BOOKMARK [2][-]{subsection.3.8.12}{Calculate And Apply Weight Adjustments}{section.3.8}% 49
-\BOOKMARK [2][-]{subsection.3.8.13}{Summarization of Steps}{section.3.8}% 50
-\BOOKMARK [1][-]{section.3.9}{System Analysis}{chapter.3}% 51
-\BOOKMARK [2][-]{subsection.3.9.1}{System Flow Diagram}{section.3.9}% 52
-\BOOKMARK [2][-]{subsection.3.9.2}{Usecase Diagram}{section.3.9}% 53
-\BOOKMARK [2][-]{subsection.3.9.3}{Activity diagram}{section.3.9}% 54
-\BOOKMARK [0][-]{chapter.4}{Epilogue}{}% 55
-\BOOKMARK [1][-]{subsection.4.0.1}{Prototype}{chapter.4}% 56
-\BOOKMARK [2][-]{subsection.4.0.2}{Output}{subsection.4.0.1}% 57
-\BOOKMARK [2][-]{subsection.4.0.3}{Data Collection}{subsection.4.0.1}% 58
-\BOOKMARK [2][-]{subsection.4.0.4}{Designing UI prototype}{subsection.4.0.1}% 59
-\BOOKMARK [2][-]{subsection.4.0.5}{Selection of optimal Machine learning Algorithm}{subsection.4.0.1}% 60
-\BOOKMARK [2][-]{subsection.4.0.6}{Reason of Using Back Propagation ANN algorithm}{subsection.4.0.1}% 61
-\BOOKMARK [2][-]{subsection.4.0.7}{Selection of optimal hyperparameter value for Modeling}{subsection.4.0.1}% 62
-\BOOKMARK [2][-]{subsection.4.0.8}{Back Propagation Algorithm implementation using Python}{subsection.4.0.1}% 63
-\BOOKMARK [2][-]{subsection.4.0.9}{RESTFul API using Flask}{subsection.4.0.1}% 64
-\BOOKMARK [2][-]{subsection.4.0.10}{Pill Reminder}{subsection.4.0.1}% 65
-\BOOKMARK [1][-]{section.4.1}{Limitations}{chapter.4}% 66
-\BOOKMARK [1][-]{section.4.2}{Challenges}{chapter.4}% 67
-\BOOKMARK [1][-]{section.4.3}{Work Schedule}{chapter.4}% 68
-\BOOKMARK [1][-]{section.4.4}{Future Enhancements}{chapter.4}% 69
-\BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 70
+\BOOKMARK [1][-]{section.3.4}{App Development Process}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.5}{Procedure for Medical Diagnosis}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.5.1}{Data Collection}{section.3.5}% 31
+\BOOKMARK [2][-]{subsection.3.5.2}{Data Preparation}{section.3.5}% 32
+\BOOKMARK [2][-]{subsection.3.5.3}{Choosing a Machine Learning Algorithms}{section.3.5}% 33
+\BOOKMARK [1][-]{section.3.6}{Introduction to Biological neural network}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.7}{Artificial Neural Network}{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.7.1}{Elements of a Neural Network }{section.3.7}% 36
+\BOOKMARK [1][-]{section.3.8}{Biological vs Artificial Neural Network}{chapter.3}% 37
+\BOOKMARK [1][-]{section.3.9}{Back Propagation Neural Network Algorithm}{chapter.3}% 38
+\BOOKMARK [2][-]{subsection.3.9.1}{Architecture of Back propagation}{section.3.9}% 39
+\BOOKMARK [2][-]{subsection.3.9.2}{A Pseudo-Code Algorithm}{section.3.9}% 40
+\BOOKMARK [2][-]{subsection.3.9.3}{Training/learning Model}{section.3.9}% 41
+\BOOKMARK [2][-]{subsection.3.9.4}{Basic Neuron Model In A Feedforward Network}{section.3.9}% 42
+\BOOKMARK [2][-]{subsection.3.9.5}{Inputs To Neurons}{section.3.9}% 43
+\BOOKMARK [2][-]{subsection.3.9.6}{Weights}{section.3.9}% 44
+\BOOKMARK [2][-]{subsection.3.9.7}{Outputs}{section.3.9}% 45
+\BOOKMARK [2][-]{subsection.3.9.8}{Network Error}{section.3.9}% 46
+\BOOKMARK [2][-]{subsection.3.9.9}{Calculate Outputs For Each Neuron Based On The Pattern}{section.3.9}% 47
+\BOOKMARK [2][-]{subsection.3.9.10}{Calculate The Error Signal For Each Output Neuron}{section.3.9}% 48
+\BOOKMARK [2][-]{subsection.3.9.11}{Calculate The Error Signal For Each Hidden Neuron}{section.3.9}% 49
+\BOOKMARK [2][-]{subsection.3.9.12}{Calculate And Apply Weight Adjustments}{section.3.9}% 50
+\BOOKMARK [2][-]{subsection.3.9.13}{Summarization of Steps}{section.3.9}% 51
+\BOOKMARK [1][-]{section.3.10}{System Analysis}{chapter.3}% 52
+\BOOKMARK [2][-]{subsection.3.10.1}{System Flow Diagram}{section.3.10}% 53
+\BOOKMARK [2][-]{subsection.3.10.2}{Usecase Diagram}{section.3.10}% 54
+\BOOKMARK [2][-]{subsection.3.10.3}{Activity diagram}{section.3.10}% 55
+\BOOKMARK [0][-]{chapter.4}{Epilogue}{}% 56
+\BOOKMARK [1][-]{subsection.4.0.1}{Prototype}{chapter.4}% 57
+\BOOKMARK [2][-]{subsection.4.0.2}{Output}{subsection.4.0.1}% 58
+\BOOKMARK [2][-]{subsection.4.0.3}{Data Collection}{subsection.4.0.1}% 59
+\BOOKMARK [2][-]{subsection.4.0.4}{Designing UI prototype}{subsection.4.0.1}% 60
+\BOOKMARK [2][-]{subsection.4.0.5}{Selection of optimal Machine learning Algorithm}{subsection.4.0.1}% 61
+\BOOKMARK [2][-]{subsection.4.0.6}{Reason of Using Back Propagation ANN algorithm}{subsection.4.0.1}% 62
+\BOOKMARK [2][-]{subsection.4.0.7}{Selection of optimal hyperparameter value for Modeling}{subsection.4.0.1}% 63
+\BOOKMARK [2][-]{subsection.4.0.8}{Back Propagation Algorithm implementation using Python}{subsection.4.0.1}% 64
+\BOOKMARK [2][-]{subsection.4.0.9}{RESTFul API using Flask}{subsection.4.0.1}% 65
+\BOOKMARK [2][-]{subsection.4.0.10}{Pill Reminder}{subsection.4.0.1}% 66
+\BOOKMARK [1][-]{section.4.1}{Limitations}{chapter.4}% 67
+\BOOKMARK [1][-]{section.4.2}{Challenges}{chapter.4}% 68
+\BOOKMARK [1][-]{section.4.3}{Work Schedule}{chapter.4}% 69
+\BOOKMARK [1][-]{section.4.4}{Future Enhancements}{chapter.4}% 70
+\BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 71

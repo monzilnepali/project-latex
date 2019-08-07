@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  7 AUG 2019 22:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.5)  7 AUG 2019 23:07
 entering extended mode
 **./KECReport.tex
 (KECReport.tex
@@ -673,9 +673,9 @@ Package pdftex.def Info: images/logo.png  used on input line 76.
 
 
 
-{C:/Users/lapzap/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/l
-ogo.png>]pdfTeX warning (ext4): destination with the same identifier (name{page
-.1}) has been already used, duplicate ignored
+{C:/Users/sovin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/lo
+go.png>]pdfTeX warning (ext4): destination with the same identifier (name{page.
+1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.77 \KECtitlepage
@@ -760,32 +760,47 @@ Package pdftex.def Info: images/Incremental.png  used on input line 300.
 (pdftex.def)             Requested size: 284.52309pt x 199.1781pt.
 [12
 
- <./images/Incremental.png>] [13] [14]
-<dataset_summary/diseaseAndSymptoms.jpg, id=509, 974.4405pt x 222.8325pt>
+ <./images/Incremental.png>] [13] [14] [15]
+Overfull \hbox (4.68665pt too wide) in paragraph at lines 361--361
+\OT1/ptm/m/n/12 ter-face for an An-droid app is built us-ing a hi-er-ar-chy of 
+lay-outs and wid-gets.Layouts
+ []
+
+! Misplaced alignment tab character &.
+l.367 We tested our app for usability, interface &
+                                                   security checks, stress, ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[16]
+<dataset_summary/diseaseAndSymptoms.jpg, id=518, 974.4405pt x 222.8325pt>
 File: dataset_summary/diseaseAndSymptoms.jpg Graphic file (type jpg)
 <use dataset_summary/diseaseAndSymptoms.jpg>
 Package pdftex.def Info: dataset_summary/diseaseAndSymptoms.jpg  used on input 
-line 360.
+line 385.
 (pdftex.def)             Requested size: 455.23639pt x 113.80968pt.
 
-Overfull \hbox (38.4035pt too wide) in paragraph at lines 360--361
+Overfull \hbox (38.4035pt too wide) in paragraph at lines 385--386
 [][] 
  []
 
-<dataset_summary/top5Disease.jpg, id=510, 3237.09375pt x 1608.0075pt>
+<dataset_summary/top5Disease.jpg, id=519, 3237.09375pt x 1608.0075pt>
 File: dataset_summary/top5Disease.jpg Graphic file (type jpg)
 <use dataset_summary/top5Disease.jpg>
-Package pdftex.def Info: dataset_summary/top5Disease.jpg  used on input line 36
-5.
+Package pdftex.def Info: dataset_summary/top5Disease.jpg  used on input line 39
+0.
 (pdftex.def)             Requested size: 426.76425pt x 199.16023pt.
 
-Overfull \hbox (9.93137pt too wide) in paragraph at lines 365--366
+Overfull \hbox (9.93137pt too wide) in paragraph at lines 390--391
 [][] 
  []
 
-[15 <./dataset_summary/diseaseAndSymptoms.jpg>]
 ! Misplaced alignment tab character &.
-l.370 ...d to split the dataset in train dataset &
+l.395 ...d to split the dataset in train dataset &
                                                    test dataset, the test da...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -794,34 +809,27 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[16 <./dataset_summary/top5Disease.jpg>]
-<images/bio.jpg, id=520, 345.29pt x 147.55125pt>
+[17 <./dataset_summary/diseaseAndSymptoms.jpg> <./dataset_summary/top5Disease.j
+pg>] [18]
+<images/bio.jpg, id=532, 345.29pt x 147.55125pt>
 File: images/bio.jpg Graphic file (type jpg)
 <use images/bio.jpg>
-Package pdftex.def Info: images/bio.jpg  used on input line 391.
+Package pdftex.def Info: images/bio.jpg  used on input line 416.
 (pdftex.def)             Requested size: 369.89394pt x 227.6281pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[17]
-<neuralNetwork/neuralNetwork.jpg, id=526, 505.89pt x 361.35pt>
+ [19 <./images/bio.jpg>]
+<neuralNetwork/neuralNetwork.jpg, id=537, 505.89pt x 361.35pt>
 File: neuralNetwork/neuralNetwork.jpg Graphic file (type jpg)
 <use neuralNetwork/neuralNetwork.jpg>
-Package pdftex.def Info: neuralNetwork/neuralNetwork.jpg  used on input line 41
-1.
+Package pdftex.def Info: neuralNetwork/neuralNetwork.jpg  used on input line 43
+6.
 (pdftex.def)             Requested size: 341.43785pt x 199.16766pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[18 <./images/bio.jpg>] [19 <./neuralNetwork/neuralNetwork.jpg>] [20]
-Overfull \hbox (7.43497pt too wide) in paragraph at lines 438--439
+ [20 <./neuralNetwork/neuralNetwork.jpg>]
+[21] [22]
+Overfull \hbox (7.43497pt too wide) in paragraph at lines 463--464
 []\OT1/ptm/b/n/12 Fault-tolerance: \OT1/ptm/m/n/12 Bi-o-log-i-cal neu-ron net-w
 orks due to their topol-ogy are also fault-tolerant.
  []
 
-[21]
 
 ! Package inputenc Error: Unicode character ° (U+00B0)
 (inputenc)                not set up for use with LaTeX.
@@ -830,26 +838,26 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.440 ...degrees Celsius instead of 36.5–37.5 °
+l.465 ...degrees Celsius instead of 36.5–37.5 °
                                                   C.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[22] [23]
-<images/ANNBack.jpg, id=552, 361.35pt x 178.266pt>
+[23] [24]
+<images/ANNBack.jpg, id=560, 361.35pt x 178.266pt>
 File: images/ANNBack.jpg Graphic file (type jpg)
 <use images/ANNBack.jpg>
-Package pdftex.def Info: images/ANNBack.jpg  used on input line 460.
+Package pdftex.def Info: images/ANNBack.jpg  used on input line 485.
 (pdftex.def)             Requested size: 341.43344pt x 227.6411pt.
- [24 <./images/ANNBack.jpg>] [25]
-<images/feedforward.jpg, id=561, 505.89pt x 361.35pt>
+ [25 <./images/ANNBack.jpg>] [26]
+<images/feedforward.jpg, id=569, 505.89pt x 361.35pt>
 File: images/feedforward.jpg Graphic file (type jpg)
 <use images/feedforward.jpg>
-Package pdftex.def Info: images/feedforward.jpg  used on input line 502.
+Package pdftex.def Info: images/feedforward.jpg  used on input line 527.
 (pdftex.def)             Requested size: 284.53154pt x 199.16766pt.
- [26 <./images/feedforward.jpg>]
+ [27 <./images/feedforward.jpg>]
 ! Misplaced alignment tab character &.
-l.526         $$f(x) &
+l.551         $$f(x) &
                       = 1/1+exp^{-\sigma x}$$
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -859,7 +867,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.535        $$TSSE &
+l.560        $$TSSE &
                      =  \sum_{patterns}\sum_{outputs} (desire-actual)^2$$
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -869,7 +877,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.539 $$RMSE &
+l.564 $$RMSE &
               = \sqrt{\frac{2*TSSE}{&#patterns * &#outputs }}$$
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -881,7 +889,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <argument> &
             ##patterns * &##outputs 
-l.539 ...rt{\frac{2*TSSE}{&#patterns * &#outputs }
+l.564 ...rt{\frac{2*TSSE}{&#patterns * &#outputs }
                                                   }$$
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -893,7 +901,7 @@ might try typing `S' now just to see what is salvageable.
 ! You can't use `macro parameter character #' in math mode.
 <argument> &##
               patterns * &##outputs 
-l.539 ...rt{\frac{2*TSSE}{&#patterns * &#outputs }
+l.564 ...rt{\frac{2*TSSE}{&#patterns * &#outputs }
                                                   }$$
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -903,7 +911,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Misplaced alignment tab character &.
 <argument> &##patterns * &
                           ##outputs 
-l.539 ...rt{\frac{2*TSSE}{&#patterns * &#outputs }
+l.564 ...rt{\frac{2*TSSE}{&#patterns * &#outputs }
                                                   }$$
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -915,7 +923,7 @@ might try typing `S' now just to see what is salvageable.
 ! You can't use `macro parameter character #' in math mode.
 <argument> &##patterns * &##
                             outputs 
-l.539 ...rt{\frac{2*TSSE}{&#patterns * &#outputs }
+l.564 ...rt{\frac{2*TSSE}{&#patterns * &#outputs }
                                                   }$$
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -923,7 +931,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Misplaced alignment tab character &.
-l.550 ...textsubscript{pj}(net\textsubscript{j}) &
+l.575 ...textsubscript{pj}(net\textsubscript{j}) &
                                                   = 1/1+exp^{-\sigma netj}$$
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -933,7 +941,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.553     $$ (net\textsubscript{j}) &
+l.578     $$ (net\textsubscript{j}) &
                                      = bias*W\textsubscript{bias} &+ \sum_{k...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -943,7 +951,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.553 ...cript{j}) &= bias*W\textsubscript{bias} &
+l.578 ...cript{j}) &= bias*W\textsubscript{bias} &
                                                   + \sum_{k} O\textsubscript...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -952,16 +960,16 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-<images/feed.PNG, id=566, 257.763pt x 256.5585pt>
+<images/feed.PNG, id=578, 257.763pt x 256.5585pt>
 File: images/feed.PNG Graphic file (type png)
 <use images/feed.PNG>
-Package pdftex.def Info: images/feed.PNG  used on input line 559.
+Package pdftex.def Info: images/feed.PNG  used on input line 584.
 (pdftex.def)             Requested size: 341.44783pt x 227.63168pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ! Misplaced alignment tab character &.
-l.567     $$ \Delta pj &
+l.592     $$ \Delta pj &
                         = (T\textsubscript{pj} &- O\textsubscript{pj}) O\tex...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -971,7 +979,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.567     $$ \Delta pj &= (T\textsubscript{pj} &
+l.592     $$ \Delta pj &= (T\textsubscript{pj} &
                                                 - O\textsubscript{pj}) O\tex...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -981,7 +989,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.567 ...xtsubscript{pj}) O\textsubscript{pj} (1 &
+l.592 ...xtsubscript{pj}) O\textsubscript{pj} (1 &
                                                   - O\textsubscript{pj})$$
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -990,9 +998,9 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[27]
+[28]
 ! Misplaced alignment tab character &.
-l.576         $$\partial pj &
+l.601         $$\partial pj &
                              =  O\textsubscript{pj} (1 &- O\textsubscript{pj...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1002,7 +1010,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.576 ...$\partial pj &=  O\textsubscript{pj} (1 &
+l.601 ...$\partial pj &=  O\textsubscript{pj} (1 &
                                                   - O\textsubscript{pj}) \su...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1012,7 +1020,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.585      $\Delta$ W\textsubscript{ji}(t) &
+l.610      $\Delta$ W\textsubscript{ji}(t) &
                                             = η \partialj O\textsubscript{pi}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1029,13 +1037,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.585      $\Delta$ W\textsubscript{ji}(t) &= η
+l.610      $\Delta$ W\textsubscript{ji}(t) &= η
                                                  \partialj O\textsubscript{pi}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 ! Undefined control sequence.
-l.585 ...a$ W\textsubscript{ji}(t) &= η \partialj
+l.610 ...a$ W\textsubscript{ji}(t) &= η \partialj
                                                    O\textsubscript{pi}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1043,9 +1051,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[28 <./images/feed.PNG>]
+[29 <./images/feed.PNG>]
 ! Misplaced alignment tab character &.
-l.590 ...m Some add a momentum term \\* $\alpha$ &
+l.615 ...m Some add a momentum term \\* $\alpha$ &
                                                   * $\Delta$Wji(t-1)
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1054,193 +1062,193 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-<images/flow.png, id=582, 1005.7575pt x 1879.02pt>
+<images/flow.png, id=600, 1005.7575pt x 1879.02pt>
 File: images/flow.png Graphic file (type png)
 <use images/flow.png>
-Package pdftex.def Info: images/flow.png  used on input line 612.
+Package pdftex.def Info: images/flow.png  used on input line 637.
 (pdftex.def)             Requested size: 398.33646pt x 583.26433pt.
-[29]
+[30]
 Overfull \vbox (1.25745pt too high) has occurred while \output is active []
 
 
-[30 <./images/flow.png>]
-<images/usecase.png, id=593, 1163.0953pt x 947.03813pt>
+[31 <./images/flow.png>]
+<images/usecase.png, id=613, 1163.0953pt x 947.03813pt>
 File: images/usecase.png Graphic file (type png)
 <use images/usecase.png>
-Package pdftex.def Info: images/usecase.png  used on input line 621.
+Package pdftex.def Info: images/usecase.png  used on input line 646.
 (pdftex.def)             Requested size: 426.78905pt x 483.69113pt.
 
-Overfull \hbox (9.95616pt too wide) in paragraph at lines 621--622
+Overfull \hbox (9.95616pt too wide) in paragraph at lines 646--647
  [] 
  []
 
-<images/activity.png, id=594, 3059.43pt x 1927.2pt>
+<images/activity.png, id=614, 3059.43pt x 1927.2pt>
 File: images/activity.png Graphic file (type png)
 <use images/activity.png>
-Package pdftex.def Info: images/activity.png  used on input line 630.
+Package pdftex.def Info: images/activity.png  used on input line 655.
 (pdftex.def)             Requested size: 455.20674pt x 497.91368pt.
 
-Overfull \hbox (38.37386pt too wide) in paragraph at lines 630--631
+Overfull \hbox (38.37386pt too wide) in paragraph at lines 655--656
  [] 
  []
 
-[31 <./images/usecase.png>] [32 <./images/activity.png>]
+[32 <./images/usecase.png>] [33 <./images/activity.png>]
 Chapter 4.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 638.
+(hyperref)                than one, level fixed on input line 663.
 
-<images/prototype.jpg, id=605, 796.77675pt x 446.26724pt>
+<images/prototype.jpg, id=627, 796.77675pt x 446.26724pt>
 File: images/prototype.jpg Graphic file (type jpg)
 <use images/prototype.jpg>
-Package pdftex.def Info: images/prototype.jpg  used on input line 641.
+Package pdftex.def Info: images/prototype.jpg  used on input line 666.
 (pdftex.def)             Requested size: 426.80022pt x 284.53415pt.
 
-Overfull \hbox (9.96733pt too wide) in paragraph at lines 641--642
+Overfull \hbox (9.96733pt too wide) in paragraph at lines 666--667
  [] 
  []
 
-<Outputnew/1.png, id=606, 383.5128pt x 324.4923pt>
+<Outputnew/1.png, id=628, 383.5128pt x 324.4923pt>
 File: Outputnew/1.png Graphic file (type png)
 <use Outputnew/1.png>
-Package pdftex.def Info: Outputnew/1.png  used on input line 653.
+Package pdftex.def Info: Outputnew/1.png  used on input line 678.
 (pdftex.def)             Requested size: 441.03044pt x 398.3656pt.
 
-Overfull \hbox (24.19756pt too wide) in paragraph at lines 653--654
+Overfull \hbox (24.19756pt too wide) in paragraph at lines 678--679
  [] 
  []
 
-[33
+[34
 
  <./images/prototype.jpg>]
-<Outputnew/2.png, id=611, 383.5128pt x 328.8285pt>
+<Outputnew/2.png, id=633, 383.5128pt x 328.8285pt>
 File: Outputnew/2.png Graphic file (type png)
 <use Outputnew/2.png>
-Package pdftex.def Info: Outputnew/2.png  used on input line 662.
+Package pdftex.def Info: Outputnew/2.png  used on input line 687.
 (pdftex.def)             Requested size: 441.03044pt x 398.35536pt.
 
-Overfull \hbox (24.19756pt too wide) in paragraph at lines 662--663
+Overfull \hbox (24.19756pt too wide) in paragraph at lines 687--688
  [] 
  []
 
-[34 <./Outputnew/1.png>]
-<Outputnew/3.png, id=617, 202.1151pt x 317.988pt>
+[35 <./Outputnew/1.png>]
+<Outputnew/3.png, id=640, 202.1151pt x 317.988pt>
 File: Outputnew/3.png Graphic file (type png)
 <use Outputnew/3.png>
-Package pdftex.def Info: Outputnew/3.png  used on input line 671.
+Package pdftex.def Info: Outputnew/3.png  used on input line 696.
 (pdftex.def)             Requested size: 270.32703pt x 426.81496pt.
- [35 <./Outputnew/2.png>]
-<Outputnew/4.png, id=624, 383.5128pt x 324.4923pt>
+ [36 <./Outputnew/2.png>]
+<Outputnew/4.png, id=646, 383.5128pt x 324.4923pt>
 File: Outputnew/4.png Graphic file (type png)
 <use Outputnew/4.png>
-Package pdftex.def Info: Outputnew/4.png  used on input line 680.
+Package pdftex.def Info: Outputnew/4.png  used on input line 705.
 (pdftex.def)             Requested size: 441.03044pt x 398.3656pt.
 
-Overfull \hbox (24.19756pt too wide) in paragraph at lines 680--681
+Overfull \hbox (24.19756pt too wide) in paragraph at lines 705--706
  [] 
  []
 
-[36 <./Outputnew/3.png>]
-Overfull \hbox (8.10657pt too wide) in paragraph at lines 685--686
+[37 <./Outputnew/3.png>]
+Overfull \hbox (8.10657pt too wide) in paragraph at lines 710--711
 []\OT1/ptm/m/n/12 Medicine Re-minder En-try point where add medicine de-tails l
 ike Medicine name,medicine
  []
 
-<Outputnew/5.png, id=630, 383.5128pt x 324.4923pt>
+<Outputnew/5.png, id=652, 383.5128pt x 324.4923pt>
 File: Outputnew/5.png Graphic file (type png)
 <use Outputnew/5.png>
-Package pdftex.def Info: Outputnew/5.png  used on input line 690.
+Package pdftex.def Info: Outputnew/5.png  used on input line 715.
 (pdftex.def)             Requested size: 441.03044pt x 398.3656pt.
 
-Overfull \hbox (24.19756pt too wide) in paragraph at lines 690--691
+Overfull \hbox (24.19756pt too wide) in paragraph at lines 715--716
  [] 
  []
 
-[37 <./Outputnew/4.png>] [38 <./Outputnew/5.png>] [39]
-<comparisonnew/accuracy.png, id=645, 3237.09375pt x 1608.0075pt>
+[38 <./Outputnew/4.png>] [39 <./Outputnew/5.png>] [40]
+<comparisonnew/accuracy.png, id=667, 3237.09375pt x 1608.0075pt>
 File: comparisonnew/accuracy.png Graphic file (type png)
 <use comparisonnew/accuracy.png>
-Package pdftex.def Info: comparisonnew/accuracy.png  used on input line 731.
+Package pdftex.def Info: comparisonnew/accuracy.png  used on input line 756.
 (pdftex.def)             Requested size: 426.76425pt x 256.05965pt.
 
-Overfull \hbox (9.93137pt too wide) in paragraph at lines 731--732
+Overfull \hbox (9.93137pt too wide) in paragraph at lines 756--757
  [] 
  []
 
-[40 <./comparisonnew/accuracy.png>] [41]
-<comparisonnew/sensitivity.png, id=656, 3237.09375pt x 1574.88374pt>
+[41 <./comparisonnew/accuracy.png>] [42]
+<comparisonnew/sensitivity.png, id=678, 3237.09375pt x 1574.88374pt>
 File: comparisonnew/sensitivity.png Graphic file (type png)
 <use comparisonnew/sensitivity.png>
-Package pdftex.def Info: comparisonnew/sensitivity.png  used on input line 740.
+Package pdftex.def Info: comparisonnew/sensitivity.png  used on input line 765.
 
 (pdftex.def)             Requested size: 426.76425pt x 256.07178pt.
 
-Overfull \hbox (9.93137pt too wide) in paragraph at lines 740--741
+Overfull \hbox (9.93137pt too wide) in paragraph at lines 765--766
  [] 
  []
 
-<comparisonnew/precision.png, id=657, 3237.09375pt x 1574.88374pt>
+<comparisonnew/precision.png, id=679, 3237.09375pt x 1574.88374pt>
 File: comparisonnew/precision.png Graphic file (type png)
 <use comparisonnew/precision.png>
-Package pdftex.def Info: comparisonnew/precision.png  used on input line 748.
+Package pdftex.def Info: comparisonnew/precision.png  used on input line 773.
 (pdftex.def)             Requested size: 426.76425pt x 256.07178pt.
 
-Overfull \hbox (9.93137pt too wide) in paragraph at lines 748--749
+Overfull \hbox (9.93137pt too wide) in paragraph at lines 773--774
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 753--754
+Underfull \hbox (badness 10000) in paragraph at lines 778--779
 
  []
 
-[42 <./comparisonnew/sensitivity.png> <./comparisonnew/precision.png>]
-<dataset_summary/selectionHyperparameter.png, id=664, 3237.09375pt x 2228.325pt
+[43 <./comparisonnew/sensitivity.png> <./comparisonnew/precision.png>]
+<dataset_summary/selectionHyperparameter.png, id=686, 3237.09375pt x 2228.325pt
 >
 File: dataset_summary/selectionHyperparameter.png Graphic file (type png)
 <use dataset_summary/selectionHyperparameter.png>
 Package pdftex.def Info: dataset_summary/selectionHyperparameter.png  used on i
-nput line 770.
+nput line 795.
 (pdftex.def)             Requested size: 483.66615pt x 341.40863pt.
 
-Overfull \hbox (66.83327pt too wide) in paragraph at lines 770--771
+Overfull \hbox (66.83327pt too wide) in paragraph at lines 795--796
  [] 
  []
 
-[43]
-<comparison/hiddenlayer.jpg, id=669, 600.44325pt x 227.04825pt>
+[44]
+<comparison/hiddenlayer.jpg, id=691, 600.44325pt x 227.04825pt>
 File: comparison/hiddenlayer.jpg Graphic file (type jpg)
 <use comparison/hiddenlayer.jpg>
-Package pdftex.def Info: comparison/hiddenlayer.jpg  used on input line 778.
+Package pdftex.def Info: comparison/hiddenlayer.jpg  used on input line 803.
 (pdftex.def)             Requested size: 284.52635pt x 142.26164pt.
- [44 <./dataset_summary/selectionHyperparameter.png> <./comparison/hiddenlayer.
+ [45 <./dataset_summary/selectionHyperparameter.png> <./comparison/hiddenlayer.
 jpg>]
-<backexplain/initializeNetwork.jpg, id=675, 906.9885pt x 193.9245pt>
+<backexplain/initializeNetwork.jpg, id=697, 906.9885pt x 193.9245pt>
 File: backexplain/initializeNetwork.jpg Graphic file (type jpg)
 <use backexplain/initializeNetwork.jpg>
 Package pdftex.def Info: backexplain/initializeNetwork.jpg  used on input line 
-796.
+821.
 (pdftex.def)             Requested size: 455.25075pt x 128.03789pt.
 
-Overfull \hbox (38.41786pt too wide) in paragraph at lines 796--797
+Overfull \hbox (38.41786pt too wide) in paragraph at lines 821--822
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 800--807
+Underfull \hbox (badness 10000) in paragraph at lines 825--832
 
  []
 
-<backexplain/activate.jpg, id=676, 490.2315pt x 168.63pt>
+<backexplain/activate.jpg, id=698, 490.2315pt x 168.63pt>
 File: backexplain/activate.jpg Graphic file (type jpg)
 <use backexplain/activate.jpg>
-Package pdftex.def Info: backexplain/activate.jpg  used on input line 815.
+Package pdftex.def Info: backexplain/activate.jpg  used on input line 840.
 (pdftex.def)             Requested size: 341.43924pt x 113.8126pt.
-[45 <./backexplain/initializeNetwork.jpg>]
+[46 <./backexplain/initializeNetwork.jpg>]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.828 {output=1/(1+ exp^
+l.853 {output=1/(1+ exp^
                         {-activation})
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1248,66 +1256,66 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.829 
+l.854 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-<backexplain/transfer.jpg, id=682, 458.31226pt x 75.28125pt>
+<backexplain/transfer.jpg, id=704, 458.31226pt x 75.28125pt>
 File: backexplain/transfer.jpg Graphic file (type jpg)
 <use backexplain/transfer.jpg>
-Package pdftex.def Info: backexplain/transfer.jpg  used on input line 834.
+Package pdftex.def Info: backexplain/transfer.jpg  used on input line 859.
 (pdftex.def)             Requested size: 312.99791pt x 56.90762pt.
-<backexplain/forward.jpg, id=683, 806.41275pt x 366.168pt>
+<backexplain/forward.jpg, id=705, 806.41275pt x 366.168pt>
 File: backexplain/forward.jpg Graphic file (type jpg)
 <use backexplain/forward.jpg>
-Package pdftex.def Info: backexplain/forward.jpg  used on input line 846.
+Package pdftex.def Info: backexplain/forward.jpg  used on input line 871.
 (pdftex.def)             Requested size: 455.2426pt x 213.40005pt.
 
-Overfull \hbox (38.40971pt too wide) in paragraph at lines 846--847
+Overfull \hbox (38.40971pt too wide) in paragraph at lines 871--872
  [] 
  []
 
-[46 <./backexplain/activate.jpg> <./backexplain/transfer.jpg>]
-<backexplain/transferDerivative.jpg, id=690, 598.6365pt x 111.41624pt>
+[47 <./backexplain/activate.jpg> <./backexplain/transfer.jpg>]
+<backexplain/transferDerivative.jpg, id=713, 598.6365pt x 111.41624pt>
 File: backexplain/transferDerivative.jpg Graphic file (type jpg)
 <use backexplain/transferDerivative.jpg>
 Package pdftex.def Info: backexplain/transferDerivative.jpg  used on input line
- 862.
+ 887.
 (pdftex.def)             Requested size: 312.98265pt x 56.90483pt.
- [47 <./backexplain/forward.jpg> <./backexplain/transferDerivative.jpg>]
-<backexplain/errorback.jpg, id=698, 930.47626pt x 476.982pt>
+ [48 <./backexplain/forward.jpg> <./backexplain/transferDerivative.jpg>]
+<backexplain/errorback.jpg, id=720, 930.47626pt x 476.982pt>
 File: backexplain/errorback.jpg Graphic file (type jpg)
 <use backexplain/errorback.jpg>
-Package pdftex.def Info: backexplain/errorback.jpg  used on input line 882.
+Package pdftex.def Info: backexplain/errorback.jpg  used on input line 907.
 (pdftex.def)             Requested size: 455.24165pt x 284.53198pt.
 
-Overfull \hbox (38.40877pt too wide) in paragraph at lines 882--883
+Overfull \hbox (38.40877pt too wide) in paragraph at lines 907--908
  [] 
  []
 
-[48 <./backexplain/errorback.jpg>]
-<images/restapi.png, id=704, 240.9pt x 240.9pt>
+[49 <./backexplain/errorback.jpg>]
+<images/restapi.png, id=726, 240.9pt x 240.9pt>
 File: images/restapi.png Graphic file (type png)
 <use images/restapi.png>
-Package pdftex.def Info: images/restapi.png  used on input line 909.
+Package pdftex.def Info: images/restapi.png  used on input line 934.
 (pdftex.def)             Requested size: 369.92113pt x 369.92113pt.
- [49] [50 <./images/restapi.png (PNG copy)>]
-[51] [52]
-<images/ganttchartnew.jpg, id=721, 3254.1575pt x 1589.94pt>
+ [50] [51 <./images/restapi.png (PNG copy)>]
+[52] [53]
+<images/ganttchartnew.jpg, id=744, 3254.1575pt x 1589.94pt>
 File: images/ganttchartnew.jpg Graphic file (type jpg)
 <use images/ganttchartnew.jpg>
-Package pdftex.def Info: images/ganttchartnew.jpg  used on input line 946.
+Package pdftex.def Info: images/ganttchartnew.jpg  used on input line 971.
 (pdftex.def)             Requested size: 426.7794pt x 256.06956pt.
 
-Overfull \hbox (9.94652pt too wide) in paragraph at lines 946--947
+Overfull \hbox (9.94652pt too wide) in paragraph at lines 971--972
 [][] 
  []
 
-[53 <./images/ganttchartnew.jpg>] [54]
+[54 <./images/ganttchartnew.jpg>] [55]
 ! Misplaced alignment tab character &.
-l.986 [2] Taufik, Wan &
-                        Ab Ghani, Nur Laila & Mohd Drus, Sulfeeza. (2019). D...
+l.1011 [2] Taufik, Wan &
+                         Ab Ghani, Nur Laila & Mohd Drus, Sulfeeza. (2019). ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -1316,8 +1324,8 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.986 [2] Taufik, Wan & Ab Ghani, Nur Laila &
-                                              Mohd Drus, Sulfeeza. (2019). D...
+l.1011 [2] Taufik, Wan & Ab Ghani, Nur Laila &
+                                               Mohd Drus, Sulfeeza. (2019). ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -1328,7 +1336,7 @@ might try typing `S' now just to see what is salvageable.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.986 ... (IRICT 2018). 10.1007/978-3-319-99007-1_
+l.1011 ...(IRICT 2018). 10.1007/978-3-319-99007-1_
                                                   4. \par
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1336,56 +1344,114 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.986 ... 2018). 10.1007/978-3-319-99007-1_4. \par
+l.1011 ...2018). 10.1007/978-3-319-99007-1_4. \par
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (33.35416pt too wide) in paragraph at lines 990--990
+Overfull \hbox (33.35416pt too wide) in paragraph at lines 1015--1015
 \OT1/ptm/m/n/12 de-tec-tion of in-pa-tient de-te-ri-o-ra-tion in com-mu-nity ho
 s-pi-tals. J Hosp Med. 2016;11(1):S18{S24. 
  []
 
-[55
+[56
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1002.
- [56]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1002.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1027.
+ [57]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1027.
  (KECReport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1002.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1002.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1027.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1027.
 
-Package rerunfilecheck Info: File `KECReport.out' has not changed.
-(rerunfilecheck)             Checksum: 0CF36B4A99ACA4C9FBE8EC66DC3BA692;5426.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1002.
+
+
+Package rerunfilecheck Warning: File `KECReport.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `KECReport.out':
+(rerunfilecheck)             Before: 0CF36B4A99ACA4C9FBE8EC66DC3BA692;5426
+(rerunfilecheck)             After:  A543E14B36C08B68E667A8BAA76E4CE0;5504.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1027.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 828 ({)
+### simple group (level 1) entered at line 853 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 21936 strings out of 492895
- 414856 string characters out of 3133477
+ 21955 strings out of 492895
+ 415080 string characters out of 3133480
  477761 words of memory out of 3000000
  25478 multiletter control sequences out of 15000+200000
  552552 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,6n,65p,2577b,518s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on KECReport.pdf (64 pages, 4367791 bytes).
+pdfTeX warning (dest): name{subsection.3.8.13} has been referen
+ced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.8.12} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.8.11} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.8.10} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.8.9} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.8.8} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.8.7} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.8.6} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.8.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.8.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.8.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.8.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.8.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.6.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.4.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.4.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.4.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/urw/times/utmr8a.pfb>
+Output written on KECReport.pdf (65 pages, 4372832 bytes).
 PDF statistics:
- 812 PDF objects out of 1000 (max. 8388607)
- 168 named destinations out of 1000 (max. 500000)
+ 839 PDF objects out of 1000 (max. 8388607)
+ 187 named destinations out of 1000 (max. 500000)
  721 words of extra memory for PDF output out of 10000 (max. 10000000)
 
