@@ -301,11 +301,23 @@ The system is put into production when the first increment is delivered. The fir
 \caption{Incremental Development Model(Source: researchgate.net)}
 \end{center}
 \end{figure}
+\pagebreak
 
-\subsection{Why Incremental Development Model?}
- In our project, when we work incrementally we are adding piece by piece but expect that each piece is fully finished. Thus keep on adding the pieces until it’s complete. 
-Then we started building our application and in the first iteration the first module of the application is totally ready and can be demoed to the user.\par
-Likewise in the second iteration the other module is ready and integrated with the first module. Similarly, in the third iteration the whole project is ready and integrated. Hence, the project got ready step by step.
+\begin{itemize}
+
+\item 1st incremental: We have done research regarding our project idea and list out the functional and non-functional requirements of our project. We start writing our documentation. We study the feasibility of our project in term of economical, technical and operational.
+
+\item 2nd incremental: Familarizing with tools like jupyter notebook, android studio and flask framework. We made a prototype of our project and consulted with our supervisor. We research and collected dataset which were appropriate for our project. We prepared those collected data for use in our machine learning training. We trained our dataset using various classification algorithms like Random Forest, Decision Tree and Back Propagation and compare the performance of different algorithms using confusion matrix. From above analysis we conclude that Back Propagation was optimal for our project.
+
+\item 3rd incremental: Tuning the performance of back propagation model to get optimal result. We analysis our model to get optimal value of hyper parameters like number of hidden layers, learning rate, activation function, Epoch.
+
+\item 4th incremental: After obtaining optimal neural network model of our project we deployed our model in server running on flask frame work. We create RESTful API and create user interface for android devices.
+
+\end{itemize}
+
+
+
+
 \section{Reason of using  Python ?}
 We found out that python was great choice machine learning implementation in our project because of two simple reasons
 \begin{itemize}
@@ -639,43 +651,51 @@ We used paper prototyping "Adobe xd" which is extremely helpful during the early
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=145mm, height = 100mm]{Outputnew/1.png}
-\caption{}
+\caption{Home Screen and User Profile Screen}
 \end{center}
 \end{figure}
 
-Fig 4.2 Home Screen is entry point of our application.Fig 4.2 User Profile is where user inputs their name,age and gender.
+Home Screen is entry point of our application. User Profile is where user inputs their name,age and gender.
 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=145mm, height = 100mm]{Outputnew/2.png}
-\caption{}
+\caption{Symptom Input and Diagnosis Report Screen}
 \end{center}
 \end{figure}
 
-User provide symptoms by selecting from the drop down menu as shown in Fig 4.3 Selection of Symptoms.Symptoms list is fetch from restful API and after clicking the examine button user symptom is send to the server and got response back from server in Fig 4.3 Diagnosis Report showing the top 4 probable diseases.Disease information like symptoms,causes and treament are display here.
+User provide symptoms by selecting from the drop down menu as shown in Selection of Symptoms.Symptoms list is fetch from restful API and after clicking the examine button user symptom is send to the server and got response back from server in Diagnosis Report showing the top 4 probable diseases.Disease information like symptoms,causes and treament are display here.
 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=145mm, height = 100mm]{Outputnew/3.png}
-\caption{}
+\caption{Disease Information}
 \end{center}
 \end{figure}
-Fig 4.4 Disease Information shows  Medicine Reminder Entry point where add medicine details like Medicine name,medicine dosage,medicine time 
-Fig 4.4 second part shows home screen of pill reminder which shows all entry in pill reminder
-
+Shows Disease Information like symptoms, cause and treatments. 
 
 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=145mm, height = 100mm]{Outputnew/4.png}
-\caption{}
+\caption{Medicine Reminder Entry and Home Screen}
 \end{center}
 \end{figure}
 
+Medicine Reminder Entry point where add medicine details like Medicine name,medicine dosage,medicine time. Home screen of pill reminder which shows all entry in pill reminder
 
-Medicine reminder alert screen is shown in Fig 4.5 Medicine Reminder Entry where it shows detail about the medicine name,medicine dosage, and medicine time.Fig 4.5 Medicine Reminder Home shows the emergency contacts.
 
-  
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=145mm, height = 100mm]{Outputnew/5.png}
+\caption{Emergency Contact Screen}
+\end{center}
+\end{figure}
+
+Medicine reminder alert screen is shown in Medicine Reminder Entry where it shows detail about the medicine name,medicine dosage, and medicine time. Medicine Reminder Home shows the emergency contacts.
+
+
+
 
 \subsection{Data Collection}
 Data collection is most crucial phase of any machine learning project because performance of trained model depend upon the quality of collected data sets. Finding the datasets that can be used to trained our model for solving our problem is difficult. Since our proposed system predicate the disease based on the symptoms so, we required dataset that symptoms as features and disease name as predicated class. For our project we got dataset from UCI machine learning repository and since dataset is not in format that we want so we need to format dataset as per our requirement.
@@ -704,14 +724,8 @@ For  each  algorithm  the  accuracy, precision, sensitivity are observed which a
 3.\textbf{Sensitivity:} Sensitivity  is  the  true  positive  rate  and  is  defined  as  the number of positive tuples which are correctly classified.
  \[ Sensitivity=  \frac{(TP)}{(TP+FN)} \]
  
- \pagebreak
- \begin{figure}[H]
-\begin{center}
-\includegraphics[width=150mm,height=35mm]{comparison/summary.jpg}
- \caption{Performance analysis of different algorithm}
- \end{center}                
-\end{figure}
-The  above  table  depicts  the  various  performance metrics   of   the   classification   algorithms   Decision   tree,Back Propagation ANN, Random Forest and Support Vector Machine  on our datasets.
+
+ 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=150mm,height=90mm]{comparisonnew/accuracy.png}
@@ -849,6 +863,7 @@ Error is calculated between the expected outputs and the outputs forward propaga
 \end{center}
 \end{figure} 
 
+\pagebreak
 3.2 \textbf{Error BackPropagation:}\newline
 Here we first calculate the error of each neurons, this will give error signal(input) to propagate backward through the network.\newline
 The error of neuron can be calculate as:\newline

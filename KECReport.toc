@@ -24,21 +24,20 @@
 \contentsline {chapter}{\numberline {3}Methodology}{12}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}System Process Model}{12}{section.3.1}% 
 \contentsline {subsection}{\numberline {3.1.1}Incremental Software Development Model}{12}{subsection.3.1.1}% 
-\contentsline {subsection}{\numberline {3.1.2}Why Incremental Development Model?}{13}{subsection.3.1.2}% 
 \contentsline {section}{\numberline {3.2}Reason of using Python ?}{13}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}Why this project?}{13}{section.3.3}% 
+\contentsline {section}{\numberline {3.3}Why this project?}{14}{section.3.3}% 
 \contentsline {section}{\numberline {3.4}Procedure for Medical Diagnosis}{15}{section.3.4}% 
 \contentsline {subsection}{\numberline {3.4.1}Data Collection}{15}{subsection.3.4.1}% 
 \contentsline {subsection}{\numberline {3.4.2}Data Preparation}{16}{subsection.3.4.2}% 
 \contentsline {subsection}{\numberline {3.4.3}Choosing a Machine Learning Algorithms}{16}{subsection.3.4.3}% 
-\contentsline {section}{\numberline {3.5}Introduction to Biological neural network}{16}{section.3.5}% 
+\contentsline {section}{\numberline {3.5}Introduction to Biological neural network}{17}{section.3.5}% 
 \contentsline {section}{\numberline {3.6}Artificial Neural Network}{18}{section.3.6}% 
 \contentsline {subsection}{\numberline {3.6.1}Elements of a Neural Network }{19}{subsection.3.6.1}% 
 \contentsline {section}{\numberline {3.7}Biological vs Artificial Neural Network}{20}{section.3.7}% 
 \contentsline {section}{\numberline {3.8}Back Propagation Neural Network Algorithm}{23}{section.3.8}% 
-\contentsline {subsection}{\numberline {3.8.1}Architecture of Back propagation}{23}{subsection.3.8.1}% 
-\contentsline {subsection}{\numberline {3.8.2}A Pseudo-Code Algorithm}{24}{subsection.3.8.2}% 
-\contentsline {subsection}{\numberline {3.8.3}Training/learning Model}{24}{subsection.3.8.3}% 
+\contentsline {subsection}{\numberline {3.8.1}Architecture of Back propagation}{24}{subsection.3.8.1}% 
+\contentsline {subsection}{\numberline {3.8.2}A Pseudo-Code Algorithm}{25}{subsection.3.8.2}% 
+\contentsline {subsection}{\numberline {3.8.3}Training/learning Model}{25}{subsection.3.8.3}% 
 \contentsline {subsection}{\numberline {3.8.4}Basic Neuron Model In A Feedforward Network}{26}{subsection.3.8.4}% 
 \contentsline {subsection}{\numberline {3.8.5}Inputs To Neurons}{26}{subsection.3.8.5}% 
 \contentsline {subsection}{\numberline {3.8.6}Weights}{26}{subsection.3.8.6}% 
@@ -56,9 +55,9 @@
 \contentsline {chapter}{\numberline {4}Epilogue}{33}{chapter.4}% 
 \contentsline {subsection}{\numberline {4.0.1}Prototype}{33}{subsection.4.0.1}% 
 \contentsline {subsection}{\numberline {4.0.2}Output}{34}{subsection.4.0.2}% 
-\contentsline {subsection}{\numberline {4.0.3}Data Collection}{37}{subsection.4.0.3}% 
-\contentsline {subsection}{\numberline {4.0.4}Designing UI prototype}{38}{subsection.4.0.4}% 
-\contentsline {subsection}{\numberline {4.0.5}Selection of optimal Machine learning Algorithm}{38}{subsection.4.0.5}% 
+\contentsline {subsection}{\numberline {4.0.3}Data Collection}{38}{subsection.4.0.3}% 
+\contentsline {subsection}{\numberline {4.0.4}Designing UI prototype}{39}{subsection.4.0.4}% 
+\contentsline {subsection}{\numberline {4.0.5}Selection of optimal Machine learning Algorithm}{39}{subsection.4.0.5}% 
 \contentsline {subsection}{\numberline {4.0.6}Reason of Using Back Propagation ANN algorithm}{42}{subsection.4.0.6}% 
 \contentsline {subsection}{\numberline {4.0.7}Selection of optimal hyperparameter value for Modeling}{42}{subsection.4.0.7}% 
 \contentsline {subsection}{\numberline {4.0.8}Back Propagation Algorithm implementation using Python}{43}{subsection.4.0.8}% 
