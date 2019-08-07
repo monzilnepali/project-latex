@@ -11,61 +11,62 @@
 \contentsline {subsection}{\numberline {1.6.2}Technical Feasibility}{5}{subsection.1.6.2}% 
 \contentsline {subsection}{\numberline {1.6.3}Operational Feasibility}{5}{subsection.1.6.3}% 
 \contentsline {subsection}{\numberline {1.6.4}Schedule feasibility}{6}{subsection.1.6.4}% 
-\contentsline {section}{\numberline {1.7}System Requirements}{6}{section.1.7}% 
-\contentsline {subsection}{\numberline {1.7.1}Software Requirements}{6}{subsection.1.7.1}% 
-\contentsline {subsection}{\numberline {1.7.2}Hardware Requirements}{6}{subsection.1.7.2}% 
-\contentsline {chapter}{\numberline {2}Literature Review}{7}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}Previous Work On Medical Expert System}{7}{section.2.1}% 
-\contentsline {subsection}{\numberline {2.1.1}MYCIN}{7}{subsection.2.1.1}% 
-\contentsline {subsection}{\numberline {2.1.2}Chronic Kidney Disease Prediction Using Back Propagation Neural Network Algorithm}{8}{subsection.2.1.2}% 
-\contentsline {section}{\numberline {2.2}Automated Disease Prediction System (ADPS): A User Input-based Reliable Architecture for Disease Prediction}{8}{section.2.2}% 
-\contentsline {section}{\numberline {2.3}Neural Network Based Intelligent System for Predicting Heart Disease}{9}{section.2.3}% 
-\contentsline {chapter}{\numberline {3}Methodology}{11}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}System Process Model}{11}{section.3.1}% 
-\contentsline {subsection}{\numberline {3.1.1}Incremental Software Development Model}{11}{subsection.3.1.1}% 
-\contentsline {subsection}{\numberline {3.1.2}Why Incremental Development Model?}{12}{subsection.3.1.2}% 
-\contentsline {section}{\numberline {3.2}Reason of using Python ?}{12}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}Why this project?}{13}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}Procedure for Medical Diagnosis}{14}{section.3.4}% 
-\contentsline {subsection}{\numberline {3.4.1}Data Collection}{14}{subsection.3.4.1}% 
-\contentsline {subsection}{\numberline {3.4.2}Data Preparation}{15}{subsection.3.4.2}% 
-\contentsline {subsection}{\numberline {3.4.3}Choosing a Machine Learning Algorithms}{15}{subsection.3.4.3}% 
-\contentsline {section}{\numberline {3.5}Introduction to Biological neural network}{16}{section.3.5}% 
-\contentsline {section}{\numberline {3.6}Artificial Neural Network}{17}{section.3.6}% 
-\contentsline {subsection}{\numberline {3.6.1}Elements of a Neural Network }{18}{subsection.3.6.1}% 
-\contentsline {section}{\numberline {3.7}Biological vs Artificial Neural Network}{19}{section.3.7}% 
-\contentsline {section}{\numberline {3.8}Back Propagation Neural Network Algorithm}{22}{section.3.8}% 
-\contentsline {subsection}{\numberline {3.8.1}Architecture of Back propagation}{23}{subsection.3.8.1}% 
-\contentsline {subsection}{\numberline {3.8.2}A Pseudo-Code Algorithm}{24}{subsection.3.8.2}% 
-\contentsline {subsection}{\numberline {3.8.3}Training/learning Model}{24}{subsection.3.8.3}% 
-\contentsline {subsection}{\numberline {3.8.4}Basic Neuron Model In A Feedforward Network}{25}{subsection.3.8.4}% 
-\contentsline {subsection}{\numberline {3.8.5}Inputs To Neurons}{25}{subsection.3.8.5}% 
-\contentsline {subsection}{\numberline {3.8.6}Weights}{25}{subsection.3.8.6}% 
-\contentsline {subsection}{\numberline {3.8.7}Outputs}{26}{subsection.3.8.7}% 
-\contentsline {subsection}{\numberline {3.8.8}Network Error}{26}{subsection.3.8.8}% 
-\contentsline {subsection}{\numberline {3.8.9}Calculate Outputs For Each Neuron Based On The Pattern}{26}{subsection.3.8.9}% 
-\contentsline {subsection}{\numberline {3.8.10}Calculate The Error Signal For Each Output Neuron}{27}{subsection.3.8.10}% 
-\contentsline {subsection}{\numberline {3.8.11}Calculate The Error Signal For Each Hidden Neuron}{27}{subsection.3.8.11}% 
-\contentsline {subsection}{\numberline {3.8.12}Calculate And Apply Weight Adjustments}{28}{subsection.3.8.12}% 
-\contentsline {subsection}{\numberline {3.8.13}Summarization of Steps}{28}{subsection.3.8.13}% 
-\contentsline {section}{\numberline {3.9}System Analysis}{29}{section.3.9}% 
-\contentsline {subsection}{\numberline {3.9.1}Flowchart Diagram}{29}{subsection.3.9.1}% 
-\contentsline {subsection}{\numberline {3.9.2}Usecase Diagram}{30}{subsection.3.9.2}% 
-\contentsline {subsection}{\numberline {3.9.3}Activity diagram}{31}{subsection.3.9.3}% 
-\contentsline {chapter}{\numberline {4}Results and Discussion}{32}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Work Completed}{32}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}Data Collection}{32}{subsection.4.1.1}% 
-\contentsline {subsection}{\numberline {4.1.2}Designing UI prototype}{32}{subsection.4.1.2}% 
-\contentsline {subsection}{\numberline {4.1.3}Selection of optimal Machine learning Algorithm}{32}{subsection.4.1.3}% 
-\contentsline {subsection}{\numberline {4.1.4}Reason of Using Back Propagation ANN algorithm}{36}{subsection.4.1.4}% 
-\contentsline {subsection}{\numberline {4.1.5}Selection of optimal hyperparameter value for Modeling}{36}{subsection.4.1.5}% 
-\contentsline {subsection}{\numberline {4.1.6}Back Propagation Algorithm implementation using Python}{37}{subsection.4.1.6}% 
-\contentsline {subsection}{\numberline {4.1.7}RESTFul API using Flask}{42}{subsection.4.1.7}% 
-\contentsline {subsection}{\numberline {4.1.8}Pill Reminder}{43}{subsection.4.1.8}% 
-\contentsline {subsection}{\numberline {4.1.9}Prototype}{44}{subsection.4.1.9}% 
-\contentsline {subsection}{\numberline {4.1.10}Output}{44}{subsection.4.1.10}% 
-\contentsline {section}{\numberline {4.2}Limitations}{44}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Challenges}{45}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Work Schedule}{47}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}Conclusion}{47}{section.4.5}% 
-\contentsline {section}{\numberline {4.6}Future Enhancements}{47}{section.4.6}% 
+\contentsline {section}{\numberline {1.7}Usability Analysis}{6}{section.1.7}% 
+\contentsline {section}{\numberline {1.8}System Requirements}{7}{section.1.8}% 
+\contentsline {subsection}{\numberline {1.8.1}Software Requirements}{7}{subsection.1.8.1}% 
+\contentsline {subsection}{\numberline {1.8.2}Hardware Requirements}{7}{subsection.1.8.2}% 
+\contentsline {chapter}{\numberline {2}Literature Review}{8}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Previous Work On Medical Expert System}{8}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}MYCIN}{8}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.2}Chronic Kidney Disease Prediction Using Back Propagation Neural Network Algorithm}{9}{subsection.2.1.2}% 
+\contentsline {section}{\numberline {2.2}Automated Disease Prediction System (ADPS): A User Input-based Reliable Architecture for Disease Prediction}{9}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}Neural Network Based Intelligent System for Predicting Heart Disease}{10}{section.2.3}% 
+\contentsline {chapter}{\numberline {3}Methodology}{12}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}System Process Model}{12}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}Incremental Software Development Model}{12}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.1.2}Why Incremental Development Model?}{13}{subsection.3.1.2}% 
+\contentsline {section}{\numberline {3.2}Reason of using Python ?}{13}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Why this project?}{14}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Procedure for Medical Diagnosis}{15}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.4.1}Data Collection}{15}{subsection.3.4.1}% 
+\contentsline {subsection}{\numberline {3.4.2}Data Preparation}{16}{subsection.3.4.2}% 
+\contentsline {subsection}{\numberline {3.4.3}Choosing a Machine Learning Algorithms}{16}{subsection.3.4.3}% 
+\contentsline {section}{\numberline {3.5}Introduction to Biological neural network}{17}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}Artificial Neural Network}{18}{section.3.6}% 
+\contentsline {subsection}{\numberline {3.6.1}Elements of a Neural Network }{19}{subsection.3.6.1}% 
+\contentsline {section}{\numberline {3.7}Biological vs Artificial Neural Network}{20}{section.3.7}% 
+\contentsline {section}{\numberline {3.8}Back Propagation Neural Network Algorithm}{23}{section.3.8}% 
+\contentsline {subsection}{\numberline {3.8.1}Architecture of Back propagation}{24}{subsection.3.8.1}% 
+\contentsline {subsection}{\numberline {3.8.2}A Pseudo-Code Algorithm}{25}{subsection.3.8.2}% 
+\contentsline {subsection}{\numberline {3.8.3}Training/learning Model}{25}{subsection.3.8.3}% 
+\contentsline {subsection}{\numberline {3.8.4}Basic Neuron Model In A Feedforward Network}{26}{subsection.3.8.4}% 
+\contentsline {subsection}{\numberline {3.8.5}Inputs To Neurons}{26}{subsection.3.8.5}% 
+\contentsline {subsection}{\numberline {3.8.6}Weights}{26}{subsection.3.8.6}% 
+\contentsline {subsection}{\numberline {3.8.7}Outputs}{27}{subsection.3.8.7}% 
+\contentsline {subsection}{\numberline {3.8.8}Network Error}{27}{subsection.3.8.8}% 
+\contentsline {subsection}{\numberline {3.8.9}Calculate Outputs For Each Neuron Based On The Pattern}{27}{subsection.3.8.9}% 
+\contentsline {subsection}{\numberline {3.8.10}Calculate The Error Signal For Each Output Neuron}{28}{subsection.3.8.10}% 
+\contentsline {subsection}{\numberline {3.8.11}Calculate The Error Signal For Each Hidden Neuron}{28}{subsection.3.8.11}% 
+\contentsline {subsection}{\numberline {3.8.12}Calculate And Apply Weight Adjustments}{29}{subsection.3.8.12}% 
+\contentsline {subsection}{\numberline {3.8.13}Summarization of Steps}{29}{subsection.3.8.13}% 
+\contentsline {section}{\numberline {3.9}System Analysis}{30}{section.3.9}% 
+\contentsline {subsection}{\numberline {3.9.1}Flowchart Diagram}{30}{subsection.3.9.1}% 
+\contentsline {subsection}{\numberline {3.9.2}Usecase Diagram}{31}{subsection.3.9.2}% 
+\contentsline {subsection}{\numberline {3.9.3}Activity diagram}{32}{subsection.3.9.3}% 
+\contentsline {chapter}{\numberline {4}Results and Discussion}{33}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Work Completed}{33}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Data Collection}{33}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}Designing UI prototype}{33}{subsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.1.3}Selection of optimal Machine learning Algorithm}{33}{subsection.4.1.3}% 
+\contentsline {subsection}{\numberline {4.1.4}Reason of Using Back Propagation ANN algorithm}{37}{subsection.4.1.4}% 
+\contentsline {subsection}{\numberline {4.1.5}Selection of optimal hyperparameter value for Modeling}{37}{subsection.4.1.5}% 
+\contentsline {subsection}{\numberline {4.1.6}Back Propagation Algorithm implementation using Python}{38}{subsection.4.1.6}% 
+\contentsline {subsection}{\numberline {4.1.7}RESTFul API using Flask}{43}{subsection.4.1.7}% 
+\contentsline {subsection}{\numberline {4.1.8}Pill Reminder}{44}{subsection.4.1.8}% 
+\contentsline {subsection}{\numberline {4.1.9}Prototype}{45}{subsection.4.1.9}% 
+\contentsline {subsection}{\numberline {4.1.10}Output}{45}{subsection.4.1.10}% 
+\contentsline {section}{\numberline {4.2}Limitations}{45}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Challenges}{46}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Work Schedule}{48}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Conclusion}{48}{section.4.5}% 
+\contentsline {section}{\numberline {4.6}Future Enhancements}{48}{section.4.6}% 
