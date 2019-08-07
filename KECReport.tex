@@ -202,28 +202,15 @@ which is also readily available. The work done in this sector is not for the fir
 is practical.
 
 \subsection{Operational Feasibility}
-As we know operation means the service provided by the software to the users. The software should be capable of providing all the 
-necessary requirements of the users. So, here, the measure of how well the software can solve the given problem of where it is applied is 
-stated. It also gives the measure of how well the users can use the software to solve their problem and wether the software is acceptable 
-by the users or not.\par
+As we know operation means the service provided by the software to the users. The software should be capable of providing all the necessary requirements of the users. So, here, the measure of how well the software can solve the given problem of where it is applied is stated. It also gives the measure of how well the users can use the software to solve their problem and whether the software is acceptable by the users or not.\par
+Our project system is based on predicting of diseases and users are required to input symptoms according to they have i.e. through provided options. Our project application can be accessed by everyone with ease; we have developed an android application which can be easily access by any user. Users can just input their name, age, gender and provide symptoms and get results.
 
-The improvement of the operations of any domain and the measure of how well the software can solve the problem of a given domain can 
-be analyzed according to PIECES framework which stands for: \newpage
-P=Performance \newline
-I=Information \newline
-E=Economy \newline
-C=Control \newline
-E=Efficiency \newline
-S=Services \newline
+Our project functions are easy to use but users are required to have certain knowledge sets, as everything is 
+in english which gives boundary to illiterate people and also required to have skill in identifying and describing about their health related issues as they should have information about the symptoms, that they will input which will provide a promising results.
 
 \subsection{Schedule feasibility}
 The time frame of the project is analyzed in this section. The analysis of whether the project will be completed or not within the given time is done in the schedule feasibility. The total time for the completion of the project in about 6 months starting from falgun to shrawan and it is possible to complete the project within this time provided that the required hardware and the software are readily available.
 
-\section{Usability Analysis}
-Our project system is based on predicting of diseases and users are required to input symptoms according to they have i.e. through provided options. Our project application can be accessed by everyone with ease; we have developed an android app which can be easily access by any user. Users can just input their name, age, gender and provide symptoms and get results.
-
-Our project functions are easy to use but users are required to have certain knowledge sets, as everything is 
-in english which gives boundary to illiterate people and also required to have skill in identifying and describing about their health related issues as they should have information about the symptoms, that they will input which will provide a promising results.
 
 \section{System Requirements}\label{sec:sr}%label your section if you require to refer them somewhere else in your document.
 \subsection{Software Requirements}
@@ -245,6 +232,27 @@ There are different areas in medicine where an expert system has  been  designed
 
 
 \section{Previous Work On Medical Expert System}
+
+\subsection{Medical Diagnosis using Back propagation Algorithm}
+Artificial Intelligence has always lent a helping hand to the practitioners of medicine for improving medical diagnosis and treatment then, paradigm of artificial neural networks is shortly introduced and the main problems of medical data base and the basic approaches for training and testing a network by medical data are described. A lot of Applications tried to help
+human experts, offering a solution. This paper describes a
+optimal feed forward Back propagation algorithm. Feedforward back propagation neural network is used as a classifier to distinguish between infected or non-infected person in both cases. However, Traditional Back Propagation Algorithm has many shortcomings. Learning often takes long time to converge, and it may fall into local minima. One of the possible remedies to escape from local minima is by using a very small learning rate, which slows down the learning process. The back propagation algorithm presented in this paper used for training
+depends on a multilayer neural network with a very small
+learning rate, especially when using a large training set
+size. It can be applied in a generic manner for any
+network size that uses a back propagation algorithm and
+achieved the best performance with the minimum epoch
+(training iterations) and training time. \par
+
+In this paper, a medical decision support system based on the neural network architecture for Medical diagnosis. The system is trained by employing an improved BP algorithm. The
+hidden layer of a neural network plays an important
+role for detecting the relevant features. Due to the
+existence of irrelevant and redundant attributes, by
+selecting only the relevant attributes, higher predictive
+accuracy can be achieved. For a particular input, any
+feature may not be effective to the hidden
+layer or feature space. By extracting these
+features training time can be minimize. 
 \subsection{MYCIN}
 MYCIN is the name of a decision support system developed by Stanford University in the early-to mid-seventies, built to assist physicians in the diagnosis of infectious diseases. The system (also known as an "expert system") would ask a series of questions designed to emulate the thinking of an expert in the field of infectious disease (hence the "expert-"), and from the responses to these questions give a list of possible diagnoses, with probability, as well as recommend treatment (hence the "decision support-").\par 
 MYCIN is an AI program designed:
@@ -613,9 +621,51 @@ W\textsubscript{ji}(t+1) = W\textsubscript{ji}(t) + $\Delta$ W\textsubscript{ji}
 \end{figure}
 
 
-\chapter{Results and Discussion}
+\chapter{Epilogue}
 
-\section{Work Completed}
+\subsection{Prototype}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=150mm, height = 100mm]{images/prototype.jpg}
+\caption{Prototype}
+\end{center}
+\end{figure}
+We used paper prototyping "Adobe xd" which is extremely helpful during the early stage conceptualizing. So, we explore a variety of different concepts and choose the one that will be used. This paper prototype allows quickly visualize and test various ideas.
+
+
+\subsection{Output}
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=145mm, height = 100mm]{Outputnew/1.png}
+
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=145mm, height = 100mm]{Outputnew/2.png}
+
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=145mm, height = 100mm]{Outputnew/3.png}
+
+\end{center}
+\end{figure}
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=145mm, height = 100mm]{Outputnew/4.png}
+
+\end{center}
+\end{figure}
+
+
   
 
 \subsection{Data Collection}
@@ -842,45 +892,9 @@ In order to create RESTFul API we used flask in server side which is micro frame
 \subsection{Pill Reminder}
 Pill Reminder is one of the features of our project which is meant to aid the forgetful and busy with remembering to take their daily medications. It is designed for users who need a little help keeping track of their medication schedule and who are dedicated to keeping the schedule. The application allows the user to store pill objects and multiple alarms for those pills. Alarms have one time of day and can occur on multiple days of the week.
 
-\subsection{Prototype}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=130mm, height = 80mm]{images/prototype.jpg}
-\caption{Prototype}
-\end{center}
-\end{figure}
-
-\subsection{Output}
 
 
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=145mm, height = 100mm]{Outputnew/1.png}
 
-\end{center}
-\end{figure}
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=145mm, height = 100mm]{Outputnew/2.png}
-
-\end{center}
-\end{figure}
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=145mm, height = 100mm]{Outputnew/3.png}
-
-\end{center}
-\end{figure}
-
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=145mm, height = 100mm]{Outputnew/4.png}
-
-\end{center}
-\end{figure}
 
 \section{Limitations}
 In spite of all hardwork, our project consist some limitation. Our project has lack of reliable information. Users cannot describe the detailed information such as if someone is having fever he/she could not describe the temperature and also if someone having pain in any part of the body, how much it is paining. There is only limited number of disease which our project can predict. Users cannot enter their symptoms on their own.\par 
@@ -909,18 +923,6 @@ For example, choosing between K-Nearest Neighbor algorithm, Naive Bayes Algorith
  \caption{Gantt Chart}
 \end{figure}
 
-\section{Conclusion}
- 
-Our proposed system of disease prediction with appropriate diagnosis has 
-been framed up using Artificial Neural Network. For effective prediction, 
-back propagation algorithm was applied to train the data and compare the 
-parameters iteratively. The back propagation algorithm has been repeated until 
-minimum error rate was obseved. It is proven from the results that the proposed 
-method, back propagation artificial neural network effectively predicts accuracy 
-around 85.02\%. Tuning the hyperparameters like learning rate, epoch etc for 
-increasing the performance model for our project is still in process. 
-
-
 \section{Future Enhancements}
 
 For now our project is capable of only determining/predicting diseases according to provided
@@ -938,6 +940,20 @@ In future additional extra features can be added such as;-
    \item Near By Hospital: We can also implement google map api to get information about the nearest hospital from user location
         
 \end{itemize}
+
+\section{Conclusion}
+ 
+Our proposed system of disease prediction with appropriate diagnosis has 
+been framed up using Artificial Neural Network. For effective prediction, 
+back propagation algorithm was applied to train the data and compare the 
+parameters iteratively. The back propagation algorithm has been repeated until 
+minimum error rate was obseved. It is proven from the results that the proposed 
+method, back propagation artificial neural network effectively predicts accuracy 
+around 85.02\%. Tuning the hyperparameters like learning rate, epoch etc for 
+increasing the performance model for our project is still in process. 
+
+
+
 
 
 \chapter*{References}
