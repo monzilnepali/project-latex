@@ -172,9 +172,9 @@ The features are listed:
 \section{Feasibility Analysis}\label{sec:fa}
 The analyses of how feasible the project is in the terms of its technology, its operation, its cost etc in the current context are 
 done in this section. Feasible, in the sense, can be considered as how well it can be continued taking account of the above scenario.
-That is whether the technology available is appropriate of the software or not, whether the software can be developed within the given cost
-and time or not and at last whether the software can be developed within the given cost and time or not and at last whether the facility provided 
+That is whether the technology available is appropriate of the software or not, whether the software can be developed within the given cost and time or not and  and at last whether the facility provided 
 by the software is fit for the given operation or not.
+
 So the feasibility analysis can be done in terms of the following four topics. These are:
 \begin{itemize}
     \item Economic feasibility 
@@ -666,7 +666,7 @@ Designing UI prototype is essential steps in any project development. Designing 
 \subsection{Prototype}
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=150mm, height = 100mm]{images/prototype.jpg}
+\includegraphics[width=150mm, height = 80mm]{images/prototype.jpg}
 \caption{Prototype}
 \end{center}
 \end{figure}
@@ -708,14 +708,14 @@ The  below  tables, depicts  the  various  performance metrics   of   the   clas
 
  \begin{figure}[H]
 \begin{center}
-\includegraphics[width=160mm,height=45mm]{comparisonnew/analysissensitivity.png}
+\includegraphics[width=160mm,height=40mm]{comparisonnew/analysissensitivity.png}
  \caption{Performance analysis based on sensitivity}
  \end{center}                
 \end{figure}
  
  \begin{figure}[H]
 \begin{center}
-\includegraphics[width=160mm,height=45mm]{comparisonnew/analysisprecision.png}
+\includegraphics[width=160mm,height=40mm]{comparisonnew/analysisprecision.png}
  \caption{Performance analysis based on precision}
  \end{center}                
 \end{figure}
@@ -756,18 +756,12 @@ Since we are using Back Propagation Algorithm which is a supervised learning met
 
 There is no universal learning rate value which will work for all types of project. So learning rate value is highly dependent on problem at hand and in order to find suitable learning rate value for our project we explore how learning rate affect the model performance.
 
-For this we trained our neural Network with stochastic gradient descent for different value of learning rate and Activation function such as sigmoid, relu, tanh. We used cross validation test method to determine the performance of model on different parameters and  we conclude that sigmoid activation function and learning rate=0.6 is optimal for our neural Network model as we got around 88\%  accuracy while increasing or decreasing learning rate values reduce the accuracy of model.
 
-\begin{figure}[H]
-\begin{center}
-    
-\includegraphics[width=170mm,height=100mm]{dataset_summary/selectionHyperparameter.png}
- \caption{Selection of optimal learning rate and activation function}
- \end{center}                
-\end{figure}
 
-\begin{figure}[H]
-\begin{center}
+
+For this we trained our neural Network with stochastic gradient descent for different value of learning rate and Activation function such as sigmoid, relu, tanh. We used cross validation test method to determine the performance of model on different parameters and  we conclude that sigmoid activation function and learning rate=0.6 is optimal for our neural Network model as we got around 95\%  accuracy while increasing or decreasing learning rate values reduce the accuracy of model.
+
+
     
 \includegraphics[width=100mm,height=50mm]{comparison/hiddenlayer.jpg}
  \caption{Selection of optimal Number of Hidden Layer}
