@@ -1,5 +1,7 @@
-\contentsline {chapter}{Abstract}{i}{chapter*.2}% 
-\contentsline {chapter}{Acknowledgment}{ii}{chapter*.3}% 
+\contentsline {chapter}{Copyright}{i}{chapter*.2}% 
+\contentsline {chapter}{Approval Letter}{ii}{chapter*.3}% 
+\contentsline {chapter}{Abstract}{iii}{chapter*.4}% 
+\contentsline {chapter}{Acknowledgment}{iv}{chapter*.5}% 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}Problem Statement}{2}{section.1.2}% 
