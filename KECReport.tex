@@ -363,8 +363,7 @@ As application designing is a multi-step process so we used this phase for drawi
 
 \item Development: During this stage, we developed a working prototype to validate the functionality, assumptions, and understanding of the project scope. The app goes through a set of steps as the development progresses from core functionality development to light testing.
 
-\item Testing and Debugging: It is one of the critical components of any app development process, it is always a great idea to test at early stages. \par
-We tested our app for usability, interface & security checks, stress, compatibility, and performance to find bugs or errors in app and if found then can be fixed in testing phase. 
+\item Testing and Debugging: It is one of the critical components of any app development process, it is always a great idea to test at early stages. We tested our app for usability, interface & security checks, stress, compatibility, and performance to find bugs or errors in app and if found then can be fixed in testing phase. 
 \end{itemize}
 
 
@@ -960,7 +959,7 @@ Medicine reminder alert screen is shown in Medicine Reminder Entry where it show
 
 \section{Limitations}
 In spite of all hardwork, our project consist some limitation. Our project has lack of reliable information. Users cannot describe the detailed information such as if someone is having fever he/she could not describe the temperature and also if someone having pain in any part of the body, how much it is paining. There is only limited number of disease which our project can predict. Users cannot enter their symptoms on their own.\par 
-A machine learning model can provide more accurate outcome if the number of hidden layer is increased. But the increase in number of hidden layers leads to computational complexities which cannot be operate by our normal computer. So, we had to use only 5 number of hidden layer. We can use more hidden layer but the complexities and consumption of time will also increases. There is no design guidelines and accuracy depends on training and learning which is not always available. It is hard to maintain degree of meaningfulness and also hard to combine cases together. Predictions are limited to the cases that have been observed. They require accurate details on many past projects. They have large data requirement to learn about various topics which may be time taking and cause various resources.\par 
+A machine learning model can provide more accurate outcome if the number of hidden layer is increased. But the increase in number of hidden layers leads to computational complexities which cannot be operate by our normal computer. So, we had to use only 6 number of hidden layer. We can use more hidden layer but the complexities and consumption of time will also increases. There is no design guidelines and accuracy depends on training and learning which is not always available. It is hard to maintain degree of meaningfulness and also hard to combine cases together. Predictions are limited to the cases that have been observed. They require accurate details on many past projects. They have large data requirement to learn about various topics which may be time taking and cause various resources.\par 
 The actual problem with this inevitable fact is that when they do make errors, diagnosing and correcting them can be difficult because it will require going through the underlying complexities of the algorithms and associated processes. It is impossible to make immediate accurate predictions with a back propagation. It always learns through historical data. The bigger the data and the longer it is exposed to these data, the better it will perform. There is lack of variability. Back propagation deals with statistical truths rather than literal truths. In situations that are not included in the historical data, it will be difficult to prove with complete certainty that the predictions made is suitable in all scenarios. Unlike humans, computers are not good storytellers. Back propagation cannot always provide rational reasons for a particular prediction or decision. They are also limited to answering questions rather than posing them. These systems does not understand context. Depending on the provided data used for training, machine learning is also prone to hidden and unintentional biases. Human input is still important to better evaluate the outputs of these systems.
 
 \section{Challenges}
@@ -985,23 +984,7 @@ For example, choosing between K-Nearest Neighbor algorithm, Naive Bayes Algorith
  \caption{Gantt Chart}
 \end{figure}
 
-\section{Future Enhancements}
 
-For now our project is capable of only determining/predicting diseases according to provided
-symptoms only. The same architecture could be extended to predict other diseases as well
-after analysing the various symptoms of those diseases in consultation with the concerned 
-health experts. 
-
-Our project has got a lot of potential; for now due to limitation to our knowledge and time, we have proposed an able system to predict provided diseases only.
-
-In future additional extra features can be added such as;- 
-\begin{itemize}
-    \item Natural Language Processing:In future natural language processing can be used in our project which allow user to provide symptoms in english language rather then selecting symptoms from drop down menu
-    \item SMS Based:In future SMS based system can be implement in our system which allow user at remote area of nepal to get access to our system and also it doesn't require high bandwidth connection and smartphone.
-   
-   \item Near By Hospital: We can also implement google map api to get information about the nearest hospital from user location
-        
-\end{itemize}
 
 \section{Conclusion}
  
@@ -1024,7 +1007,23 @@ the better results. The number of hidden layers and tuning the hyperparameters l
 learning rate, epoch etc for increasing the performance model for our project is still in 
 working stage.
 
+\section{Future Enhancements}
 
+For now our project is capable of only determining/predicting diseases according to provided
+symptoms only. The same architecture could be extended to predict other diseases as well
+after analysing the various symptoms of those diseases in consultation with the concerned 
+health experts. 
+
+Our project has got a lot of potential; for now due to limitation to our knowledge and time, we have proposed an able system to predict provided diseases only.
+
+In future additional extra features can be added such as;- 
+\begin{itemize}
+    \item Natural Language Processing:In future natural language processing can be used in our project which allow user to provide symptoms in english language rather then selecting symptoms from drop down menu
+    \item SMS Based:In future SMS based system can be implement in our system which allow user at remote area of nepal to get access to our system and also it doesn't require high bandwidth connection and smartphone.
+   
+   \item Near By Hospital: We can also implement google map api to get information about the nearest hospital from user location
+        
+\end{itemize}
 
 
 
