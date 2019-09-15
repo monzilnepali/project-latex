@@ -41,8 +41,7 @@
 \contentsline {subsection}{\numberline {3.9.1}Architecture of Back propagation}{24}{subsection.3.9.1}% 
 \contentsline {subsection}{\numberline {3.9.2}A Pseudo-Code Algorithm}{25}{subsection.3.9.2}% 
 \contentsline {subsection}{\numberline {3.9.3}Training/learning Model}{25}{subsection.3.9.3}% 
-\contentsline {subsection}{\numberline {3.9.4}Weight update for output layer}{26}{subsection.3.9.4}% 
-\contentsline {subsection}{\numberline {3.9.5}Summarization of Steps}{27}{subsection.3.9.5}% 
+\contentsline {subsection}{\numberline {3.9.4}Summarization of Steps}{28}{subsection.3.9.4}% 
 \contentsline {section}{\numberline {3.10}System Analysis}{29}{section.3.10}% 
 \contentsline {subsection}{\numberline {3.10.1}System Flow Diagram}{29}{subsection.3.10.1}% 
 \contentsline {subsection}{\numberline {3.10.2}Usecase Diagram}{30}{subsection.3.10.2}% 
@@ -56,9 +55,9 @@
 \contentsline {subsection}{\numberline {4.0.6}Selection of optimal hyperparameter value for Modeling}{37}{subsection.4.0.6}% 
 \contentsline {subsection}{\numberline {4.0.7}Back Propagation Algorithm implementation using Python}{39}{subsection.4.0.7}% 
 \contentsline {subsection}{\numberline {4.0.8}RESTFul API using Flask}{44}{subsection.4.0.8}% 
-\contentsline {subsection}{\numberline {4.0.9}Output}{46}{subsection.4.0.9}% 
-\contentsline {section}{\numberline {4.1}Limitations}{50}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Challenges}{51}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Work Schedule}{53}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Conclusion}{53}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}Future Enhancements}{54}{section.4.5}% 
+\contentsline {subsection}{\numberline {4.0.9}Output}{45}{subsection.4.0.9}% 
+\contentsline {section}{\numberline {4.1}Limitations}{49}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Challenges}{50}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Work Schedule}{52}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Conclusion}{52}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Future Enhancements}{53}{section.4.5}% 

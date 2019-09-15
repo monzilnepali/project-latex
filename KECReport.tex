@@ -10,10 +10,10 @@
 \newcommand{\submittedBy}%Specify Names and Roll/Symbol Numbers of the Project Group Members
 {
 %Edit Member Names and Roll/Symbol No. and adjust width (\makebox[width]) if necessary 
-\makebox[7cm]{Abhishek Gurung\hfill [91/BCT/072]}\\
-\makebox[7cm]{Manjil Nepali  \hfill [105/BCT/072]}\\
-\makebox[7cm]{Sagar Maharjan \hfill [118/BCT/072]}\\
-\makebox[7cm]{Sovin Shrestha \hfill [126/BCT/072]}
+\makebox[7cm]{Abhishek Gurung\hfill [38987]}\\
+\makebox[7cm]{Manjil Nepali  \hfill [39000]}\\
+\makebox[7cm]{Sagar Maharjan \hfill [39012]}\\
+\makebox[7cm]{Sovin Shrestha \hfill [39018]}
 %\makebox[9cm]{Member Name \hfill [Roll/Symbol No.]}\\
 } % Note that You must write your "Symbol Numbers"(Exam Roll Numbers) for Final Defenses
 
@@ -513,11 +513,11 @@ Calculation of output from neural network by propagating an input signal through
 
 \begin{itemize}
 \item Output of neurons:
-\par yn=f(xm*w(xm)n+bias)
+$$y\textsubscript{n} = f(x\textsubscript{m}*w(x\textsubscript{m})n+bias)$$
 \par where,
-\par xm = input to neuron n
-\par w(xm)n = weight of connection between input xm and neuron n
-\par yn = output of neuron n
+\par x\textsubscript{m} = input to neuron n
+\par w(x\textsubscript{m})n = weight of connection between input x\textsubscript{m} and neuron n
+\par y\textsubscript{n} = output of neuron n
 \par f() = activation function like sigmoid, relu, tanh, etc.
 
 \item Calculation of Error:
@@ -539,8 +539,9 @@ Error is calculated between the expected outputs and the outputs forward propaga
   \textbf{Weight update for output layer} 
  $$ *W\textsubscript{x} = W\textsubscript{x} - \eta (\frac{\partial Error}{\delta W\textsubscript{x} }) $$  
  
- \par where, \eta = learning rate  
- \par Let's take example to update w6,
+ \par where, 
+ $\eta$ = learning rate   
+ \par Let's take example to update W\textsubscript{6},
  	$$ *W\textsubscript{6} = W\textsubscript{6} - \eta (\frac{\partial Error}{\delta W\textsubscript{6} }) $$  
 \par The derivation of the error function is evaluated by applying the chain rule as following:
 $$ \frac{\partial Error}{\delta  W\textsubscript{6}} = \frac{\partial Error}{\partial prediction} * \frac{\partial prediction}{\partial  W\textsubscript{6}}$$ 	
@@ -548,25 +549,23 @@ $$ \frac{\partial Error}{\partial  W\textsubscript{6}} = \frac{\frac{1}{2}(predi
 $$ \frac{\partial Error}{\partial  W\textsubscript{6}} = 2 * \frac{1}{2}(prediction - actual)\frac{\partial(prediction-actual)}{\delta prediction} * (i\textsubscript{1} w\textsubscript{3} + i\textsubscript{2} w\textsubscript{4}) $$
 $$ \frac{\partial Error}{\delta  W\textsubscript{6}} = (prediction - actual)*(h\textsubscript{2}) $$
 $$ \frac{\partial Error}{\delta  W\textsubscript{6}} = \Delta h\textsubscript{2} $$
-\par So to update w6 we can apply the following formula 
-
+\par So to update W\textsubscript{6} we can apply the following formula 
 $$ *W\textsubscript{6} = W\textsubscript{6} - \eta \Delta h\textsubscript{2}  $$
  
-\pagebreak
+
  \textbf{Weight update for Hidden layer} 
  
- lets take example to update w1.Here partial derivative is done with respect to w1.
+ lets take example to update  w\textsubscript{1}.Here partial derivative is done with respect to w\textsubscript{1}.
  
  
- $$ \frac{\partial Error}{\partial w\textsubscript{1}}= \frac{\partial Error}{\partial predication}*\frac{\partial predication}{\partial h1}* \frac{\partial h\textsubscript{1}}{\partial w\textsubscript{1}}$$
-$$\frac{\partial Error}{\partial w\textsubscript{1}}=\frac{\partial\frac{1}{2}*(predication-actual)}{\partial predication}*\frac{\partial (h1)w5+(h2)w6}{\partial h1}*\frac{\partial i1w1+i2w2}{\partial w1} $$
-$$\frac{\partial Error}{\partial w\textsubscript{1}}=2*\frac{1}{2}*(predication-actual)*\frac{\partial (predication-actual)}{predication}*(w5)*(i1)
+ $$ \frac{\partial Error}{\partial w\textsubscript{1}}= \frac{\partial Error}{\partial predication}*\frac{\partial predication}{\partial h\textsubscript{1}}* \frac{\partial h\textsubscript{1}}{\partial w\textsubscript{1}}$$
+$$\frac{\partial Error}{\partial w\textsubscript{1}}=\frac{\partial\frac{1}{2}*(predication-actual)}{\partial predication}*\frac{\partial (h\textsubscript{1})w\textsubscript{5}+(h\textsubscript{2})w\textsubscript{6}}{\partial h\textsubscript{1}}*\frac{\partial i\textsubscript{1}w\textsubscript{1}+i\textsubscript{2}w\textsubscript{2}}{\partial w\textsubscript{1}} $$
+$$\frac{\partial Error}{\partial w\textsubscript{1}}=2*\frac{1}{2}*(predication-actual)*\frac{\partial (predication-actual)}{predication}*(w\textsubscript{5})*(i\textsubscript{1})
 $$
-$$\frac{\partial Error}{\partial w\textsubscript{1}}=(predication-actual)*(w5i1) $$
-$$ \frac{\partial Error}{\partial w\textsubscript{1}}=\triangle w5i1 $$
+$$\frac{\partial Error}{\partial w\textsubscript{1}}=(predication-actual)*(w\textsubscript{5}i\textsubscript{1}) $$
+$$ \frac{\partial Error}{\partial w\textsubscript{1}}=\triangle w\textsubscript{5}i\textsubscript{1} $$
   
- \par So to update w1 we can apply the following formula 
-
+ \par So to update w\textsubscript{1} we can apply the following formula 
 $$ *W\textsubscript{1} = W\textsubscript{1} - \eta \Delta i\textsubscript{1} w\textsubscript{5}  $$
  
 
@@ -595,7 +594,7 @@ $$ *W\textsubscript{1} = W\textsubscript{1} - \eta \Delta i\textsubscript{1} w\t
 \begin{figure}[H]
 \begin{center}
     
-\includegraphics[width=150mm,height=170mm]{images/usecase.png}
+\includegraphics[width=160mm,height=180mm]{images/usecase1.jpg}
  \caption{UseCase Diagram}
  \end{center}                
 \end{figure}
@@ -815,7 +814,7 @@ Error is calculated between the expected outputs and the outputs forward propaga
 \end{center}
 \end{figure} 
 
-\pagebreak
+
 3.2 \textbf{Error BackPropagation:}\newline
 Here we first calculate the error of each neurons, this will give error signal(input) to propagate backward through the network.\newline
 The error of neuron can be calculate as:\newline
