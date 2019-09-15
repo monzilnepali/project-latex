@@ -508,117 +508,61 @@ As shown in the diagram, the architecture of Back Propagation Network has three 
 The training process of the MLP occurs by continuous adjustment of the weights of the connections after each processing. This adjustment is based on the error in output(which is the different between the expected result and the output). This continuous adjustment of the weights is a supervised learning process called ‘backpropagation’.\newline
 The backpropagation algorithm consists of two parts:
 \newline
-1.forward pass\newline
-2.backward pass\newline
-In the forward pass, the expect output corresponding to the given inputs are evaluated.
-In the backward pass, partial derivatives of the cost function with respects to the different parameters are propagated back through the network.\newline
-The process continues until the error is at the lowest value.
-\pagebreak
-\subsection{Basic Neuron Model In A Feedforward Network}
+1.Forward pass\newline
+Calculation of output from neural network by propagating an input signal through each layer until the output layers outputs its values.
+
 \begin{itemize}
-    \item Inputs x\textsubscript{i} arrive through pre-synaptic connections 
-    \item Synaptic efficacy is modeled using real weights w\textsubscript{i}
-    \item The response of the neuron is a nonlinear function f of its weighted inputs
+\item Output of neurons:
+\par yn=f(xm*w(xm)n+bias)
+\par where,
+\par xm = input to neuron n
+\par w(xm)n = weight of connection between input xm and neuron n
+\par yn = output of neuron n
+\par f() = activation function like sigmoid, relu, tanh, etc.
+
+\item Calculation of Error:
+\par Calculation of the error for each output neuron using the squared error function and sum them to get the total error:
+	$$ E\textsubscript{total} &=  \sum \frac{1}{2}(target-output)^2$$
+
 \end{itemize}
 
- \begin{figure}[h]
-  \begin{center}
-  \includegraphics[width=100mm,height=70mm]{images/feedforward.jpg}
-  \caption{Neuron Model Feedforward Network(Source: edureka.co)}
-  \end{center}
-  \end{figure}   
-  
-\subsection{Inputs To Neurons}
-\begin{itemize}
-    \item Arise from other neurons or from outside the network
-    \item Nodes whose inputs arise outside the network are called input nodes and simply copy values
-    \item An input may excite or inhibit the response of the neuron to which it is applied, depending upon the weight of the connection
-\end{itemize}
+2.Backward pass\newline
+Error is calculated between the expected outputs and the outputs forward propagated from the network. These error are then propagated backward through the network from the output layer to the hidden layer, assigning blame for the error and updating weights as they go.
 
-\subsection{Weights}
-\begin{itemize}
-    \item Represent synaptic efficacy and may be excitatory or inhibitory
-    \item Normally, positive weights are considered as excitatory while negative weights are thought of as inhibitory
-    \item Learning is the process of modifying the weights in order to produce a network that performs some function
-\end{itemize}
-
-\subsection{Outputs}
-\begin{itemize}
-    \item The response function is normally nonlinear
-    \item Samples include \par
-    
-        $$f(x) &= 1/1+exp^{-\sigma x}$$
-    
-
-\end{itemize}  
-
-\subsection{Network Error}
-\begin{itemize}
-    \item Total-Sum-Squared-Error (TSSE)
-    
-       $$TSSE &=  \sum_{patterns}\sum_{outputs} (desire-actual)^2$$
-    
-    \item Root-Mean-Squared-Error (RMSE)
-    
-$$RMSE &= \sqrt{\frac{2*TSSE}{&#patterns * &#outputs }}$$
-        
- \end{itemize}
-
-
-
-
-\subsection{Calculate Outputs For Each Neuron Based On The Pattern}
-\begin{itemize}
-    \item The output from neuron j for pattern p is O\textsubscript{pj} where
-
-    $$O\textsubscript{pj}(net\textsubscript{j}) &= 1/1+exp^{-\sigma netj}$$
-    
-    and 
-    $$ (net\textsubscript{j}) &= bias*W\textsubscript{bias} &+ \sum_{k} O\textsubscript{pk} W\textsubscript{kj}$$
-    where k ranges over the input indices and W\textsubscript{jk} is the weight on the connection from input k to neuron j
-\end{itemize}
-
- \begin{figure}[h]
+\begin{figure}[h]
   \begin{center}
   \includegraphics[width=120mm,height=80mm]{images/feed.PNG}
   \caption{Feedforward Network Model(Source: edureka.co)}
   \end{center}
-  \end{figure}   
-  
-\subsection{Calculate The Error Signal For Each Output Neuron}
-\begin{itemize}
-    \item The output neuron error signal $\Delta$ pj is given by 
-    $$ \Delta pj &= (T\textsubscript{pj} &- O\textsubscript{pj}) O\textsubscript{pj} (1 &- O\textsubscript{pj})$$
-    \item T\textsubscript{pj} is the target value of output neuron j for pattern p
-    \item O\textsubscript{pj} is the actual output value of output neuron j for pattern p
-    
-\end{itemize}  
+  \end{figure}
+ 
+\subsection{Weight update for output layer}
+ $$ *W\textsubscript{x} = W\textsubscript{x} - \eta (\frac{\delta Error}{\delta W\textsubscript{x} }) $$  
+ 
+ \par where, \eta = learning rate  
+ \par Let's take example to update w6,
+ 	$$ *W\textsubscript{6} = W\textsubscript{6} - \eta (\frac{\delta Error}{\delta W\textsubscript{6} }) $$  
+ 	
+\par The derivation of the error function is evaluated by applying the chain rule as following:
+$$ \frac{\delta Error}{\delta  W\textsubscript{6}} = \frac{\delta Error}{\delta prediction} * \frac{\delta prediction}{\delta  W\textsubscript{6}}$$ 	
 
-\subsection{Calculate The Error Signal For Each Hidden Neuron}
-\begin{itemize}
-    \item The hidden neuron error signal $\partial$ pj is given by
-        $$\partial pj &=  O\textsubscript{pj} (1 &- O\textsubscript{pj}) \sum_{k} \partial \textsubscript{pk}  W\textsubscript{jk}$$
+$$ \frac{\delta Error}{\delta  W\textsubscript{6}} = \frac{\frac{1}{2}(prediction-actual)^2}{\delta prediction} * \frac{\delta(i\textsubscript{1} w\textsubscript{1} + i\textsubscript{2} w\textsubscript{2})w\textsubscript{5} + (i\textsubscript{1} w\textsubscript{3} + i\textsubscript{2} w\textsubscript{4})w\textsubscript{6}}{\delta w\textsubscript{6} } $$
 
-	where $\partial$ pk is the error signal of a post-synaptic neuron k and W\textsubscript{jk} is the weight of the connection from hidden neuron j to the post-synaptic neuron k 
-    
-\end{itemize}  
+$$ \frac{\delta Error}{\delta  W\textsubscript{6}} = 2 * \frac{1}{2}(prediction - actual)\frac{\delta(prediction-actual)}{\delta prediction} * (i\textsubscript{1} w\textsubscript{3} + i\textsubscript{2} w\textsubscript{4}) $$
 
-\subsection{Calculate And Apply Weight Adjustments}
-\begin{itemize}
-    \item weight adjustments $\delta$ W\textsubscript{ji} at time t by\\*
-     $\Delta$ W\textsubscript{ji}(t) &= η \partialj O\textsubscript{pi}
+$$ \frac{\delta Error}{\delta  W\textsubscript{6}} = (prediction - actual)*(h\textsubscript{2}) $$
 
-    \item Apply weight adjustments according to\\*
-W\textsubscript{ji}(t+1) = W\textsubscript{ji}(t) + $\Delta$ W\textsubscript{ji}(t)
+$$ \frac{\delta Error}{\delta  W\textsubscript{6}} = \Delta h\textsubscript{2} $$
 
-    \item Some add a momentum term \\* $\alpha$ &* $\Delta$Wji(t-1)
-    
-\end{itemize}
+\par So to update w6 we can apply the follwing formula 
+
+$$ *W\textsubscript{6} = W\textsubscript{6} - \eta \Delta h\textsubscript{2}  $$
+ 
 
 
 
   
-  \subsection{Summarization of Steps}
+\subsection{Summarization of Steps}
 \begin{itemize}
 \item Calculate the error – How far is your model output from the actual output.
 \item Minimum Error – Check whether the error is minimized or not.

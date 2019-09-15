@@ -41,32 +41,24 @@
 \BOOKMARK [2][-]{subsection.3.9.1}{Architecture of Back propagation}{section.3.9}% 41
 \BOOKMARK [2][-]{subsection.3.9.2}{A Pseudo-Code Algorithm}{section.3.9}% 42
 \BOOKMARK [2][-]{subsection.3.9.3}{Training/learning Model}{section.3.9}% 43
-\BOOKMARK [2][-]{subsection.3.9.4}{Basic Neuron Model In A Feedforward Network}{section.3.9}% 44
-\BOOKMARK [2][-]{subsection.3.9.5}{Inputs To Neurons}{section.3.9}% 45
-\BOOKMARK [2][-]{subsection.3.9.6}{Weights}{section.3.9}% 46
-\BOOKMARK [2][-]{subsection.3.9.7}{Outputs}{section.3.9}% 47
-\BOOKMARK [2][-]{subsection.3.9.8}{Network Error}{section.3.9}% 48
-\BOOKMARK [2][-]{subsection.3.9.9}{Calculate Outputs For Each Neuron Based On The Pattern}{section.3.9}% 49
-\BOOKMARK [2][-]{subsection.3.9.10}{Calculate The Error Signal For Each Output Neuron}{section.3.9}% 50
-\BOOKMARK [2][-]{subsection.3.9.11}{Calculate The Error Signal For Each Hidden Neuron}{section.3.9}% 51
-\BOOKMARK [2][-]{subsection.3.9.12}{Calculate And Apply Weight Adjustments}{section.3.9}% 52
-\BOOKMARK [2][-]{subsection.3.9.13}{Summarization of Steps}{section.3.9}% 53
-\BOOKMARK [1][-]{section.3.10}{System Analysis}{chapter.3}% 54
-\BOOKMARK [2][-]{subsection.3.10.1}{System Flow Diagram}{section.3.10}% 55
-\BOOKMARK [2][-]{subsection.3.10.2}{Usecase Diagram}{section.3.10}% 56
-\BOOKMARK [2][-]{subsection.3.10.3}{Activity diagram}{section.3.10}% 57
-\BOOKMARK [0][-]{chapter.4}{Epilogue}{}% 58
-\BOOKMARK [1][-]{subsection.4.0.1}{Designing UI prototype}{chapter.4}% 59
-\BOOKMARK [2][-]{subsection.4.0.2}{Prototype}{subsection.4.0.1}% 60
-\BOOKMARK [2][-]{subsection.4.0.3}{Data Collection}{subsection.4.0.1}% 61
-\BOOKMARK [2][-]{subsection.4.0.4}{Selection of optimal Machine learning Algorithm}{subsection.4.0.1}% 62
-\BOOKMARK [2][-]{subsection.4.0.5}{Reason of Using Back Propagation ANN algorithm}{subsection.4.0.1}% 63
-\BOOKMARK [2][-]{subsection.4.0.6}{Selection of optimal hyperparameter value for Modeling}{subsection.4.0.1}% 64
-\BOOKMARK [2][-]{subsection.4.0.7}{Back Propagation Algorithm implementation using Python}{subsection.4.0.1}% 65
-\BOOKMARK [2][-]{subsection.4.0.8}{RESTFul API using Flask}{subsection.4.0.1}% 66
-\BOOKMARK [2][-]{subsection.4.0.9}{Output}{subsection.4.0.1}% 67
-\BOOKMARK [1][-]{section.4.1}{Limitations}{chapter.4}% 68
-\BOOKMARK [1][-]{section.4.2}{Challenges}{chapter.4}% 69
-\BOOKMARK [1][-]{section.4.3}{Work Schedule}{chapter.4}% 70
-\BOOKMARK [1][-]{section.4.4}{Conclusion}{chapter.4}% 71
-\BOOKMARK [1][-]{section.4.5}{Future Enhancements}{chapter.4}% 72
+\BOOKMARK [2][-]{subsection.3.9.4}{Weight update for output layer}{section.3.9}% 44
+\BOOKMARK [2][-]{subsection.3.9.5}{Summarization of Steps}{section.3.9}% 45
+\BOOKMARK [1][-]{section.3.10}{System Analysis}{chapter.3}% 46
+\BOOKMARK [2][-]{subsection.3.10.1}{System Flow Diagram}{section.3.10}% 47
+\BOOKMARK [2][-]{subsection.3.10.2}{Usecase Diagram}{section.3.10}% 48
+\BOOKMARK [2][-]{subsection.3.10.3}{Activity diagram}{section.3.10}% 49
+\BOOKMARK [0][-]{chapter.4}{Epilogue}{}% 50
+\BOOKMARK [1][-]{subsection.4.0.1}{Designing UI prototype}{chapter.4}% 51
+\BOOKMARK [2][-]{subsection.4.0.2}{Prototype}{subsection.4.0.1}% 52
+\BOOKMARK [2][-]{subsection.4.0.3}{Data Collection}{subsection.4.0.1}% 53
+\BOOKMARK [2][-]{subsection.4.0.4}{Selection of optimal Machine learning Algorithm}{subsection.4.0.1}% 54
+\BOOKMARK [2][-]{subsection.4.0.5}{Reason of Using Back Propagation ANN algorithm}{subsection.4.0.1}% 55
+\BOOKMARK [2][-]{subsection.4.0.6}{Selection of optimal hyperparameter value for Modeling}{subsection.4.0.1}% 56
+\BOOKMARK [2][-]{subsection.4.0.7}{Back Propagation Algorithm implementation using Python}{subsection.4.0.1}% 57
+\BOOKMARK [2][-]{subsection.4.0.8}{RESTFul API using Flask}{subsection.4.0.1}% 58
+\BOOKMARK [2][-]{subsection.4.0.9}{Output}{subsection.4.0.1}% 59
+\BOOKMARK [1][-]{section.4.1}{Limitations}{chapter.4}% 60
+\BOOKMARK [1][-]{section.4.2}{Challenges}{chapter.4}% 61
+\BOOKMARK [1][-]{section.4.3}{Work Schedule}{chapter.4}% 62
+\BOOKMARK [1][-]{section.4.4}{Conclusion}{chapter.4}% 63
+\BOOKMARK [1][-]{section.4.5}{Future Enhancements}{chapter.4}% 64
