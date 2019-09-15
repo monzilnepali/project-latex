@@ -513,11 +513,11 @@ Calculation of output from neural network by propagating an input signal through
 
 \begin{itemize}
 \item Output of neurons:
-\par yn=f(xm*w(xm)n+bias)
+$$ y\textsubscript{n} = f(x\textsubscript{m}*w(x\textsubscript{m})n+bias)$$
 \par where,
-\par xm = input to neuron n
-\par w(xm)n = weight of connection between input xm and neuron n
-\par yn = output of neuron n
+\par x\textsubscript{m} = input to neuron n
+\par w(x\textsubscript{m})n = weight of connection between input x\textsubscript{m} and neuron n
+\par y\textsubscript{n} = output of neuron n
 \par f() = activation function like sigmoid, relu, tanh, etc.
 
 \item Calculation of Error:
@@ -529,9 +529,11 @@ Calculation of output from neural network by propagating an input signal through
 2.Backward pass\newline
 Error is calculated between the expected outputs and the outputs forward propagated from the network. These error are then propagated backward through the network from the output layer to the hidden layer, assigning blame for the error and updating weights as they go.
 
+
+
 \begin{figure}[h]
   \begin{center}
-  \includegraphics[width=120mm,height=80mm]{images/feed.PNG}
+  \includegraphics[width=150mm,height=100mm]{images/feed forward.png}
   \caption{Feedforward Network Model(Source: edureka.co)}
   \end{center}
   \end{figure}
@@ -545,17 +547,12 @@ Error is calculated between the expected outputs and the outputs forward propaga
  	
 \par The derivation of the error function is evaluated by applying the chain rule as following:
 $$ \frac{\delta Error}{\delta  W\textsubscript{6}} = \frac{\delta Error}{\delta prediction} * \frac{\delta prediction}{\delta  W\textsubscript{6}}$$ 	
-
 $$ \frac{\delta Error}{\delta  W\textsubscript{6}} = \frac{\frac{1}{2}(prediction-actual)^2}{\delta prediction} * \frac{\delta(i\textsubscript{1} w\textsubscript{1} + i\textsubscript{2} w\textsubscript{2})w\textsubscript{5} + (i\textsubscript{1} w\textsubscript{3} + i\textsubscript{2} w\textsubscript{4})w\textsubscript{6}}{\delta w\textsubscript{6} } $$
-
 $$ \frac{\delta Error}{\delta  W\textsubscript{6}} = 2 * \frac{1}{2}(prediction - actual)\frac{\delta(prediction-actual)}{\delta prediction} * (i\textsubscript{1} w\textsubscript{3} + i\textsubscript{2} w\textsubscript{4}) $$
-
 $$ \frac{\delta Error}{\delta  W\textsubscript{6}} = (prediction - actual)*(h\textsubscript{2}) $$
-
 $$ \frac{\delta Error}{\delta  W\textsubscript{6}} = \Delta h\textsubscript{2} $$
 
 \par So to update w6 we can apply the follwing formula 
-
 $$ *W\textsubscript{6} = W\textsubscript{6} - \eta \Delta h\textsubscript{2}  $$
  
 
